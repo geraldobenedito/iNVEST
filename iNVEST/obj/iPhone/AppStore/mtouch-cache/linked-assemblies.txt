@@ -1,0 +1,9 @@
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/System.Core.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/mscorlib.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/monotouch.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/iNVEST.exe
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/Mono.Data.Sqlite.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/System.Data.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/System.Xml.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/System.dll
+/Users/geraldobenedito/Documents/WorkPlace/XCode/iNVEST/iNVEST/obj/iPhone/AppStore/mtouch-cache/Link/System.Transactions.dll

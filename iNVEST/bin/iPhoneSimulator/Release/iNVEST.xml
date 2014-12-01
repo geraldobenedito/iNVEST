@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iNVEST</name>
+    </assembly>
+    <members>
+        <member name="T:iNVEST.Application">
+            <summary>
+            Application.
+            </summary>
+        </member>
+        <member name="T:iNVEST.iNVESTViewController">
+            <summary>
+            I NVEST view controller.
+            </summary>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:iNVEST.iNVESTViewController" /> class.
+            </summary>
+            <param name="handle">Handle.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.DidReceiveMemoryWarning">
+            <Docs>Called when the system is running low on memory.</Docs>
+            <summary>
+            Dids the receive memory warning.
+            </summary>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.ViewDidLoad">
+            <summary>
+            Views the did load.
+            </summary>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.ViewWillAppear(System.Boolean)">
+            <summary>
+            Views the will appear.
+            </summary>
+            <param name="animated">If set to <c>true</c> animated.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.ViewDidAppear(System.Boolean)">
+            <summary>
+            Views the did appear.
+            </summary>
+            <param name="animated">If set to <c>true</c> animated.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.ViewWillDisappear(System.Boolean)">
+            <summary>
+            Views the will disappear.
+            </summary>
+            <param name="animated">If set to <c>true</c> animated.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.ViewDidDisappear(System.Boolean)">
+            <summary>
+            Views the did disappear.
+            </summary>
+            <param name="animated">If set to <c>true</c> animated.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.LoadInfo(System.Boolean)">
+            <summary>
+            Loads the info.
+            </summary>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.btnLoad(MonoTouch.Foundation.NSObject)">
+            <summary>
+            Buttons the load.
+            </summary>
+            <param name="sender">Sender.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.btnNew(MonoTouch.Foundation.NSObject)">
+            <summary>
+            Buttons the new.
+            </summary>
+            <param name="sender">Sender.</param>
+        </member>
+        <member name="M:iNVEST.iNVESTViewController.btnEdit(MonoTouch.Foundation.NSObject)">
+            <summary>
+            Buttons the edit.
+            </summary>
+            <param name="sender">Sender.</param>
+        </member>
+        <member name="T:iNVEST.stock">
+            <summary>
+            Stock.
+            </summary>
+        </member>
+        <member name="P:iNVEST.stock.Id">
+            <summary>
+            Gets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:iNVEST.stock.Code">
+            <summary>
+            Gets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:iNVEST.stock.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:iNVEST.stock.LastUpdatedDate">
+            <summary>
+            Gets or sets the last updated date.
+            </summary>
+            <value>The last updated date.</value>
+        </member>
+        <member name="P:iNVEST.stock.OriginalValue">
+            <summary>
+            Gets the original value.
+            </summary>
+            <value>The original value.</value>
+        </member>
+        <member name="P:iNVEST.stock.LastValue">
+            <summary>
+            Gets or sets the last value.
+            </summary>
+            <value>The last value.</value>
+        </member>
+        <member name="P:iNVEST.stock.VariationPercent">
+            <summary>
+            Gets or sets the variation percent.
+            </summary>
+            <value>The variation percent.</value>
+        </member>
+        <member name="P:iNVEST.stock.Tax">
+            <summary>
+            Gets or sets the tax.
+            </summary>
+            <value>The tax.</value>
+        </member>
+        <member name="P:iNVEST.stock.MoneyDifferenceLessTax">
+            <summary>
+            Gets the money now less tax.
+            </summary>
+            <value>The money now less tax.</value>
+        </member>
+        <member name="P:iNVEST.stock.Quantity">
+            <summary>
+            Gets the quantity.
+            </summary>
+            <value>The quantity.</value>
+        </member>
+        <member name="P:iNVEST.stock.MoneyInvested">
+            <summary>
+            Gets the money invested.
+            </summary>
+            <value>The money invested.</value>
+        </member>
+        <member name="P:iNVEST.stock.MoneyNow">
+            <summary>
+            Gets the money now.
+            </summary>
+            <value>The money now.</value>
+        </member>
+        <member name="P:iNVEST.stock.MoneyDifference">
+            <summary>
+            Gets the money difference.
+            </summary>
+            <value>The money difference.</value>
+        </member>
+        <member name="M:iNVEST.stock.#ctor(System.Int16,System.String,System.Double,System.Int32,System.Double,System.String,System.Double,System.Double,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:iNVEST.stock" /> class.
+            </summary>
+            <param name="_code">Code.</param>
+            <param name="_original_value">Original value.</param>
+            <param name="_quantity">Quantity.</param>
+        </member>
+        <member name="M:iNVEST.stock.getTotalInvested(System.Collections.Generic.List{iNVEST.stock})">
+            <summary>
+            Gets the total invested.
+            </summary>
+            <returns>The total invested.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.stock.getTotalNow(System.Collections.Generic.List{iNVEST.stock})">
+            <summary>
+            Gets the total now.
+            </summary>
+            <returns>The total now.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.stock.getGainLoss(System.Collections.Generic.List{iNVEST.stock})">
+            <summary>
+            Gets the gain loss.
+            </summary>
+            <returns>The gain loss.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.stock.getTax(System.Collections.Generic.List{iNVEST.stock})">
+            <summary>
+            Gets the gain loss.
+            </summary>
+            <returns>The gain loss.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.stock.getAllCodes(System.Collections.Generic.List{iNVEST.stock})">
+            <summary>
+            Gets all codes.
+            </summary>
+            <returns>The all codes.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="T:iNVEST.dataAccess">
+            <summary>
+            Data access.
+            </summary>
+        </member>
+        <member name="M:iNVEST.dataAccess.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:iNVEST.dataAccess" /> class.
+            </summary>
+            <param name="_sql">Sql.</param>
+        </member>
+        <member name="M:iNVEST.dataAccess.executeQuery">
+            <summary>
+            Executes the query.
+            </summary>
+        </member>
+        <member name="M:iNVEST.dataAccess.getData">
+            <summary>
+            Gets the data.
+            </summary>
+            <returns>The data.</returns>
+        </member>
+        <member name="T:iNVEST.TableSource">
+            <summary>
+            Table source.
+            </summary>
+        </member>
+        <member name="M:iNVEST.TableSource.#ctor(iNVEST.stock[],iNVEST.iNVESTViewController)">
+            <summary>
+            Initializes a new instance of the <see cref="T:iNVEST.TableSource" /> class.
+            </summary>
+            <param name="items">Items.</param>
+            <param name="_controler">Controler.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.RowSelected(MonoTouch.UIKit.UITableView,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view containing the row.</Docs>
+            <summary>
+            Rows the selected.
+            </summary>
+            <param name="tableView">Table view.</param>
+            <param name="indexPath">Index path.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.RowsInSection(MonoTouch.UIKit.UITableView,System.Int32)">
+            <Docs>Table view displaying the rows.</Docs>
+            <summary>
+            Rowses the in section.
+            </summary>
+            <returns>The in section.</returns>
+            <param name="tableview">Tableview.</param>
+            <param name="section">Section.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.GetCell(MonoTouch.UIKit.UITableView,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view requesting the cell.</Docs>
+            <summary>
+            Gets the cell.
+            </summary>
+            <returns>The cell.</returns>
+            <param name="tableView">Table view.</param>
+            <param name="indexPath">Index path.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.CanEditRow(MonoTouch.UIKit.UITableView,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view containing the row.</Docs>
+            <summary>
+            Determines whether this instance can edit row the specified tableView indexPath.
+            </summary>
+            <returns>
+                <c>true</c> if this instance can edit row the specified tableView indexPath; otherwise, <c>false</c>.</returns>
+            <param name="tableView">Table view.</param>
+            <param name="indexPath">Index path.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.CanMoveRow(MonoTouch.UIKit.UITableView,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view containing the row.</Docs>
+            <summary>
+            Determines whether this instance can move row the specified tableView indexPath.
+            </summary>
+            <returns>
+                <c>true</c> if this instance can move row the specified tableView indexPath; otherwise, <c>false</c>.</returns>
+            <param name="tableView">Table view.</param>
+            <param name="indexPath">Index path.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.EditingStyleForRow(MonoTouch.UIKit.UITableView,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view that is going to be editable.</Docs>
+            <summary>
+            Called for each row being displayed by the table view, to determine what editing style to use for that row.
+            </summary>
+            <paramref name="indexPath">
+            </paramref>
+            <remarks>When the table view enters editing mode, this method allows the editing style to be set for each row.</remarks>
+            <see cref="T:MonoTouch.UIKit.UITableViewCell">
+            </see>
+            <see cref="P:MonoTouch.UIKit.UITableViewCell.Editing">
+            </see>
+            <see langword="true">
+            </see>
+            <see cref="F:MonoTouch.UIKit.UITableViewCellEditingStyle.Delete">
+            </see>
+            <para>Declared in [UITableViewDelegate]</para>
+            <returns>The style for row.</returns>
+            <param name="tableView">Table view.</param>
+            <param name="indexPath">Index path.</param>
+        </member>
+        <member name="M:iNVEST.TableSource.CommitEditingStyle(MonoTouch.UIKit.UITableView,MonoTouch.UIKit.UITableViewCellEditingStyle,MonoTouch.Foundation.NSIndexPath)">
+            <Docs>Table view requesting insertion or deletion.</Docs>
+            <paramref name="indexPath">
+            </paramref>
+            <see cref="F:MonoTouch.UIKit.UITableViewEditingStyle.Insert">
+            </see>
+            <see cref="F:MonoTouch.UIKit.UITableViewEditingStyle.Delete">
+            </see>
+            <param name="indexPath">Location of the row.</param>
+            <remarks>When the user taps the insertion (green plus) or Delete button in a cell, the table view calls this method to
+            commit the change (if the user taps the deletion (red minus) button, that simply reveals the Delete button).</remarks>
+            <paramref name="editingStyle">
+            </paramref>
+            <see cref="T:MonoTouch.UIKit.UITableView">
+            </see>
+            <see cref="M:MonoTouch.UIKit.UITableView.InsertRows(MonoTouch.Foundation.NSIndexPath[],MonoTouch.UIKit.UITableViewRowAnimation)">
+            </see>
+            <see cref="M:MonoTouch.UIKit.UITableView.DeleteRows(MonoTouch.Foundation.NSIndexPath[],MonoTouch.UIKit.UITableViewRowAnimation)">
+            </see>
+            <para>This method must be implemented to enable the swipe-to-delete feature of the table view control.</para>
+            <see cref="M:MonoTouch.UIKit.UITableView.SetEditing(System.Boolean,System.Boolean)">
+            </see>
+            <see cref="M:MonoTouch.Foundation.PerformSelector(MonoTouch.ObjCRuntime.Selector,MonoTouch.Foundation.NSObject,System.Double)">
+            </see>
+            <para>Declared in [UITableViewDataSource]</para>
+            <summary>
+            Commits the editing style.
+            </summary>
+            <param name="tableView">Table view.</param>
+            <param name="editingStyle">Editing style.</param>
+        </member>
+        <member name="M:iNVEST.LoadingOverlay.Hide">
+            <summary>
+            Fades out the control and then removes it from the super view
+            </summary>
+        </member>
+    </members>
+</doc>

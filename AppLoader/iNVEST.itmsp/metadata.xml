@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://apple.com/itunes/importer" version="software5.2">
+    <metadata_token>1414787320609-3b422acee3ba80e9f8aa5a703fd82aa5c6902bf0c29c7f86a38649dd35d0c33d</metadata_token>
+    <provider>G5V2U9XERF</provider>
+    <team_id>G5V2U9XERF</team_id>
+    <software>
+        <vendor_id>iNVEST</vendor_id>
+        <software_metadata>
+            <in_app_purchases>
+                <in_app_purchase>
+                    <locales>
+                        <locale name="pt-br">
+                            <title>iNVEST</title>
+                            <description>Um aplicativo para acompanhamento da sua carteira de ações da Bovespa. Esse é o iNVEST, seu guia de bolso!</description>
+                        </locale>
+                    </locales>
+                    <review_notes>Um aplicativo para acompanhamento da sua carteira de ações da Bovespa. Esse é o iNVEST, seu guia de bolso!</review_notes>
+                    <review_screenshot>
+                        <file_name>IMG_2613.PNG</file_name>
+                        <size>79788</size>
+                        <checksum type="md5">3df5b14a6cd7d98682533e478e4aec21</checksum>
+                    </review_screenshot>
+                    <product_id>iNVEST</product_id>
+                    <reference_name>iNVEST</reference_name>
+                    <type>consumable</type>
+                    <products>
+                        <product>
+                            <cleared_for_sale>false</cleared_for_sale>
+                            <intervals>
+                                <interval>
+                                    <start_date>2014-10-31</start_date>
+                                    <wholesale_price_tier>1</wholesale_price_tier>
+                                </interval>
+                            </intervals>
+                        </product>
+                    </products>
+                </in_app_purchase>
+            </in_app_purchases>
+        </software_metadata>
+    </software>
+</package>

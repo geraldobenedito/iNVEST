@@ -1,0 +1,13 @@
+PLCrashReporterErrorDomain
+PLCrashReporterException
+monotouch_GetFolderPath
+monotouch_log
+monotouch_release_managed_ref
+monotouch_create_managed_ref
+xamarin_get_block_descriptor
+CreateZStream
+CloseZStream
+Flush
+ReadZStream
+WriteZStream
+monotouch_start_wwan

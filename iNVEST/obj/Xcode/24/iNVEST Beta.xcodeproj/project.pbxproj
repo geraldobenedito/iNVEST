@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F44BEA30000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D5CB410000000000000000 /* UIKit.framework */; };
+		2B80CEE90000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F11DB870000000000000000 /* MapKit.framework */; };
+		B43781000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445441F00000000000000000 /* Foundation.framework */; };
+		341F19CA0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B026680000000000000000 /* CoreGraphics.framework */; };
+		19E3E28D0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D74EF2B0000000000000000 /* Default-568h@2x.png */; };
+		2F174B250000000000000000 /* logo in Resources */ = {isa = PBXBuildFile; fileRef = 32A857C30000000000000000 /* logo */; };
+		1D420C0F0000000000000000 /* invest.db in Resources */ = {isa = PBXBuildFile; fileRef = 20D318AD0000000000000000 /* invest.db */; };
+		B6CCCF900000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDD99700000000000000000 /* Info.plist */; };
+		27C24ECD0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B535B6B0000000000000000 /* Entitlements.plist */; };
+		2EB184ED0000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3242918B0000000000000000 /* MainStoryboard.storyboard */; };
+		1587497F0000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1918561D0000000000000000 /* Images.xcassets */; };
+		3CDAD02A0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCC8000000000000000000 /* AppDelegate.h */; };
+		201F881E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B094BC0000000000000000 /* AppDelegate.m */; };
+		38E3FD540000000000000000 /* iNVESTViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3C7509F20000000000000000 /* iNVESTViewController.h */; };
+		E1765EC00000000000000000 /* iNVESTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8728A0000000000000000 /* iNVESTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F95A2A0000000000000000 /* iNVEST Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "iNVEST Beta.app"; path = "iNVEST Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D5CB410000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2F11DB870000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		445441F00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		37B026680000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		1D74EF2B0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32A857C30000000000000000 /* logo */ = {isa = PBXFileReference; name = "logo"; path = "logo"; sourceTree = "<group>"; };
+		20D318AD0000000000000000 /* invest.db */ = {isa = PBXFileReference; name = "invest.db"; path = "invest.db"; sourceTree = "<group>"; };
+		EFDD99700000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		2B535B6B0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		3242918B0000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		1918561D0000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		6BDCC8000000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		23B094BC0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3C7509F20000000000000000 /* iNVESTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iNVESTViewController.h"; path = "iNVESTViewController.h"; sourceTree = "<group>"; };
+		11A8728A0000000000000000 /* iNVESTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "iNVESTViewController.m"; path = "iNVESTViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14EC1BE70000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F44BEA30000000000000000 /* UIKit.framework in Frameworks */,
+				2B80CEE90000000000000000 /* MapKit.framework in Frameworks */,
+				B43781000000000000000000 /* Foundation.framework in Frameworks */,
+				341F19CA0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35058D750000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1F9F41C10000000000000000 /* iNVEST Beta */,
+				349BFED00000000000000000 /* Frameworks */,
+				2A52679B0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A52679B0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F95A2A0000000000000000 /* iNVEST Beta.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		349BFED00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32D5CB410000000000000000 /* UIKit.framework */,
+				2F11DB870000000000000000 /* MapKit.framework */,
+				445441F00000000000000000 /* Foundation.framework */,
+				37B026680000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1F9F41C10000000000000000 /* iNVEST Beta */ = {
+			isa = PBXGroup;
+			children = (
+				6BDCC8000000000000000000 /* AppDelegate.h */,
+				1D74EF2B0000000000000000 /* Default-568h@2x.png */,
+				2B535B6B0000000000000000 /* Entitlements.plist */,
+				1918561D0000000000000000 /* Images.xcassets */,
+				EFDD99700000000000000000 /* Info.plist */,
+				20D318AD0000000000000000 /* invest.db */,
+				3C7509F20000000000000000 /* iNVESTViewController.h */,
+				32A857C30000000000000000 /* logo */,
+				3242918B0000000000000000 /* MainStoryboard.storyboard */,
+				33D6BF110000000000000000 /* Supporting Files */,
+			);
+			name = "iNVEST Beta";
+			sourceTree = "<group>";
+		};
+		33D6BF110000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B094BC0000000000000000 /* AppDelegate.m */,
+				11A8728A0000000000000000 /* iNVESTViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160287540000000000000000 /* iNVEST Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46345000000000000000000 /* Build configuration list for PBXNativeTarget "iNVEST Beta" */;
+			buildPhases = (
+				3F85D0330000000000000000 /* Sources */,
+				14EC1BE70000000000000000 /* Frameworks */,
+				28706FBE0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iNVEST Beta";
+			productName = "iNVEST Beta";
+			productReference = 19F95A2A0000000000000000 /* iNVEST Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4F617A00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 10201D800000000000000000 /* Build configuration list for PBXProject "iNVEST Beta" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35058D750000000000000000;
+			productRefGroup = 2A52679B0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160287540000000000000000 /* iNVEST Beta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28706FBE0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3E28D0000000000000000 /* Default-568h@2x.png in Resources */,
+				2F174B250000000000000000 /* logo in Resources */,
+				1D420C0F0000000000000000 /* invest.db in Resources */,
+				B6CCCF900000000000000000 /* Info.plist in Resources */,
+				27C24ECD0000000000000000 /* Entitlements.plist in Resources */,
+				2EB184ED0000000000000000 /* MainStoryboard.storyboard in Resources */,
+				1587497F0000000000000000 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F85D0330000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDAD02A0000000000000000 /* AppDelegate.h in Sources */,
+				201F881E0000000000000000 /* AppDelegate.m in Sources */,
+				38E3FD540000000000000000 /* iNVESTViewController.h in Sources */,
+				E1765EC00000000000000000 /* iNVESTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2628B1A90000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		364EDBFE0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "iNVEST Beta";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10201D800000000000000000 /* Build configuration list for PBXProject "iNVEST Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2628B1A90000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		F46345000000000000000000 /* Build configuration list for PBXNativeTarget "iNVEST Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364EDBFE0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4F617A00000000000000000 /* Project object */;
+}

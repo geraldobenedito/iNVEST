@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Geraldo Junior" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iNVEST/Main.cs">
+    <Files>
+      <File FileName="iNVEST/iNVESTViewController.cs" Line="27" Column="27" />
+      <File FileName="iNVEST/Main.cs" Line="51" Column="51" />
+      <File FileName="iNVEST/CustomClass/DataAccess.cs" Line="34" Column="34" />
+      <File FileName="iNVEST/CustomClass/LoadingOverlay.cs" Line="10" Column="10" />
+      <File FileName="iNVEST/CustomClass/Stock.cs" Line="20" Column="20" />
+      <File FileName="iNVEST/CustomClass/Commom.cs" Line="25" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="iNVEST" expanded="True" selected="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="CustomClass" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="iNVEST/iNVESTViewController.cs" line="75" offsetX="351" offsetY="1044" expression="tblView.Editing" liveUpdate="False" />
+    <Watch file="iNVEST/iNVESTViewController.cs" line="156" offsetX="1261" offsetY="2325" expression="e.Message" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <AuthorInfo Name="Geraldo da Penha Benedito Junior" Email="geraldobenedito@gmail.com" Copyright="Geraldo Benedito" Company="" Trademark="" />
+  <MonoDevelop.Ide.ItemProperties.iNVEST>
+    <IPhoneZipBundleSettings CurrentFolder="/Users/geraldobenedito/Documents/WorkPlace/XCode" />
+    <IPhoneTestFlightSettings_27CDebug ApiToken="2b27438ed603fb51aa0260671ba6d432_MjI1MTE1NTIwMTQtMTEtMjQgMjA6MTY6NTUuMzE3ODA0" TeamToken="a0776fd09b0b928f0d4369a99c8b7e1b_NDY0NTkzMjAxNC0xMS0yNCAyMDoxNzo1MC43NDU5MDY" ReleaseNotes="iNVEST 1.0.1" NotifyTeamMembers="True" ReplaceBinaries="True" DistributionLists="" UploadDSYMs="False" />
+  </MonoDevelop.Ide.ItemProperties.iNVEST>
+</Properties>
