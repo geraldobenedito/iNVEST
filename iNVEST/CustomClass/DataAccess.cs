@@ -70,30 +70,30 @@ namespace iNVEST
 			while (reader.Read ()) {
 
 				Int16 id;
-				Int16.TryParse (Commom.getDBValue (reader [0]), out id);
+				Int16.TryParse (Common.getDBValue (reader [0]), out id);
 
 				double originalValue;
-				double.TryParse (Commom.getDBValue (reader [2]), out originalValue);
+				double.TryParse (Common.getDBValue (reader [2]), out originalValue);
 
 				int quantity;
-				int.TryParse (Commom.getDBValue (reader [3]), out quantity);
+				int.TryParse (Common.getDBValue (reader [3]), out quantity);
 
 				double tax;
-				double.TryParse (Commom.getDBValue (reader [4]), out tax);
+				double.TryParse (Common.getDBValue (reader [4]), out tax);
 
-				double oscilacao = Commom.getDouble ((Commom.getDBValue (reader [6])));
+				double oscilacao = Common.getDouble ((Common.getDBValue (reader [6])));
 
-				double ultimo = Commom.getDouble((Commom.getDBValue (reader [7])));
+				double ultimo = Common.getDouble((Common.getDBValue (reader [7])));
 
 				Stock stk = new Stock (	id, 
-					Commom.getDBValue(reader[1]), 
+					Common.getDBValue(reader[1]), 
 					originalValue, 
 					quantity, 
 					tax, 
-					Commom.getDBValue(reader[5]), 
+					Common.getDBValue(reader[5]), 
 					oscilacao, 
 					ultimo, 
-					Commom.getDBValue(reader[8]));
+					Common.getDBValue(reader[8]));
 
 				stocklist.Add (stk);
 			}
