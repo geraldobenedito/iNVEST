@@ -121,14 +121,14 @@ namespace iNVEST
 											{
 												double variationPercent = 0;
 												double lastValue = 0;
-												variationPercent = Commom.getDouble(node.Attributes.GetNamedItem ("Oscilacao").InnerText);
-												lastValue = Commom.getDouble(node.Attributes.GetNamedItem ("Ultimo").InnerText);
+												variationPercent = Common.getDouble(node.Attributes.GetNamedItem ("Oscilacao").InnerText);
+												lastValue = Common.getDouble(node.Attributes.GetNamedItem ("Ultimo").InnerText);
 
 												stk.Name = node.Attributes.GetNamedItem ("Nome").InnerText;
 												stk.VariationPercent = variationPercent;
 
-												if(Commom.getDateFromString(node.Attributes.GetNamedItem ("Data").InnerText) != DateTime.MinValue)
-													stk.LastUpdatedDate = Commom.getDateFromString(node.Attributes.GetNamedItem ("Data").InnerText).ToString("dd/MM/yyyy HH:mm");
+												if(Common.getDateFromString(node.Attributes.GetNamedItem ("Data").InnerText) != DateTime.MinValue)
+													stk.LastUpdatedDate = Common.getDateFromString(node.Attributes.GetNamedItem ("Data").InnerText).ToString("dd/MM/yyyy HH:mm");
 												else
 													stk.LastUpdatedDate = node.Attributes.GetNamedItem ("Data").InnerText;
 
@@ -139,7 +139,7 @@ namespace iNVEST
 											if ("IBOV" == node.Attributes.GetNamedItem ("Codigo").InnerText) 
 											{
 												double variationPercent = 0;
-												variationPercent = Commom.getDouble(node.Attributes.GetNamedItem ("Oscilacao").InnerText);
+												variationPercent = Common.getDouble(node.Attributes.GetNamedItem ("Oscilacao").InnerText);
 
 												if(variationPercent < 0)
 													txtIbov.TextColor = UIColor.Red;
@@ -231,9 +231,9 @@ namespace iNVEST
 				{
 					Stock stk = new Stock(0, 
 						txtPapel.Text.Trim().ToUpper(),
-						Commom.getDouble(txtValor.Text),
-						Commom.getInt(txtQuantidade.Text),
-						Commom.getDouble(txtTaxas.Text),
+						Common.getDouble(txtValor.Text),
+						Common.getInt(txtQuantidade.Text),
+						Common.getDouble(txtTaxas.Text),
 						string.Empty,0,0,string.Empty);
 
 					new DataAccess(string.Format("insert into compras (papel, valor, quantidade, taxas) values ('{0}', '{1}', '{2}', '{3}')", 
