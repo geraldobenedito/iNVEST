@@ -3,6 +3,8 @@ System.dll
 System.Xml.dll
 System.Core.dll
 Mono.Dynamic.Interpreter.dll
+Xamarin.Insights.dll
+PLCrashReporter.dll
 System.Data.dll
 Mono.Data.Tds.dll
 Mono.Security.dll

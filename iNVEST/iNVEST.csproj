@@ -130,9 +130,9 @@
     </Compile>
     <Compile Include="CustomClass\TableSource.cs" />
     <Compile Include="CustomClass\LoadingOverlay.cs" />
-    <Compile Include="CustomClass\Commom.cs" />
     <Compile Include="CustomClass\Stock.cs" />
     <Compile Include="CustomClass\DataAccess.cs" />
+    <Compile Include="CustomClass\Common.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

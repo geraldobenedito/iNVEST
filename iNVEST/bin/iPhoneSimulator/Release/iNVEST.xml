@@ -78,160 +78,12 @@
             </summary>
             <param name="sender">Sender.</param>
         </member>
-        <member name="T:iNVEST.stock">
-            <summary>
-            Stock.
-            </summary>
-        </member>
-        <member name="P:iNVEST.stock.Id">
-            <summary>
-            Gets the identifier.
-            </summary>
-            <value>The identifier.</value>
-        </member>
-        <member name="P:iNVEST.stock.Code">
-            <summary>
-            Gets the code.
-            </summary>
-            <value>The code.</value>
-        </member>
-        <member name="P:iNVEST.stock.Name">
-            <summary>
-            Gets or sets the name.
-            </summary>
-            <value>The name.</value>
-        </member>
-        <member name="P:iNVEST.stock.LastUpdatedDate">
-            <summary>
-            Gets or sets the last updated date.
-            </summary>
-            <value>The last updated date.</value>
-        </member>
-        <member name="P:iNVEST.stock.OriginalValue">
-            <summary>
-            Gets the original value.
-            </summary>
-            <value>The original value.</value>
-        </member>
-        <member name="P:iNVEST.stock.LastValue">
-            <summary>
-            Gets or sets the last value.
-            </summary>
-            <value>The last value.</value>
-        </member>
-        <member name="P:iNVEST.stock.VariationPercent">
-            <summary>
-            Gets or sets the variation percent.
-            </summary>
-            <value>The variation percent.</value>
-        </member>
-        <member name="P:iNVEST.stock.Tax">
-            <summary>
-            Gets or sets the tax.
-            </summary>
-            <value>The tax.</value>
-        </member>
-        <member name="P:iNVEST.stock.MoneyDifferenceLessTax">
-            <summary>
-            Gets the money now less tax.
-            </summary>
-            <value>The money now less tax.</value>
-        </member>
-        <member name="P:iNVEST.stock.Quantity">
-            <summary>
-            Gets the quantity.
-            </summary>
-            <value>The quantity.</value>
-        </member>
-        <member name="P:iNVEST.stock.MoneyInvested">
-            <summary>
-            Gets the money invested.
-            </summary>
-            <value>The money invested.</value>
-        </member>
-        <member name="P:iNVEST.stock.MoneyNow">
-            <summary>
-            Gets the money now.
-            </summary>
-            <value>The money now.</value>
-        </member>
-        <member name="P:iNVEST.stock.MoneyDifference">
-            <summary>
-            Gets the money difference.
-            </summary>
-            <value>The money difference.</value>
-        </member>
-        <member name="M:iNVEST.stock.#ctor(System.Int16,System.String,System.Double,System.Int32,System.Double,System.String,System.Double,System.Double,System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:iNVEST.stock" /> class.
-            </summary>
-            <param name="_code">Code.</param>
-            <param name="_original_value">Original value.</param>
-            <param name="_quantity">Quantity.</param>
-        </member>
-        <member name="M:iNVEST.stock.getTotalInvested(System.Collections.Generic.List{iNVEST.stock})">
-            <summary>
-            Gets the total invested.
-            </summary>
-            <returns>The total invested.</returns>
-            <param name="stkList">Stk list.</param>
-        </member>
-        <member name="M:iNVEST.stock.getTotalNow(System.Collections.Generic.List{iNVEST.stock})">
-            <summary>
-            Gets the total now.
-            </summary>
-            <returns>The total now.</returns>
-            <param name="stkList">Stk list.</param>
-        </member>
-        <member name="M:iNVEST.stock.getGainLoss(System.Collections.Generic.List{iNVEST.stock})">
-            <summary>
-            Gets the gain loss.
-            </summary>
-            <returns>The gain loss.</returns>
-            <param name="stkList">Stk list.</param>
-        </member>
-        <member name="M:iNVEST.stock.getTax(System.Collections.Generic.List{iNVEST.stock})">
-            <summary>
-            Gets the gain loss.
-            </summary>
-            <returns>The gain loss.</returns>
-            <param name="stkList">Stk list.</param>
-        </member>
-        <member name="M:iNVEST.stock.getAllCodes(System.Collections.Generic.List{iNVEST.stock})">
-            <summary>
-            Gets all codes.
-            </summary>
-            <returns>The all codes.</returns>
-            <param name="stkList">Stk list.</param>
-        </member>
-        <member name="T:iNVEST.dataAccess">
-            <summary>
-            Data access.
-            </summary>
-        </member>
-        <member name="M:iNVEST.dataAccess.#ctor(System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:iNVEST.dataAccess" /> class.
-            </summary>
-            <param name="_sql">Sql.</param>
-        </member>
-        <member name="M:iNVEST.dataAccess.executeQuery">
-            <summary>
-            Executes the query.
-            </summary>
-        </member>
-        <member name="M:iNVEST.dataAccess.getData">
-            <summary>
-            Gets the data.
-            </summary>
-            <returns>The data.</returns>
-        </member>
         <member name="T:iNVEST.TableSource">
             <summary>
             Table source.
             </summary>
         </member>
-        <member name="M:iNVEST.TableSource.#ctor(iNVEST.stock[],iNVEST.iNVESTViewController)">
+        <member name="M:iNVEST.TableSource.#ctor(iNVEST.Stock[],iNVEST.iNVESTViewController)">
             <summary>
             Initializes a new instance of the <see cref="T:iNVEST.TableSource" /> class.
             </summary>
@@ -340,6 +192,154 @@
             <summary>
             Fades out the control and then removes it from the super view
             </summary>
+        </member>
+        <member name="T:iNVEST.Stock">
+            <summary>
+            Stock.
+            </summary>
+        </member>
+        <member name="P:iNVEST.Stock.Id">
+            <summary>
+            Gets the identifier.
+            </summary>
+            <value>The identifier.</value>
+        </member>
+        <member name="P:iNVEST.Stock.Code">
+            <summary>
+            Gets the code.
+            </summary>
+            <value>The code.</value>
+        </member>
+        <member name="P:iNVEST.Stock.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:iNVEST.Stock.LastUpdatedDate">
+            <summary>
+            Gets or sets the last updated date.
+            </summary>
+            <value>The last updated date.</value>
+        </member>
+        <member name="P:iNVEST.Stock.OriginalValue">
+            <summary>
+            Gets the original value.
+            </summary>
+            <value>The original value.</value>
+        </member>
+        <member name="P:iNVEST.Stock.LastValue">
+            <summary>
+            Gets or sets the last value.
+            </summary>
+            <value>The last value.</value>
+        </member>
+        <member name="P:iNVEST.Stock.VariationPercent">
+            <summary>
+            Gets or sets the variation percent.
+            </summary>
+            <value>The variation percent.</value>
+        </member>
+        <member name="P:iNVEST.Stock.Tax">
+            <summary>
+            Gets or sets the tax.
+            </summary>
+            <value>The tax.</value>
+        </member>
+        <member name="P:iNVEST.Stock.MoneyDifferenceLessTax">
+            <summary>
+            Gets the money now less tax.
+            </summary>
+            <value>The money now less tax.</value>
+        </member>
+        <member name="P:iNVEST.Stock.Quantity">
+            <summary>
+            Gets the quantity.
+            </summary>
+            <value>The quantity.</value>
+        </member>
+        <member name="P:iNVEST.Stock.MoneyInvested">
+            <summary>
+            Gets the money invested.
+            </summary>
+            <value>The money invested.</value>
+        </member>
+        <member name="P:iNVEST.Stock.MoneyNow">
+            <summary>
+            Gets the money now.
+            </summary>
+            <value>The money now.</value>
+        </member>
+        <member name="P:iNVEST.Stock.MoneyDifference">
+            <summary>
+            Gets the money difference.
+            </summary>
+            <value>The money difference.</value>
+        </member>
+        <member name="M:iNVEST.Stock.#ctor(System.Int16,System.String,System.Double,System.Int32,System.Double,System.String,System.Double,System.Double,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:iNVEST.stock" /> class.
+            </summary>
+            <param name="_code">Code.</param>
+            <param name="_original_value">Original value.</param>
+            <param name="_quantity">Quantity.</param>
+        </member>
+        <member name="M:iNVEST.Stock.getTotalInvested(System.Collections.Generic.List{iNVEST.Stock})">
+            <summary>
+            Gets the total invested.
+            </summary>
+            <returns>The total invested.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.Stock.getTotalNow(System.Collections.Generic.List{iNVEST.Stock})">
+            <summary>
+            Gets the total now.
+            </summary>
+            <returns>The total now.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.Stock.getGainLoss(System.Collections.Generic.List{iNVEST.Stock})">
+            <summary>
+            Gets the gain loss.
+            </summary>
+            <returns>The gain loss.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.Stock.getTax(System.Collections.Generic.List{iNVEST.Stock})">
+            <summary>
+            Gets the gain loss.
+            </summary>
+            <returns>The gain loss.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="M:iNVEST.Stock.getAllCodes(System.Collections.Generic.List{iNVEST.Stock})">
+            <summary>
+            Gets all codes.
+            </summary>
+            <returns>The all codes.</returns>
+            <param name="stkList">Stk list.</param>
+        </member>
+        <member name="T:iNVEST.DataAccess">
+            <summary>
+            Data access.
+            </summary>
+        </member>
+        <member name="M:iNVEST.DataAccess.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:iNVEST.dataAccess" /> class.
+            </summary>
+            <param name="_sql">Sql.</param>
+        </member>
+        <member name="M:iNVEST.DataAccess.executeQuery">
+            <summary>
+            Executes the query.
+            </summary>
+        </member>
+        <member name="M:iNVEST.DataAccess.getData">
+            <summary>
+            Gets the data.
+            </summary>
+            <returns>The data.</returns>
         </member>
     </members>
 </doc>
