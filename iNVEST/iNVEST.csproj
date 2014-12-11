@@ -130,9 +130,9 @@
     </Compile>
     <Compile Include="CustomClass\TableSource.cs" />
     <Compile Include="CustomClass\LoadingOverlay.cs" />
-    <Compile Include="CustomClass\Stock.cs" />
-    <Compile Include="CustomClass\DataAccess.cs" />
     <Compile Include="CustomClass\Common.cs" />
+    <Compile Include="DAO\DataAccess.cs" />
+    <Compile Include="DAO\Stock.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
@@ -140,6 +140,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>
     <Folder Include="CustomClass\" />
+    <Folder Include="DAO\" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
