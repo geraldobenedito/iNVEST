@@ -139,7 +139,9 @@ namespace iNVEST
 											if ("IBOV" == node.Attributes.GetNamedItem ("Codigo").InnerText) 
 											{
 												double variationPercent = 0;
+												double ibovPoints = 0;
 												variationPercent = Common.getDouble(node.Attributes.GetNamedItem ("Oscilacao").InnerText);
+												ibovPoints = Common.getDouble(node.Attributes.GetNamedItem ("Ultimo").Value);
 
 												if(variationPercent < 0)
 													txtIbov.TextColor = UIColor.Red;
@@ -147,6 +149,7 @@ namespace iNVEST
 													txtIbov.TextColor = UIColor.Green;
 
 												txtIbov.Text = (variationPercent/100).ToString("P2");
+												txtIbovPt.Text = ibovPoints.ToString("N2");
 											}
 										}
 									}

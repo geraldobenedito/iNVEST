@@ -116,6 +116,7 @@
       <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -133,9 +134,14 @@
     <Compile Include="CustomClass\Common.cs" />
     <Compile Include="DAO\DataAccess.cs" />
     <Compile Include="DAO\Stock.cs" />
+    <Compile Include="iNVESTViewStock.cs" />
+    <Compile Include="iNVESTViewStock.designer.cs">
+      <DependentUpon>iNVESTViewStock.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="Resources\en.lproj\MainStoryboard.storyboard" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>

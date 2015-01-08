@@ -13,6 +13,9 @@ namespace iNVEST
 	partial class iNVESTViewController
 	{
 		[Outlet]
+		MonoTouch.UIKit.UIDatePicker dtOrder { get; set; }
+
+		[Outlet]
 		MonoTouch.UIKit.UITableView tblView { get; set; }
 
 		[Outlet]
@@ -23,6 +26,9 @@ namespace iNVEST
 
 		[Outlet]
 		MonoTouch.UIKit.UILabel txtIbov { get; set; }
+
+		[Outlet]
+		MonoTouch.UIKit.UILabel txtIbovPt { get; set; }
 
 		[Outlet]
 		MonoTouch.UIKit.UILabel txtInicial { get; set; }
@@ -59,9 +65,14 @@ namespace iNVEST
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (txtIbov != null) {
-				txtIbov.Dispose ();
-				txtIbov = null;
+			if (txtIbovPt != null) {
+				txtIbovPt.Dispose ();
+				txtIbovPt = null;
+			}
+
+			if (dtOrder != null) {
+				dtOrder.Dispose ();
+				dtOrder = null;
 			}
 
 			if (tblView != null) {
@@ -77,6 +88,11 @@ namespace iNVEST
 			if (txtHomeTax != null) {
 				txtHomeTax.Dispose ();
 				txtHomeTax = null;
+			}
+
+			if (txtIbov != null) {
+				txtIbov.Dispose ();
+				txtIbov = null;
 			}
 
 			if (txtInicial != null) {

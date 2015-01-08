@@ -33,6 +33,9 @@ namespace iNVEST
 		/// <param name="indexPath">Index path.</param>
 		public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
 		{
+
+			//this.controler.NavigationController.PushViewController (new iNVESTViewController(new IntPtr()), true);
+
 			new UIAlertView(string.Format("{0}: {1} ações.", 
 				tableItems[indexPath.Row].Code, tableItems[indexPath.Row].Quantity.ToString("")), 
 				string.Format("{0}: R${1}\nTaxa: R${2}\nTotal: R${3}", 

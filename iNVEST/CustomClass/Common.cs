@@ -13,7 +13,9 @@ namespace iNVEST
 		{
 			double dbl = 0;
 			if (System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator.Equals (".")) {
-				double.TryParse (vle.Replace (',', '.'), out dbl);
+				vle = vle.Replace (".", "");
+				vle = vle.Replace (",", ".");
+				double.TryParse (vle, out dbl);
 			} else {
 				double.TryParse (vle, out dbl);
 			}
