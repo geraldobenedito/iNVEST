@@ -193,6 +193,28 @@
             Fades out the control and then removes it from the super view
             </summary>
         </member>
+        <member name="T:iNVEST.DataAccess">
+            <summary>
+            Data access.
+            </summary>
+        </member>
+        <member name="M:iNVEST.DataAccess.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:iNVEST.dataAccess" /> class.
+            </summary>
+            <param name="_sql">Sql.</param>
+        </member>
+        <member name="M:iNVEST.DataAccess.executeQuery">
+            <summary>
+            Executes the query.
+            </summary>
+        </member>
+        <member name="M:iNVEST.DataAccess.getData">
+            <summary>
+            Gets the data.
+            </summary>
+            <returns>The data.</returns>
+        </member>
         <member name="T:iNVEST.Stock">
             <summary>
             Stock.
@@ -318,28 +340,6 @@
             </summary>
             <returns>The all codes.</returns>
             <param name="stkList">Stk list.</param>
-        </member>
-        <member name="T:iNVEST.DataAccess">
-            <summary>
-            Data access.
-            </summary>
-        </member>
-        <member name="M:iNVEST.DataAccess.#ctor(System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="!:iNVEST.dataAccess" /> class.
-            </summary>
-            <param name="_sql">Sql.</param>
-        </member>
-        <member name="M:iNVEST.DataAccess.executeQuery">
-            <summary>
-            Executes the query.
-            </summary>
-        </member>
-        <member name="M:iNVEST.DataAccess.getData">
-            <summary>
-            Gets the data.
-            </summary>
-            <returns>The data.</returns>
         </member>
     </members>
 </doc>

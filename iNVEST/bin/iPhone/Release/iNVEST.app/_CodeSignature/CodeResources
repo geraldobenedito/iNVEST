@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		8atU5Q2pixvSZOewV2Wy5OMNMQA=
+		</data>
 		<key>AppIcons29x29.png</key>
 		<data>
 		Zox2NQ1oSnCI5Dc28h8wXRP1m7E=
@@ -42,23 +46,23 @@
 		</data>
 		<key>MainStoryboard.storyboardc/QNc-H2-xdL-view-3rp-ss-A8A.nib</key>
 		<data>
-		GHOgGe35WcVnF8SuMa8sK42k448=
+		PQs5EEytIJbuuWpYx/HZ+pdA0zk=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-QNc-H2-xdL.nib</key>
 		<data>
-		P6rj6qq4Jt6Tmk0ap3nHGsmHbQQ=
+		AmhuAK1p7UgEYp9Mbj/FWs0z6yk=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
 		<data>
-		zmGdyvFgII+quMQjrDi3qzxar98=
+		3mW0b0blD6wkVH0Cdf5DPAVTiQs=
 		</data>
 		<key>MainStoryboard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		cneCYs2RW9EBhzJNKzpTQqpOUiY=
+		inJ2RbadbTg3GP0gvKq2LoFKeK8=
 		</data>
 		<key>Mono.Data.Sqlite.dll</key>
 		<data>
-		CvfycUjbessrdsw4lkcR47OkCh0=
+		eYhy9+mEHyugWRduOHR/cl/uqHw=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -66,7 +70,7 @@
 		</data>
 		<key>PLCrashReporter.dll</key>
 		<data>
-		c0bs+VzIKu5DYpJlgo5Z80TThdA=
+		jE4nVKRk62TyQsRDLsD3dHNuy+Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -74,27 +78,27 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		E0cPbETtaPy1JBkfAy/jiDHa9Ug=
+		V0nNNyqdwgOsl8tbdQUS5KnAZt0=
 		</data>
 		<key>System.Data.dll</key>
 		<data>
-		Tdz8WBGoKZBjy7IFc7FrbI0UZkg=
+		OnYi5UkFDsMuvFltwIx1GuPVYqg=
 		</data>
 		<key>System.Transactions.dll</key>
 		<data>
-		Oyh4X1fwZRqqP3lODz1PrTyWdak=
+		vBbXhIH6dy+JD48NvDuLhTi4+zo=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		PLGftZ6sL9mwph4bZ0lSkl1436I=
+		kWYNJ/wQTBiBgtGrRcRMkloCcOg=
 		</data>
 		<key>System.dll</key>
 		<data>
-		JJRrLXqfHvVsGEnAGFza+GUMPD8=
+		4jCFy5+ewUZ/uQ6XbE+HNd828tg=
 		</data>
 		<key>Xamarin.Insights.dll</key>
 		<data>
-		VggMSdB72Rax9vRIxyC6c6x921M=
+		4Lm7cdmOt+4EIh70gwxbMyPS+pk=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -102,7 +106,7 @@
 		</data>
 		<key>iNVEST.exe</key>
 		<data>
-		SInsE7cMWYbDzRgwTPGDU14mJyM=
+		XoltXtQLTn1Zd9XA0lPa3Phq9JA=
 		</data>
 		<key>invest.db</key>
 		<data>
@@ -114,15 +118,19 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		kS6gtwFbntkZhRFr75FJe6iEVcQ=
+		z8g3GjjUS60ZmStIDzO9j8HRR4Y=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		jzkh246UIxq5obMIuzYeD5FJrRg=
+		eAgNg40FUqLibzilLnKCX57yxvE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		8atU5Q2pixvSZOewV2Wy5OMNMQA=
+		</data>
 		<key>AppIcons29x29.png</key>
 		<data>
 		Zox2NQ1oSnCI5Dc28h8wXRP1m7E=
@@ -161,23 +169,23 @@
 		</data>
 		<key>MainStoryboard.storyboardc/QNc-H2-xdL-view-3rp-ss-A8A.nib</key>
 		<data>
-		GHOgGe35WcVnF8SuMa8sK42k448=
+		PQs5EEytIJbuuWpYx/HZ+pdA0zk=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-QNc-H2-xdL.nib</key>
 		<data>
-		P6rj6qq4Jt6Tmk0ap3nHGsmHbQQ=
+		AmhuAK1p7UgEYp9Mbj/FWs0z6yk=
 		</data>
 		<key>MainStoryboard.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
 		<data>
-		zmGdyvFgII+quMQjrDi3qzxar98=
+		3mW0b0blD6wkVH0Cdf5DPAVTiQs=
 		</data>
 		<key>MainStoryboard.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		cneCYs2RW9EBhzJNKzpTQqpOUiY=
+		inJ2RbadbTg3GP0gvKq2LoFKeK8=
 		</data>
 		<key>Mono.Data.Sqlite.dll</key>
 		<data>
-		CvfycUjbessrdsw4lkcR47OkCh0=
+		eYhy9+mEHyugWRduOHR/cl/uqHw=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -185,7 +193,7 @@
 		</data>
 		<key>PLCrashReporter.dll</key>
 		<data>
-		c0bs+VzIKu5DYpJlgo5Z80TThdA=
+		jE4nVKRk62TyQsRDLsD3dHNuy+Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -193,27 +201,27 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		E0cPbETtaPy1JBkfAy/jiDHa9Ug=
+		V0nNNyqdwgOsl8tbdQUS5KnAZt0=
 		</data>
 		<key>System.Data.dll</key>
 		<data>
-		Tdz8WBGoKZBjy7IFc7FrbI0UZkg=
+		OnYi5UkFDsMuvFltwIx1GuPVYqg=
 		</data>
 		<key>System.Transactions.dll</key>
 		<data>
-		Oyh4X1fwZRqqP3lODz1PrTyWdak=
+		vBbXhIH6dy+JD48NvDuLhTi4+zo=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		PLGftZ6sL9mwph4bZ0lSkl1436I=
+		kWYNJ/wQTBiBgtGrRcRMkloCcOg=
 		</data>
 		<key>System.dll</key>
 		<data>
-		JJRrLXqfHvVsGEnAGFza+GUMPD8=
+		4jCFy5+ewUZ/uQ6XbE+HNd828tg=
 		</data>
 		<key>Xamarin.Insights.dll</key>
 		<data>
-		VggMSdB72Rax9vRIxyC6c6x921M=
+		4Lm7cdmOt+4EIh70gwxbMyPS+pk=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -221,7 +229,7 @@
 		</data>
 		<key>iNVEST.exe</key>
 		<data>
-		SInsE7cMWYbDzRgwTPGDU14mJyM=
+		XoltXtQLTn1Zd9XA0lPa3Phq9JA=
 		</data>
 		<key>invest.db</key>
 		<data>
@@ -233,11 +241,11 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
-		kS6gtwFbntkZhRFr75FJe6iEVcQ=
+		z8g3GjjUS60ZmStIDzO9j8HRR4Y=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		jzkh246UIxq5obMIuzYeD5FJrRg=
+		eAgNg40FUqLibzilLnKCX57yxvE=
 		</data>
 	</dict>
 	<key>rules</key>

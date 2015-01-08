@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Sun Nov 16 20:56:34 EST 2014)"
+	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Thu Dec 11 14:45:09 EST 2014)"
 	.asciz "PLCrashReporter.dll"
 	.asciz ""
 
@@ -9018,14 +9018,14 @@ image_table:
 
 	.long 0,0,0,0,0
 	.asciz "monotouch"
-	.asciz "C560E8A6-274C-455D-B9FD-ED2514EBCD1D"
+	.asciz "26DFA3A7-FC11-40DF-B9D9-C2DE1F2384FE"
 	.asciz ""
 	.asciz "84e04ff9cfb79065"
 	.align 3
 
 	.long 1,0,0,0,0
 	.asciz "mscorlib"
-	.asciz "BDF460AF-EC2F-407F-8469-0C7BD2E7AEED"
+	.asciz "DCCF1D6F-36EB-4422-8665-F7F05141CE74"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3

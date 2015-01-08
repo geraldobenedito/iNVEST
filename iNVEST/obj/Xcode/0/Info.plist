@@ -5,11 +5,11 @@
 	<key>CFBundleDisplayName</key>
 	<string>iNVEST</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.iNVEST</string>
+	<string>xiz.iNVEST</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.0.6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -27,8 +27,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>MainStoryboard</string>
@@ -36,5 +34,9 @@
 	<true/>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 </dict>
 </plist>

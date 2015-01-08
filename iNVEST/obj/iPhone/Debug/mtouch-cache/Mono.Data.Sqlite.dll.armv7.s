@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Sun Nov 16 20:56:34 EST 2014)"
+	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Thu Dec 11 14:45:09 EST 2014)"
 	.asciz "Mono.Data.Sqlite.dll"
 	.asciz ""
 
@@ -33126,7 +33126,7 @@ class_name_table:
 	.short 0, 0, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 10, 0, 6, 0, 18
 	.short 109, 21, 0, 16, 119, 0, 0, 0
-	.short 0, 0, 0, 0, 0, 46, 0, 0
+	.short 0, 52, 0, 0, 0, 46, 0, 0
 	.short 0, 0, 0, 0, 0, 0, 0, 33
 	.short 114, 3, 0, 0, 0, 36, 0, 0
 	.short 0, 0, 0, 0, 0, 13, 0, 0
@@ -33142,17 +33142,17 @@ class_name_table:
 	.short 0, 29, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 0, 0, 0, 0, 14
 	.short 0, 0, 0, 15, 0, 0, 0, 0
-	.short 0, 4, 0, 0, 0, 0, 0, 42
-	.short 0, 0, 0, 35, 0, 0, 0, 31
+	.short 0, 4, 0, 0, 0, 54, 0, 42
+	.short 0, 0, 0, 35, 0, 53, 0, 31
 	.short 120, 0, 0, 0, 0, 0, 0, 0
-	.short 0, 0, 0, 9, 121, 0, 0, 41
-	.short 0, 52, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 9, 0, 0, 0, 41
+	.short 0, 0, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 7, 0, 0, 0, 0
-	.short 0, 0, 0, 19, 0, 0, 0, 54
+	.short 0, 0, 0, 19, 0, 0, 0, 0
 	.short 0, 0, 0, 23, 0, 25, 112, 26
 	.short 115, 32, 0, 37, 0, 38, 118, 39
-	.short 0, 40, 0, 43, 0, 45, 0, 48
-	.short 0, 50, 0, 51, 122, 53, 0
+	.short 0, 40, 0, 43, 0, 45, 121, 48
+	.short 0, 50, 0, 51, 0
 .section __TEXT, __const
 	.align 3
 got_info_offsets:
@@ -37819,35 +37819,35 @@ image_table:
 
 	.long 5
 	.asciz "Mono.Data.Sqlite"
-	.asciz "1916224F-CADC-41DE-A344-82914562B389"
+	.asciz "25EC26BC-BF95-422C-AB93-C9F49B758E29"
 	.asciz ""
 	.asciz "0738eb9f132ed756"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "BDF460AF-EC2F-407F-8469-0C7BD2E7AEED"
+	.asciz "DCCF1D6F-36EB-4422-8665-F7F05141CE74"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Data"
-	.asciz "F965D774-1DAD-4B1D-A8D0-DE820E676C36"
+	.asciz "5F5D62C0-7625-4F3C-831D-8D5C09894DF1"
 	.asciz ""
 	.asciz "b77a5c561934e089"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System"
-	.asciz "DD93E8F4-4EA4-470D-8FF6-949720F71536"
+	.asciz "04FA311F-5A8C-4E63-AD47-3B96C0EBCFBC"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Transactions"
-	.asciz "69FB5A08-4849-416B-AAEF-0B29989A5165"
+	.asciz "C38D10C1-A9FD-4E97-9A2E-66B502EAFD7C"
 	.asciz ""
 	.asciz "b77a5c561934e089"
 	.align 3
@@ -37861,7 +37861,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "1916224F-CADC-41DE-A344-82914562B389"
+	.asciz "25EC26BC-BF95-422C-AB93-C9F49B758E29"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -94067,8 +94067,8 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0"
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/LINQ"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/src/mono/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/src/mono/mcs/class/Mono.Data.Sqlite/Mono.Data.Sqlite_2.0/LINQ"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Collections.Generic"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Collections.ObjectModel"

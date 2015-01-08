@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Sun Nov 16 20:56:34 EST 2014)"
+	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Thu Dec 11 14:45:09 EST 2014)"
 	.asciz "iNVEST.exe"
 	.asciz ""
 
@@ -294,7 +294,7 @@ _iNVEST_iNVESTViewController_loadInfoWhait_bool:
 	.byte 0,0,159,231
 bl _p_11
 
-	.byte 8,0,139,229,36,16,219,229,12,16,192,229,8,160,128,229,28,0,154,229,0,0,80,227,118,0,0,10,0,0,159,229
+	.byte 8,0,139,229,36,16,219,229,12,16,192,229,8,160,128,229,32,0,154,229,0,0,80,227,118,0,0,10,0,0,159,229
 	.byte 0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 16
 	.byte 0,0,159,231
@@ -422,44 +422,44 @@ _iNVEST_iNVESTViewController_btnNew_MonoTouch_Foundation_NSObject:
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,232,208,77,226,13,176,160,225,0,160,160,225,120,16,139,229,0,43,159,237
 	.byte 1,0,0,234,0,0,0,0,0,0,0,0,12,43,139,237,0,0,160,227,56,0,139,229,0,43,159,237,1,0,0,234
 	.byte 0,0,0,0,0,0,0,0,15,43,139,237,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,17,43,139,237
-	.byte 0,0,160,227,76,0,139,229,56,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 0,0,160,227,76,0,139,229,64,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 bl _p_28
 
-	.byte 255,0,0,226,0,0,80,227,8,0,0,10,56,32,154,229,0,16,159,229,0,0,0,234
+	.byte 255,0,0,226,0,0,80,227,8,0,0,10,64,32,154,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 84
-	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,164,241,146,229,48,16,154,229,1,0,160,225,0,16,145,229
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,164,241,146,229,56,16,154,229,1,0,160,225,0,16,145,229
 	.byte 15,224,160,225,168,241,145,229,0,80,160,225,0,0,85,227,4,0,0,10,8,0,149,229,0,0,80,227,0,64,160,19
-	.byte 1,64,160,3,0,0,0,234,1,64,160,227,0,0,84,227,3,1,0,26,52,16,154,229,1,0,160,225,0,16,145,229
+	.byte 1,64,160,3,0,0,0,234,1,64,160,227,0,0,84,227,3,1,0,26,60,16,154,229,1,0,160,225,0,16,145,229
 	.byte 15,224,160,225,168,241,145,229,84,0,139,229,84,0,155,229,0,0,80,227,6,0,0,10,84,0,155,229,8,0,144,229
 	.byte 0,0,80,227,0,0,160,19,1,0,160,3,88,0,139,229,1,0,0,234,1,0,160,227,88,0,139,229,88,0,155,229
-	.byte 0,0,80,227,238,0,0,26,68,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229,92,0,139,229
+	.byte 0,0,80,227,238,0,0,26,76,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229,92,0,139,229
 	.byte 92,0,155,229,0,0,80,227,6,0,0,10,92,0,155,229,8,0,144,229,0,0,80,227,0,0,160,19,1,0,160,3
-	.byte 96,0,139,229,1,0,0,234,1,0,160,227,96,0,139,229,96,0,155,229,0,0,80,227,217,0,0,26,68,16,154,229
+	.byte 96,0,139,229,1,0,0,234,1,0,160,227,96,0,139,229,96,0,155,229,0,0,80,227,217,0,0,26,76,16,154,229
 	.byte 1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229,48,16,139,226
 bl _p_29
 
-	.byte 255,0,0,226,0,0,80,227,207,0,0,10,52,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 255,0,0,226,0,0,80,227,207,0,0,10,60,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 	.byte 56,16,139,226
 bl _p_30
 
-	.byte 255,0,0,226,0,0,80,227,197,0,0,10,56,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 255,0,0,226,0,0,80,227,197,0,0,10,64,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 	.byte 48,16,139,226
 bl _p_29
 
-	.byte 255,0,0,226,0,0,80,227,187,0,0,10,48,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 255,0,0,226,0,0,80,227,187,0,0,10,56,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 	.byte 0,16,160,225,0,224,209,229
 bl _p_31
 
 	.byte 0,16,160,225,0,224,209,229
 bl _p_32
 
-	.byte 188,0,139,229,68,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 188,0,139,229,76,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 bl _p_33
 
-	.byte 18,11,65,236,56,43,139,237,52,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 18,11,65,236,56,43,139,237,60,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 bl _iNVEST_Common_getInt_string
 
-	.byte 0,8,160,225,64,8,160,225,184,0,139,229,56,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
+	.byte 0,8,160,225,64,8,160,225,184,0,139,229,64,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229
 bl _p_33
 
 	.byte 18,11,65,236,54,43,139,237,0,0,159,229,0,0,0,234
@@ -567,9 +567,9 @@ Lme_13:
 	.no_dead_strip _iNVEST_iNVESTViewController_btnEdit_MonoTouch_Foundation_NSObject
 _iNVEST_iNVESTViewController_btnEdit_MonoTouch_Foundation_NSObject:
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,28,16,154,229,1,0,160,225
-	.byte 0,16,145,229,15,224,160,225,228,240,145,229,255,0,0,226,0,0,80,227,7,0,0,10,28,48,154,229,3,0,160,225
-	.byte 0,16,160,227,1,32,160,227,0,48,147,229,15,224,160,225,232,240,147,229,6,0,0,234,28,48,154,229,3,0,160,225
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,32,16,154,229,1,0,160,225
+	.byte 0,16,145,229,15,224,160,225,228,240,145,229,255,0,0,226,0,0,80,227,7,0,0,10,32,48,154,229,3,0,160,225
+	.byte 0,16,160,227,1,32,160,227,0,48,147,229,15,224,160,225,232,240,147,229,6,0,0,234,32,48,154,229,3,0,160,225
 	.byte 1,16,160,227,1,32,160,227,0,48,147,229,15,224,160,225,232,240,147,229,8,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_14:
@@ -656,7 +656,7 @@ bl _p_11
 	.byte 36,0,141,229
 bl _p_16
 
-	.byte 32,0,157,229,36,16,157,229,8,16,128,229,28,0,141,229,48,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225
+	.byte 32,0,157,229,36,16,157,229,8,16,128,229,28,0,141,229,56,16,154,229,1,0,160,225,0,16,145,229,15,224,160,225
 	.byte 168,241,145,229,0,16,160,225,28,0,157,229,12,16,128,229
 bl _p_17
 
@@ -704,7 +704,7 @@ Lme_17:
 	.no_dead_strip _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject
 _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject:
 
-	.byte 128,64,45,233,13,112,160,225,96,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,48,16,144,229
+	.byte 128,64,45,233,13,112,160,225,96,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,56,16,144,229
 	.byte 1,0,160,225,0,16,145,229,15,224,160,225,168,241,145,229,0,96,160,225,0,0,86,227,4,0,0,10,8,0,150,229
 	.byte 0,0,80,227,0,80,160,19,1,80,160,3,0,0,0,234,1,80,160,227,0,0,85,227,1,0,0,26,0,0,157,229
 bl _p_48
@@ -714,8 +714,8 @@ bl _p_48
 Lme_18:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_tblView
-_iNVEST_iNVESTViewController_get_tblView:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_dtOrder
+_iNVEST_iNVESTViewController_get_dtOrder:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,28,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -723,8 +723,8 @@ _iNVEST_iNVESTViewController_get_tblView:
 Lme_19:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
-_iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker
+_iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 28,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -732,8 +732,8 @@ _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView:
 Lme_1a:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtGanhoPerda
-_iNVEST_iNVESTViewController_get_txtGanhoPerda:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_tblView
+_iNVEST_iNVESTViewController_get_tblView:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,32,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -741,8 +741,8 @@ _iNVEST_iNVESTViewController_get_txtGanhoPerda:
 Lme_1b:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
+_iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 32,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -750,8 +750,8 @@ _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel:
 Lme_1c:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtHomeTax
-_iNVEST_iNVESTViewController_get_txtHomeTax:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtGanhoPerda
+_iNVEST_iNVESTViewController_get_txtGanhoPerda:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,36,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -759,8 +759,8 @@ _iNVEST_iNVESTViewController_get_txtHomeTax:
 Lme_1d:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 36,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -768,8 +768,8 @@ _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel:
 Lme_1e:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtIbov
-_iNVEST_iNVESTViewController_get_txtIbov:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtHomeTax
+_iNVEST_iNVESTViewController_get_txtHomeTax:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,40,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -777,8 +777,8 @@ _iNVEST_iNVESTViewController_get_txtIbov:
 Lme_1f:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 40,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -786,8 +786,8 @@ _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel:
 Lme_20:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtInicial
-_iNVEST_iNVESTViewController_get_txtInicial:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtIbov
+_iNVEST_iNVESTViewController_get_txtIbov:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,44,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -795,8 +795,8 @@ _iNVEST_iNVESTViewController_get_txtInicial:
 Lme_21:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 44,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -804,8 +804,8 @@ _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel:
 Lme_22:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtPapel
-_iNVEST_iNVESTViewController_get_txtPapel:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtIbovPt
+_iNVEST_iNVESTViewController_get_txtIbovPt:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,48,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -813,8 +813,8 @@ _iNVEST_iNVESTViewController_get_txtPapel:
 Lme_23:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
-_iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 48,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -822,8 +822,8 @@ _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField:
 Lme_24:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtQuantidade
-_iNVEST_iNVESTViewController_get_txtQuantidade:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtInicial
+_iNVEST_iNVESTViewController_get_txtInicial:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,52,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -831,8 +831,8 @@ _iNVEST_iNVESTViewController_get_txtQuantidade:
 Lme_25:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
-_iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 52,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -840,8 +840,8 @@ _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField:
 Lme_26:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtTaxas
-_iNVEST_iNVESTViewController_get_txtTaxas:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtPapel
+_iNVEST_iNVESTViewController_get_txtPapel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,56,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -849,8 +849,8 @@ _iNVEST_iNVESTViewController_get_txtTaxas:
 Lme_27:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
-_iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
+_iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 56,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -858,8 +858,8 @@ _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField:
 Lme_28:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtTotal
-_iNVEST_iNVESTViewController_get_txtTotal:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtQuantidade
+_iNVEST_iNVESTViewController_get_txtQuantidade:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,60,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -867,8 +867,8 @@ _iNVEST_iNVESTViewController_get_txtTotal:
 Lme_29:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
+_iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 60,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -876,8 +876,8 @@ _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel:
 Lme_2a:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtValidado
-_iNVEST_iNVESTViewController_get_txtValidado:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtTaxas
+_iNVEST_iNVESTViewController_get_txtTaxas:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,64,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -885,8 +885,8 @@ _iNVEST_iNVESTViewController_get_txtValidado:
 Lme_2b:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
-_iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
+_iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 64,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -894,8 +894,8 @@ _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel:
 Lme_2c:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_get_txtValor
-_iNVEST_iNVESTViewController_get_txtValor:
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtTotal
+_iNVEST_iNVESTViewController_get_txtTotal:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,68,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -903,8 +903,8 @@ _iNVEST_iNVESTViewController_get_txtValor:
 Lme_2d:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
-_iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField:
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 68,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
@@ -912,14 +912,50 @@ _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField:
 Lme_2e:
 .text
 	.align 2
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtValidado
+_iNVEST_iNVESTViewController_get_txtValidado:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,72,0,144,229,12,208,141,226
+	.byte 0,1,189,232,128,128,189,232
+
+Lme_2f:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
+_iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
+	.byte 72,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_30:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_iNVESTViewController_get_txtValor
+_iNVEST_iNVESTViewController_get_txtValor:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,76,0,144,229,12,208,141,226
+	.byte 0,1,189,232,128,128,189,232
+
+Lme_31:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+_iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
+	.byte 76,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_32:
+.text
+	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
 _iNVEST_iNVESTViewController_ReleaseDesignerOutlets:
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,40,0,154,229,0,0,80,227,5,0,0,10,40,16,154,229
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,48,0,154,229,0,0,80,227,5,0,0,10,48,16,154,229
 	.byte 1,0,160,225,0,224,209,229
 bl _p_49
 
-	.byte 0,0,160,227,40,0,138,229,28,0,154,229,0,0,80,227,5,0,0,10,28,16,154,229,1,0,160,225,0,224,209,229
+	.byte 0,0,160,227,48,0,138,229,28,0,154,229,0,0,80,227,5,0,0,10,28,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
 	.byte 0,0,160,227,28,0,138,229,32,0,154,229,0,0,80,227,5,0,0,10,32,16,154,229,1,0,160,225,0,224,209,229
@@ -928,13 +964,13 @@ bl _p_49
 	.byte 0,0,160,227,32,0,138,229,36,0,154,229,0,0,80,227,5,0,0,10,36,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
-	.byte 0,0,160,227,36,0,138,229,44,0,154,229,0,0,80,227,5,0,0,10,44,16,154,229,1,0,160,225,0,224,209,229
+	.byte 0,0,160,227,36,0,138,229,40,0,154,229,0,0,80,227,5,0,0,10,40,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
-	.byte 0,0,160,227,44,0,138,229,48,0,154,229,0,0,80,227,5,0,0,10,48,16,154,229,1,0,160,225,0,224,209,229
+	.byte 0,0,160,227,40,0,138,229,44,0,154,229,0,0,80,227,5,0,0,10,44,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
-	.byte 0,0,160,227,48,0,138,229,52,0,154,229,0,0,80,227,5,0,0,10,52,16,154,229,1,0,160,225,0,224,209,229
+	.byte 0,0,160,227,44,0,138,229,52,0,154,229,0,0,80,227,5,0,0,10,52,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
 	.byte 0,0,160,227,52,0,138,229,56,0,154,229,0,0,80,227,5,0,0,10,56,16,154,229,1,0,160,225,0,224,209,229
@@ -949,9 +985,15 @@ bl _p_49
 	.byte 0,0,160,227,64,0,138,229,68,0,154,229,0,0,80,227,5,0,0,10,68,16,154,229,1,0,160,225,0,224,209,229
 bl _p_49
 
-	.byte 0,0,160,227,68,0,138,229,0,208,141,226,0,5,189,232,128,128,189,232
+	.byte 0,0,160,227,68,0,138,229,72,0,154,229,0,0,80,227,5,0,0,10,72,16,154,229,1,0,160,225,0,224,209,229
+bl _p_49
 
-Lme_2f:
+	.byte 0,0,160,227,72,0,138,229,76,0,154,229,0,0,80,227,5,0,0,10,76,16,154,229,1,0,160,225,0,224,209,229
+bl _p_49
+
+	.byte 0,0,160,227,76,0,138,229,0,208,141,226,0,5,189,232,128,128,189,232
+
+Lme_33:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
@@ -965,7 +1007,7 @@ bl _p_50
 
 	.byte 0,0,157,229,20,0,133,229,4,0,157,229,28,0,133,229,8,208,141,226,32,1,189,232,128,128,189,232
 
-Lme_30:
+Lme_34:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1057,7 +1099,7 @@ bl _p_26
 
 	.byte 186,2,0,2
 
-Lme_31:
+Lme_35:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
@@ -1066,7 +1108,7 @@ _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,0,0,157,229
 	.byte 20,0,144,229,12,0,144,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_32:
+Lme_36:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1164,7 +1206,7 @@ bl _p_26
 
 	.byte 186,2,0,2
 
-Lme_33:
+Lme_37:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1173,7 +1215,7 @@ _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,1,0,160,227
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_34:
+Lme_38:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1182,7 +1224,7 @@ _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,0,0,160,227
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_35:
+Lme_39:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
@@ -1191,7 +1233,7 @@ _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Fou
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,1,0,160,227
 	.byte 20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_36:
+Lme_3a:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
@@ -1283,7 +1325,7 @@ bl _p_26
 
 	.byte 186,2,0,2
 
-Lme_37:
+Lme_3b:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
@@ -1370,7 +1412,7 @@ bl _p_68
 	.byte 172,240,146,229,36,16,154,229,10,0,160,225,0,32,154,229,15,224,160,225,212,240,146,229,83,223,139,226,0,13,189,232
 	.byte 128,128,189,232
 
-Lme_38:
+Lme_3c:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_LoadingOverlay_Hide
@@ -1408,7 +1450,7 @@ bl _p_26
 
 	.byte 106,2,0,2
 
-Lme_39:
+Lme_3d:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_LoadingOverlay__Hidem__0
@@ -1418,7 +1460,7 @@ _iNVEST_LoadingOverlay__Hidem__0:
 	.byte 194,42,183,238,8,0,157,229,194,11,183,238,2,10,13,237,8,16,29,229,8,32,157,229,0,32,146,229,15,224,160,225
 	.byte 176,240,146,229,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_3a:
+Lme_3e:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_LoadingOverlay__Hidem__1
@@ -1427,7 +1469,380 @@ _iNVEST_LoadingOverlay__Hidem__1:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,0,16,160,225,0,16,145,229
 	.byte 15,224,160,225,192,240,145,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_3b:
+Lme_3f:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_Common__ctor
+_iNVEST_Common__ctor:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_40:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_Common_getDouble_string
+_iNVEST_Common_getDouble_string:
+
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,43,159,237,1,0,0,234,0,0,0,0
+	.byte 0,0,0,0,0,43,141,237,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,141,237
+bl _p_70
+
+	.byte 0,16,160,225,0,16,145,229,15,224,160,225,80,240,145,229,0,16,160,225,0,224,209,229,76,32,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 264
+	.byte 1,16,159,231,2,0,160,225,0,224,210,229
+bl _p_71
+
+	.byte 255,0,0,226,0,0,80,227,28,0,0,10,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 264
+	.byte 1,16,159,231,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 88
+	.byte 0,0,159,231,0,32,144,229,10,0,160,225,0,224,218,229
+bl _p_72
+
+	.byte 0,160,160,225,10,48,160,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 268
+	.byte 1,16,159,231,0,32,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 264
+	.byte 2,32,159,231,3,0,160,225,0,224,211,229
+bl _p_72
+
+	.byte 0,160,160,225,13,16,160,225
+bl _p_29
+
+	.byte 2,0,0,234,10,0,160,225,13,16,160,225
+bl _p_29
+
+	.byte 0,43,157,237,18,11,81,236,8,208,141,226,0,5,189,232,128,128,189,232
+
+Lme_41:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_Common_getInt_string
+_iNVEST_Common_getInt_string:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,4,0,141,229,0,0,160,227,176,0,205,225,0,0,160,227
+	.byte 176,0,205,225,4,0,157,229,13,16,160,225
+bl _p_73
+
+	.byte 240,0,221,225,12,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_42:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_Common_getDBValue_object
+_iNVEST_Common_getDBValue_object:
+
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 272
+	.byte 0,0,159,231,0,0,144,229,10,0,80,225,5,0,0,26,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 88
+	.byte 0,0,159,231,0,0,144,229,3,0,0,234,10,0,160,225,0,16,154,229,15,224,160,225,32,240,145,229,0,208,141,226
+	.byte 0,5,189,232,128,128,189,232
+
+Lme_43:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_Common_getDateFromString_string
+_iNVEST_Common_getDateFromString_string:
+
+	.byte 128,64,45,233,13,112,160,225,64,13,45,233,88,208,77,226,13,176,160,225,16,16,139,229,0,160,160,225,0,0,160,227
+	.byte 20,0,139,229,0,0,160,227,24,0,139,229,0,0,160,227,52,0,139,229,0,0,160,227,20,0,139,229,0,0,160,227
+	.byte 24,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 276
+	.byte 0,0,159,231,1,16,160,227
+bl _p_34
+
+	.byte 0,16,160,225,12,32,144,229,0,0,82,227,168,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
+bl _p_74
+
+	.byte 12,16,144,229,0,0,81,227,160,0,0,155,16,0,144,229
+bl _p_75
+
+	.byte 28,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 276
+	.byte 0,0,159,231,1,16,160,227
+bl _p_34
+
+	.byte 0,16,160,225,12,32,144,229,0,0,82,227,147,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
+bl _p_74
+
+	.byte 12,16,144,229,1,0,81,227,139,0,0,155,20,0,144,229
+bl _p_75
+
+	.byte 32,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 276
+	.byte 0,0,159,231,1,16,160,227
+bl _p_34
+
+	.byte 0,16,160,225,12,32,144,229,0,0,82,227,126,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
+bl _p_74
+
+	.byte 12,16,144,229,2,0,81,227,118,0,0,155,24,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,32,240,145,229
+	.byte 0,48,160,225,0,16,160,227,4,32,160,227,0,224,211,229
+bl _p_76
+bl _p_75
+
+	.byte 36,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 276
+	.byte 0,0,159,231,1,16,160,227
+bl _p_34
+
+	.byte 0,16,160,225,12,32,144,229,0,0,82,227,96,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
+bl _p_74
+
+	.byte 12,16,144,229,2,0,81,227,88,0,0,155,24,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,32,240,145,229
+	.byte 0,16,160,225,0,224,209,229
+bl _p_31
+
+	.byte 0,48,160,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 184
+	.byte 1,16,159,231,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 88
+	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
+bl _p_72
+
+	.byte 0,96,160,225,6,48,160,225,3,0,160,225,4,16,160,227,2,32,160,227,0,224,211,229
+bl _p_76
+bl _p_75
+
+	.byte 40,0,139,229,6,0,160,225,7,16,160,227,2,32,160,227,0,224,214,229
+bl _p_76
+bl _p_75
+
+	.byte 44,0,139,229,6,0,160,225,10,16,160,227,2,32,160,227,0,224,214,229
+bl _p_76
+bl _p_75
+
+	.byte 48,0,139,229,20,0,139,226,36,16,155,229,32,32,155,229,28,48,155,229,40,192,155,229,0,192,141,229,44,192,155,229
+	.byte 4,192,141,229,48,192,155,229,8,192,141,229
+bl _p_77
+
+	.byte 20,0,0,234,56,0,155,229,56,0,155,229,52,0,139,229,0,16,160,227
+bl _p_21
+bl _p_78
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 280
+	.byte 0,0,159,231,0,16,144,229,20,16,139,229,4,0,144,229,24,0,139,229
+bl _p_24
+
+	.byte 72,0,139,229,0,0,80,227,1,0,0,10,72,0,155,229
+bl _p_25
+
+	.byte 255,255,255,234,20,0,155,229,76,0,139,229,24,0,155,229,80,0,139,229,16,0,155,229,76,16,155,229,0,16,128,229
+	.byte 80,16,155,229,4,16,128,229,88,208,139,226,64,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_26
+
+	.byte 186,2,0,2
+
+Lme_44:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_DataAccess__ctor_string
+_iNVEST_DataAccess__ctor_string:
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,8,208,77,226,0,96,160,225,0,16,141,229,5,0,160,227
+bl _p_79
+
+	.byte 12,0,134,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 88
+	.byte 0,0,159,231,0,0,144,229,16,0,134,229,12,0,150,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 284
+	.byte 1,16,159,231
+bl _p_80
+
+	.byte 16,0,134,229,12,0,150,229
+bl _p_81
+
+	.byte 255,0,0,226,0,0,80,227,1,0,0,26,12,0,150,229
+bl _p_82
+
+	.byte 16,0,150,229
+bl _p_83
+
+	.byte 255,0,0,226,0,0,80,227,5,0,0,26,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 284
+	.byte 0,0,159,231,16,16,150,229
+bl _p_84
+
+	.byte 0,0,157,229,8,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
+
+Lme_45:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_DataAccess_executeQuery
+_iNVEST_DataAccess_executeQuery:
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,44,208,77,226,0,0,141,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 288
+	.byte 0,0,159,231,0,16,157,229,16,16,145,229
+bl _p_85
+
+	.byte 32,0,141,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 292
+	.byte 0,0,159,231
+bl _p_22
+
+	.byte 32,16,157,229,28,0,141,229
+bl _p_86
+
+	.byte 28,0,157,229,24,0,141,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 296
+	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,24,16,157,229,1,0,160,225,16,16,141,229,0,16,145,229
+	.byte 0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 300
+	.byte 8,128,159,231,4,224,143,226,72,240,17,229,0,0,0,0,20,0,141,229,0,32,160,225,0,0,157,229,8,16,144,229
+	.byte 2,0,160,225,0,32,146,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 304
+	.byte 8,128,159,231,4,224,143,226,68,240,18,229,0,0,0,0,20,16,157,229,1,0,160,225,8,16,141,229,0,16,145,229
+	.byte 0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 308
+	.byte 8,128,159,231,4,224,143,226,40,240,17,229,0,0,0,0,16,16,157,229,1,0,160,225,12,16,141,229,0,16,145,229
+	.byte 0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 312
+	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,12,16,157,229,1,0,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 316
+	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,8,16,157,229,1,0,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 316
+	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,44,208,141,226,0,1,189,232,128,128,189,232
+
+Lme_46:
+.text
+	.align 2
+	.no_dead_strip _iNVEST_DataAccess_getData
+_iNVEST_DataAccess_getData:
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,160,208,77,226,13,176,160,225,0,160,160,225,0,0,160,227,180,3,203,225
+	.byte 0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,14,43,139,237,0,0,160,227,64,0,139,229,0,43,159,237
+	.byte 1,0,0,234,0,0,0,0,0,0,0,0,17,43,139,237,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 288
+	.byte 0,0,159,231,16,16,154,229
+bl _p_85
+
+	.byte 104,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 292
+	.byte 0,0,159,231
+bl _p_22
+
+	.byte 104,16,155,229,100,0,139,229
+bl _p_86
+
+	.byte 100,0,155,229,48,0,139,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 296
+	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 300
+	.byte 8,128,159,231,4,224,143,226,72,240,17,229,0,0,0,0,0,64,160,225,4,32,160,225,8,16,154,229,2,0,160,225
+	.byte 0,32,146,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 304
+	.byte 8,128,159,231,4,224,143,226,68,240,18,229,0,0,0,0,4,0,160,225,0,16,148,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 320
+	.byte 8,128,159,231,4,224,143,226,36,240,17,229,0,0,0,0,0,160,160,225,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 200
+	.byte 0,0,159,231
+bl _p_11
+
+	.byte 96,0,139,229
+bl _p_56
+
+	.byte 96,0,155,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 204
+	.byte 1,16,159,231,0,16,145,229,8,16,128,229,0,80,160,225,161,0,0,234,10,0,160,225,0,16,160,227,0,32,154,229
+	.byte 0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 52,16,139,226
+bl _p_73
+
+	.byte 10,0,160,225,2,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 56,16,139,226
+bl _p_29
+
+	.byte 10,0,160,225,3,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 64,16,139,226
+bl _p_30
+
+	.byte 10,0,160,225,4,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 68,16,139,226
+bl _p_29
+
+	.byte 10,0,160,225,6,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+bl _p_33
+
+	.byte 18,11,65,236,19,43,139,237,10,0,160,225,7,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+bl _p_33
+
+	.byte 18,11,65,236,21,43,139,237,244,3,219,225,112,0,139,229,10,0,160,225,1,16,160,227,0,32,154,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 116,0,139,229,14,43,155,237,38,43,139,237,64,0,155,229,108,0,139,229,17,43,155,237,36,43,139,237,10,0,160,225
+	.byte 5,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 104,0,139,229,19,43,155,237,34,43,139,237,21,43,155,237,32,43,139,237,10,0,160,225,8,16,160,227,0,32,154,229
+	.byte 0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 324
+	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
+bl _p_87
+
+	.byte 120,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 92
+	.byte 0,0,159,231
+bl _p_11
+
+	.byte 112,16,155,229,116,32,155,229,120,192,155,229,32,43,155,237,34,59,155,237,36,75,155,237,38,91,155,237,96,0,139,229
+	.byte 100,0,139,229,2,91,13,237,8,48,29,229,4,0,29,229,0,0,141,229,108,0,155,229,4,0,141,229,104,0,155,229
+	.byte 2,75,141,237,16,0,141,229,100,0,155,229,5,59,141,237,7,43,141,237,36,192,141,229
+bl _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
+
+	.byte 96,0,155,229,0,96,160,225,5,0,160,225,6,16,160,225,0,224,213,229
+bl _p_57
+
+	.byte 10,0,160,225,0,16,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 328
+	.byte 8,128,159,231,4,224,143,226,40,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,81,255,255,26,10,0,160,225
+	.byte 0,16,154,229,0,128,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 332
+	.byte 8,128,159,231,4,224,143,226,44,240,17,229,0,0,0,0,0,160,160,227,4,0,160,225,0,16,148,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 316
+	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 312
+	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 316
+	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,5,0,160,225,160,208,139,226,112,13,189,232,128,128,189,232
+
+Lme_47:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
@@ -1441,7 +1856,7 @@ _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string:
 	.byte 12,0,138,229,8,43,155,237,10,43,138,237,48,0,155,229,16,0,138,229,5,43,155,237,12,43,138,237,60,208,139,226
 	.byte 0,13,189,232,128,128,189,232
 
-Lme_3c:
+Lme_48:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_Id
@@ -1450,7 +1865,7 @@ _iNVEST_Stock_get_Id:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,244,1,208,225,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_3d:
+Lme_49:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_Code
@@ -1459,7 +1874,7 @@ _iNVEST_Stock_get_Code:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,8,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_3e:
+Lme_4a:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_Name
@@ -1468,7 +1883,7 @@ _iNVEST_Stock_get_Name:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,12,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_3f:
+Lme_4b:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_set_Name_string
@@ -1477,7 +1892,7 @@ _iNVEST_Stock_set_Name_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 12,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_40:
+Lme_4c:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_LastUpdatedDate
@@ -1486,7 +1901,7 @@ _iNVEST_Stock_get_LastUpdatedDate:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,16,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_41:
+Lme_4d:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_set_LastUpdatedDate_string
@@ -1495,7 +1910,7 @@ _iNVEST_Stock_set_LastUpdatedDate_string:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
 	.byte 16,16,128,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_42:
+Lme_4e:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_OriginalValue
@@ -1504,7 +1919,7 @@ _iNVEST_Stock_get_OriginalValue:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,6,43,144,237,18,11,81,236
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_43:
+Lme_4f:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_LastValue
@@ -1513,7 +1928,7 @@ _iNVEST_Stock_get_LastValue:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,8,43,144,237,18,11,81,236
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_44:
+Lme_50:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_set_LastValue_double
@@ -1522,7 +1937,7 @@ _iNVEST_Stock_set_LastValue_double:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,1,43,157,237
 	.byte 0,0,157,229,8,43,128,237,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_45:
+Lme_51:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_VariationPercent
@@ -1531,7 +1946,7 @@ _iNVEST_Stock_get_VariationPercent:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,10,43,144,237,18,11,81,236
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_46:
+Lme_52:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_set_VariationPercent_double
@@ -1540,7 +1955,7 @@ _iNVEST_Stock_set_VariationPercent_double:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,1,43,157,237
 	.byte 0,0,157,229,10,43,128,237,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_47:
+Lme_53:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_Tax
@@ -1549,7 +1964,7 @@ _iNVEST_Stock_get_Tax:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,12,43,144,237,18,11,81,236
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_48:
+Lme_54:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_set_Tax_double
@@ -1558,7 +1973,7 @@ _iNVEST_Stock_set_Tax_double:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,4,16,141,229,8,32,141,229,1,43,157,237
 	.byte 0,0,157,229,12,43,128,237,20,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_49:
+Lme_55:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_MoneyDifferenceLessTax
@@ -1569,7 +1984,7 @@ _iNVEST_Stock_get_MoneyDifferenceLessTax:
 	.byte 67,59,176,238,67,59,176,238,67,43,50,238,66,43,176,238,66,43,176,238,12,59,154,237,67,59,176,238,67,59,176,238
 	.byte 67,43,50,238,18,11,81,236,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_4a:
+Lme_56:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_Quantity
@@ -1578,7 +1993,7 @@ _iNVEST_Stock_get_Quantity:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,56,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_4b:
+Lme_57:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_MoneyInvested
@@ -1587,7 +2002,7 @@ _iNVEST_Stock_get_MoneyInvested:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,56,16,144,229,16,26,0,238
 	.byte 192,43,184,238,6,59,144,237,3,43,34,238,18,11,81,236,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_4c:
+Lme_58:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_MoneyNow
@@ -1596,7 +2011,7 @@ _iNVEST_Stock_get_MoneyNow:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,56,16,144,229,16,26,0,238
 	.byte 192,43,184,238,8,59,144,237,3,43,34,238,18,11,81,236,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_4d:
+Lme_59:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_get_MoneyDifference
@@ -1606,7 +2021,7 @@ _iNVEST_Stock_get_MoneyDifference:
 	.byte 3,43,34,238,66,43,176,238,66,43,176,238,56,0,154,229,16,10,0,238,192,59,184,238,6,75,154,237,4,59,35,238
 	.byte 67,59,176,238,67,59,176,238,67,43,50,238,18,11,81,236,0,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_4e:
+Lme_5a:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
@@ -1616,32 +2031,32 @@ _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock:
 	.byte 0,0,0,0,0,0,0,0,0,43,139,237,0,0,160,227,8,0,139,229,0,0,160,227,12,0,139,229,0,0,160,227
 	.byte 16,0,139,229,0,0,160,227,20,0,139,229,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,139,237
 	.byte 8,16,139,226,10,0,160,225,0,224,218,229
-bl _p_70
+bl _p_88
 
 	.byte 15,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,20,96,155,229,0,43,155,237,0,224,214,229,56,0,150,229,16,10,0,238,192,59,184,238,6,75,150,237
 	.byte 4,59,35,238,67,59,176,238,67,59,176,238,3,43,50,238,0,43,139,237,8,0,139,226,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 8,128,159,231
-bl _p_71
+bl _p_89
 
 	.byte 255,0,0,226,0,0,80,227,230,255,255,26,0,0,0,235,8,0,0,234,36,224,139,229,8,0,139,226,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 1,16,159,231,24,0,139,229,36,192,155,229,12,240,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 268
+	.long _mono_aot_iNVEST_got - . + 340
 	.byte 0,0,159,231,40,0,139,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 172
 	.byte 1,16,159,231,11,0,160,225
 bl _p_53
 
 	.byte 0,16,160,225,40,0,155,229
-bl _p_72
+bl _p_85
 
 	.byte 48,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_4f:
+Lme_5b:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
@@ -1651,32 +2066,32 @@ _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock:
 	.byte 0,0,0,0,0,0,0,0,0,43,139,237,0,0,160,227,8,0,139,229,0,0,160,227,12,0,139,229,0,0,160,227
 	.byte 16,0,139,229,0,0,160,227,20,0,139,229,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,139,237
 	.byte 8,16,139,226,10,0,160,225,0,224,218,229
-bl _p_70
+bl _p_88
 
 	.byte 15,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,20,96,155,229,0,43,155,237,0,224,214,229,56,0,150,229,16,10,0,238,192,59,184,238,8,75,150,237
 	.byte 4,59,35,238,67,59,176,238,67,59,176,238,3,43,50,238,0,43,139,237,8,0,139,226,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 8,128,159,231
-bl _p_71
+bl _p_89
 
 	.byte 255,0,0,226,0,0,80,227,230,255,255,26,0,0,0,235,8,0,0,234,36,224,139,229,8,0,139,226,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 1,16,159,231,24,0,139,229,36,192,155,229,12,240,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 268
+	.long _mono_aot_iNVEST_got - . + 340
 	.byte 0,0,159,231,40,0,139,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 172
 	.byte 1,16,159,231,11,0,160,225
 bl _p_53
 
 	.byte 0,16,160,225,40,0,155,229
-bl _p_72
+bl _p_85
 
 	.byte 48,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_50:
+Lme_5c:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
@@ -1686,34 +2101,34 @@ _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock:
 	.byte 0,0,0,0,0,0,0,0,0,43,139,237,0,0,160,227,8,0,139,229,0,0,160,227,12,0,139,229,0,0,160,227
 	.byte 16,0,139,229,0,0,160,227,20,0,139,229,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,139,237
 	.byte 8,16,139,226,10,0,160,225,0,224,218,229
-bl _p_70
+bl _p_88
 
 	.byte 25,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,20,96,155,229,0,43,155,237,0,224,214,229,56,0,150,229,16,10,0,238,192,59,184,238,8,75,150,237
 	.byte 4,59,35,238,67,59,176,238,67,59,176,238,56,0,150,229,16,10,0,238,192,75,184,238,6,91,150,237,5,75,36,238
 	.byte 68,75,176,238,68,75,176,238,68,59,51,238,67,59,176,238,67,59,176,238,3,43,50,238,0,43,139,237,8,0,139,226
 	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 8,128,159,231
-bl _p_71
+bl _p_89
 
 	.byte 255,0,0,226,0,0,80,227,220,255,255,26,0,0,0,235,8,0,0,234,36,224,139,229,8,0,139,226,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 1,16,159,231,24,0,139,229,36,192,155,229,12,240,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 268
+	.long _mono_aot_iNVEST_got - . + 340
 	.byte 0,0,159,231,40,0,139,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 172
 	.byte 1,16,159,231,11,0,160,225
 bl _p_53
 
 	.byte 0,16,160,225,40,0,155,229
-bl _p_72
+bl _p_85
 
 	.byte 48,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_51:
+Lme_5d:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
@@ -1723,32 +2138,32 @@ _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock:
 	.byte 0,0,0,0,0,0,0,0,0,43,139,237,0,0,160,227,8,0,139,229,0,0,160,227,12,0,139,229,0,0,160,227
 	.byte 16,0,139,229,0,0,160,227,20,0,139,229,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,139,237
 	.byte 8,16,139,226,10,0,160,225,0,224,218,229
-bl _p_70
+bl _p_88
 
 	.byte 11,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,20,96,155,229,0,43,155,237,0,224,214,229,12,59,150,237,67,59,176,238,67,59,176,238,3,43,50,238
 	.byte 0,43,139,237,8,0,139,226,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 8,128,159,231
-bl _p_71
+bl _p_89
 
 	.byte 255,0,0,226,0,0,80,227,234,255,255,26,0,0,0,235,8,0,0,234,36,224,139,229,8,0,139,226,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 1,16,159,231,24,0,139,229,36,192,155,229,12,240,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 268
+	.long _mono_aot_iNVEST_got - . + 340
 	.byte 0,0,159,231,40,0,139,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 172
 	.byte 1,16,159,231,11,0,160,225
 bl _p_53
 
 	.byte 0,16,160,225,40,0,155,229
-bl _p_72
+bl _p_85
 
 	.byte 48,208,139,226,64,13,189,232,128,128,189,232
 
-Lme_52:
+Lme_5e:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
@@ -1758,28 +2173,28 @@ _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock:
 	.byte 0,0,160,227,4,0,139,229,0,0,160,227,8,0,139,229,0,0,160,227,12,0,139,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 88
 	.byte 0,0,159,231,0,80,144,229,10,0,160,225,11,16,160,225,0,224,218,229
-bl _p_70
+bl _p_88
 
 	.byte 21,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,12,96,155,229,0,224,214,229,8,16,150,229,5,0,160,225,0,224,213,229
-bl _p_73
+bl _p_90
 
 	.byte 255,0,0,226,0,0,80,227,8,0,0,26,0,224,214,229,8,16,150,229,0,32,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 272
+	.long _mono_aot_iNVEST_got - . + 344
 	.byte 2,32,159,231,5,0,160,225
-bl _p_74
+bl _p_91
 
 	.byte 0,80,160,225,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 8,128,159,231,11,0,160,225
-bl _p_71
+bl _p_89
 
 	.byte 255,0,0,226,0,0,80,227,224,255,255,26,0,0,0,235,7,0,0,234,28,224,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
+	.long _mono_aot_iNVEST_got - . + 336
 	.byte 0,0,159,231,16,176,139,229,28,192,155,229,12,240,160,225,5,0,160,225,36,208,139,226,96,13,189,232,128,128,189,232
 
-Lme_53:
+Lme_5f:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_Stock_SaveQuotation
@@ -1788,7 +2203,7 @@ _iNVEST_Stock_SaveQuotation:
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,56,208,77,226,0,160,160,225,0,43,159,237,1,0,0,234,0,0,0,0
 	.byte 0,0,0,0,0,43,141,237,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,2,43,141,237,0,0,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 276
+	.long _mono_aot_iNVEST_got - . + 348
 	.byte 0,0,159,231,24,0,141,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 100
 	.byte 0,0,159,231,5,16,160,227
@@ -1828,369 +2243,26 @@ bl _p_39
 
 	.byte 56,208,141,226,0,5,189,232,128,128,189,232
 
-Lme_54:
+Lme_60:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_DataAccess__ctor_string
-_iNVEST_DataAccess__ctor_string:
+	.no_dead_strip _iNVEST_iNVESTViewStock__ctor_intptr
+_iNVEST_iNVESTViewStock__ctor_intptr:
 
-	.byte 128,64,45,233,13,112,160,225,64,1,45,233,8,208,77,226,0,96,160,225,0,16,141,229,5,0,160,227
-bl _p_75
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
+bl _p_4
 
-	.byte 12,0,134,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 88
-	.byte 0,0,159,231,0,0,144,229,16,0,134,229,12,0,150,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 280
-	.byte 1,16,159,231
-bl _p_76
+	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-	.byte 16,0,134,229,12,0,150,229
-bl _p_77
-
-	.byte 255,0,0,226,0,0,80,227,1,0,0,26,12,0,150,229
-bl _p_78
-
-	.byte 16,0,150,229
-bl _p_79
-
-	.byte 255,0,0,226,0,0,80,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 280
-	.byte 0,0,159,231,16,16,150,229
-bl _p_80
-
-	.byte 0,0,157,229,8,0,134,229,8,208,141,226,64,1,189,232,128,128,189,232
-
-Lme_55:
+Lme_61:
 .text
 	.align 2
-	.no_dead_strip _iNVEST_DataAccess_executeQuery
-_iNVEST_DataAccess_executeQuery:
-
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,44,208,77,226,0,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 284
-	.byte 0,0,159,231,0,16,157,229,16,16,145,229
-bl _p_72
-
-	.byte 32,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 288
-	.byte 0,0,159,231
-bl _p_22
-
-	.byte 32,16,157,229,28,0,141,229
-bl _p_81
-
-	.byte 28,0,157,229,24,0,141,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 292
-	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,24,16,157,229,1,0,160,225,16,16,141,229,0,16,145,229
-	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 296
-	.byte 8,128,159,231,4,224,143,226,72,240,17,229,0,0,0,0,20,0,141,229,0,32,160,225,0,0,157,229,8,16,144,229
-	.byte 2,0,160,225,0,32,146,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 300
-	.byte 8,128,159,231,4,224,143,226,68,240,18,229,0,0,0,0,20,16,157,229,1,0,160,225,8,16,141,229,0,16,145,229
-	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 304
-	.byte 8,128,159,231,4,224,143,226,40,240,17,229,0,0,0,0,16,16,157,229,1,0,160,225,12,16,141,229,0,16,145,229
-	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 308
-	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,12,16,157,229,1,0,160,225,0,16,145,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
-	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,8,16,157,229,1,0,160,225,0,16,145,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
-	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,44,208,141,226,0,1,189,232,128,128,189,232
-
-Lme_56:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_DataAccess_getData
-_iNVEST_DataAccess_getData:
-
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,160,208,77,226,13,176,160,225,0,160,160,225,0,0,160,227,180,3,203,225
-	.byte 0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,14,43,139,237,0,0,160,227,64,0,139,229,0,43,159,237
-	.byte 1,0,0,234,0,0,0,0,0,0,0,0,17,43,139,237,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 284
-	.byte 0,0,159,231,16,16,154,229
-bl _p_72
-
-	.byte 104,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 288
-	.byte 0,0,159,231
-bl _p_22
-
-	.byte 104,16,155,229,100,0,139,229
-bl _p_81
-
-	.byte 100,0,155,229,48,0,139,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 292
-	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 296
-	.byte 8,128,159,231,4,224,143,226,72,240,17,229,0,0,0,0,0,64,160,225,4,32,160,225,8,16,154,229,2,0,160,225
-	.byte 0,32,146,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 300
-	.byte 8,128,159,231,4,224,143,226,68,240,18,229,0,0,0,0,4,0,160,225,0,16,148,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 316
-	.byte 8,128,159,231,4,224,143,226,36,240,17,229,0,0,0,0,0,160,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 200
-	.byte 0,0,159,231
-bl _p_11
-
-	.byte 96,0,139,229
-bl _p_56
-
-	.byte 96,0,155,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 204
-	.byte 1,16,159,231,0,16,145,229,8,16,128,229,0,80,160,225,161,0,0,234,10,0,160,225,0,16,160,227,0,32,154,229
-	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 52,16,139,226
-bl _p_83
-
-	.byte 10,0,160,225,2,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 56,16,139,226
-bl _p_29
-
-	.byte 10,0,160,225,3,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 64,16,139,226
-bl _p_30
-
-	.byte 10,0,160,225,4,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 68,16,139,226
-bl _p_29
-
-	.byte 10,0,160,225,6,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-bl _p_33
-
-	.byte 18,11,65,236,19,43,139,237,10,0,160,225,7,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-bl _p_33
-
-	.byte 18,11,65,236,21,43,139,237,244,3,219,225,112,0,139,229,10,0,160,225,1,16,160,227,0,32,154,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 116,0,139,229,14,43,155,237,38,43,139,237,64,0,155,229,108,0,139,229,17,43,155,237,36,43,139,237,10,0,160,225
-	.byte 5,16,160,227,0,32,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 104,0,139,229,19,43,155,237,34,43,139,237,21,43,155,237,32,43,139,237,10,0,160,225,8,16,160,227,0,32,154,229
-	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 320
-	.byte 8,128,159,231,4,224,143,226,56,240,18,229,0,0,0,0
-bl _p_82
-
-	.byte 120,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 92
-	.byte 0,0,159,231
-bl _p_11
-
-	.byte 112,16,155,229,116,32,155,229,120,192,155,229,32,43,155,237,34,59,155,237,36,75,155,237,38,91,155,237,96,0,139,229
-	.byte 100,0,139,229,2,91,13,237,8,48,29,229,4,0,29,229,0,0,141,229,108,0,155,229,4,0,141,229,104,0,155,229
-	.byte 2,75,141,237,16,0,141,229,100,0,155,229,5,59,141,237,7,43,141,237,36,192,141,229
-bl _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
-
-	.byte 96,0,155,229,0,96,160,225,5,0,160,225,6,16,160,225,0,224,213,229
-bl _p_57
-
-	.byte 10,0,160,225,0,16,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 324
-	.byte 8,128,159,231,4,224,143,226,40,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,81,255,255,26,10,0,160,225
-	.byte 0,16,154,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 328
-	.byte 8,128,159,231,4,224,143,226,44,240,17,229,0,0,0,0,0,160,160,227,4,0,160,225,0,16,148,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
-	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 308
-	.byte 8,128,159,231,4,224,143,226,56,240,17,229,0,0,0,0,48,0,155,229,0,16,160,225,0,16,145,229,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
-	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,5,0,160,225,160,208,139,226,112,13,189,232,128,128,189,232
-
-Lme_57:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_Common__ctor
-_iNVEST_Common__ctor:
+	.no_dead_strip _iNVEST_iNVESTViewStock_ReleaseDesignerOutlets
+_iNVEST_iNVESTViewStock_ReleaseDesignerOutlets:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_58:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_Common_getDouble_string
-_iNVEST_Common_getDouble_string:
-
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,43,159,237,1,0,0,234,0,0,0,0
-	.byte 0,0,0,0,0,43,141,237,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,0,43,141,237
-bl _p_84
-
-	.byte 0,16,160,225,0,16,145,229,15,224,160,225,80,240,145,229,0,16,160,225,0,224,209,229,76,32,144,229,0,16,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 332
-	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_85
-
-	.byte 255,0,0,226,0,0,80,227,7,0,0,10,10,0,160,225,44,16,160,227,46,32,160,227,0,224,218,229
-bl _p_36
-
-	.byte 13,16,160,225
-bl _p_29
-
-	.byte 2,0,0,234,10,0,160,225,13,16,160,225
-bl _p_29
-
-	.byte 0,43,157,237,18,11,81,236,8,208,141,226,0,5,189,232,128,128,189,232
-
-Lme_59:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_Common_getInt_string
-_iNVEST_Common_getInt_string:
-
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,4,0,141,229,0,0,160,227,176,0,205,225,0,0,160,227
-	.byte 176,0,205,225,4,0,157,229,13,16,160,225
-bl _p_83
-
-	.byte 240,0,221,225,12,208,141,226,0,1,189,232,128,128,189,232
-
-Lme_5a:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_Common_getDBValue_object
-_iNVEST_Common_getDBValue_object:
-
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 336
-	.byte 0,0,159,231,0,0,144,229,10,0,80,225,5,0,0,26,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 88
-	.byte 0,0,159,231,0,0,144,229,3,0,0,234,10,0,160,225,0,16,154,229,15,224,160,225,32,240,145,229,0,208,141,226
-	.byte 0,5,189,232,128,128,189,232
-
-Lme_5b:
-.text
-	.align 2
-	.no_dead_strip _iNVEST_Common_getDateFromString_string
-_iNVEST_Common_getDateFromString_string:
-
-	.byte 128,64,45,233,13,112,160,225,64,13,45,233,88,208,77,226,13,176,160,225,16,16,139,229,0,160,160,225,0,0,160,227
-	.byte 20,0,139,229,0,0,160,227,24,0,139,229,0,0,160,227,52,0,139,229,0,0,160,227,20,0,139,229,0,0,160,227
-	.byte 24,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 340
-	.byte 0,0,159,231,1,16,160,227
-bl _p_34
-
-	.byte 0,16,160,225,12,32,144,229,0,0,82,227,168,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
-bl _p_86
-
-	.byte 12,16,144,229,0,0,81,227,160,0,0,155,16,0,144,229
-bl _p_87
-
-	.byte 28,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 340
-	.byte 0,0,159,231,1,16,160,227
-bl _p_34
-
-	.byte 0,16,160,225,12,32,144,229,0,0,82,227,147,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
-bl _p_86
-
-	.byte 12,16,144,229,1,0,81,227,139,0,0,155,20,0,144,229
-bl _p_87
-
-	.byte 32,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 340
-	.byte 0,0,159,231,1,16,160,227
-bl _p_34
-
-	.byte 0,16,160,225,12,32,144,229,0,0,82,227,126,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
-bl _p_86
-
-	.byte 12,16,144,229,2,0,81,227,118,0,0,155,24,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,32,240,145,229
-	.byte 0,48,160,225,0,16,160,227,4,32,160,227,0,224,211,229
-bl _p_88
-bl _p_87
-
-	.byte 36,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 340
-	.byte 0,0,159,231,1,16,160,227
-bl _p_34
-
-	.byte 0,16,160,225,12,32,144,229,0,0,82,227,96,0,0,155,47,32,160,227,176,33,192,225,10,0,160,225,0,224,218,229
-bl _p_86
-
-	.byte 12,16,144,229,2,0,81,227,88,0,0,155,24,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,32,240,145,229
-	.byte 0,16,160,225,0,224,209,229
-bl _p_31
-
-	.byte 0,48,160,225,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 184
-	.byte 1,16,159,231,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 88
-	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_89
-
-	.byte 0,96,160,225,6,48,160,225,3,0,160,225,4,16,160,227,2,32,160,227,0,224,211,229
-bl _p_88
-bl _p_87
-
-	.byte 40,0,139,229,6,0,160,225,7,16,160,227,2,32,160,227,0,224,214,229
-bl _p_88
-bl _p_87
-
-	.byte 44,0,139,229,6,0,160,225,10,16,160,227,2,32,160,227,0,224,214,229
-bl _p_88
-bl _p_87
-
-	.byte 48,0,139,229,20,0,139,226,36,16,155,229,32,32,155,229,28,48,155,229,40,192,155,229,0,192,141,229,44,192,155,229
-	.byte 4,192,141,229,48,192,155,229,8,192,141,229
-bl _p_90
-
-	.byte 20,0,0,234,56,0,155,229,56,0,155,229,52,0,139,229,0,16,160,227
-bl _p_21
-bl _p_91
-
-	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 344
-	.byte 0,0,159,231,0,16,144,229,20,16,139,229,4,0,144,229,24,0,139,229
-bl _p_24
-
-	.byte 72,0,139,229,0,0,80,227,1,0,0,10,72,0,155,229
-bl _p_25
-
-	.byte 255,255,255,234,20,0,155,229,76,0,139,229,24,0,155,229,80,0,139,229,16,0,155,229,76,16,155,229,0,16,128,229
-	.byte 80,16,155,229,4,16,128,229,88,208,139,226,64,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_26
-
-	.byte 186,2,0,2
-
-Lme_5c:
+Lme_62:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
@@ -2198,7 +2270,7 @@ _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_5d:
+Lme_63:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
@@ -2206,7 +2278,7 @@ _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_5e:
+Lme_64:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
@@ -2215,20 +2287,20 @@ _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0:
 	.byte 128,64,45,233,13,112,160,225,96,13,45,233,52,208,77,226,13,176,160,225,0,160,160,225,0,0,160,227,8,0,139,229
 	.byte 8,96,154,229,0,0,86,227,4,0,0,10,8,0,150,229,0,0,80,227,0,80,160,19,1,80,160,3,0,0,0,234
 	.byte 1,80,160,227,0,0,85,227,17,0,0,26,12,0,154,229,32,0,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 348
-	.byte 0,0,159,231,8,16,154,229,0,32,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 352
+	.byte 0,0,159,231,8,16,154,229,0,32,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 356
 	.byte 2,32,159,231
-bl _p_74
+bl _p_91
 
 	.byte 0,16,160,225,32,32,155,229,2,0,160,225,0,32,146,229,15,224,160,225,204,240,146,229,45,0,0,234,12,0,155,229
 	.byte 12,0,155,229,8,0,139,229,0,16,160,227
 bl _p_21
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 356
-	.byte 0,0,159,231,36,0,139,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 360
+	.byte 0,0,159,231,36,0,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 364
 	.byte 0,0,159,231,40,0,139,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 76
 	.byte 0,0,159,231,44,0,139,229,0,0,159,229,0,0,0,234
@@ -2247,219 +2319,232 @@ bl _p_25
 
 	.byte 255,255,255,234,52,208,139,226,96,13,189,232,128,128,189,232
 
-Lme_5f:
+Lme_65:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
 _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task:
 
-	.byte 128,64,45,233,13,112,160,225,96,13,45,233,69,223,77,226,13,176,160,225,248,0,139,229,252,16,139,229,0,0,160,227
+	.byte 128,64,45,233,13,112,160,225,96,13,45,233,71,223,77,226,13,176,160,225,0,1,139,229,4,17,139,229,0,0,160,227
 	.byte 8,0,139,229,0,0,160,227,12,0,139,229,0,0,160,227,16,0,139,229,0,0,160,227,20,0,139,229,0,0,160,227
 	.byte 24,0,139,229,0,0,160,227,44,0,139,229,0,0,160,227,48,0,139,229,0,43,159,237,1,0,0,234,0,0,0,0
-	.byte 0,0,0,0,15,43,139,237,0,0,160,227,68,0,139,229,0,0,160,227,72,0,139,229,0,0,160,227,76,0,139,229
-	.byte 248,0,155,229,20,0,144,229,12,0,208,229,0,0,80,227,186,1,0,10,248,0,155,229,12,32,144,229,0,16,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 364
+	.byte 0,0,0,0,15,43,139,237,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,17,43,139,237,0,0,160,227
+	.byte 76,0,139,229,0,0,160,227,80,0,139,229,0,0,160,227,84,0,139,229,0,1,155,229,20,0,144,229,12,0,208,229
+	.byte 0,0,80,227,228,1,0,10,0,1,155,229,12,32,144,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 368
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
 bl _p_92
 
-	.byte 0,16,160,225,0,16,145,229,15,224,160,225,56,240,145,229,8,0,139,229,90,1,0,234,8,16,155,229,1,0,160,225
+	.byte 0,16,160,225,0,16,145,229,15,224,160,225,56,240,145,229,8,0,139,229,132,1,0,234,8,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 368
+	.long _mono_aot_iNVEST_got - . + 372
 	.byte 8,128,159,231,4,224,143,226,16,240,17,229,0,0,0,0,0,80,160,225,0,0,85,227,9,0,0,10,0,0,149,229
 	.byte 0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 372
-	.byte 1,16,159,231,1,0,80,225,96,2,0,27,5,160,160,225,248,0,155,229,16,32,144,229,12,16,139,226,2,0,160,225
-	.byte 0,224,210,229
-bl _p_70
-
-	.byte 37,1,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
-	.byte 0,0,159,231,24,96,155,229,6,0,160,225,0,16,160,225,0,224,209,229,8,0,144,229,0,1,139,229,10,0,160,225
-	.byte 0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 376
+	.byte 1,16,159,231,1,0,80,225,138,2,0,27,5,160,160,225,0,1,155,229,16,32,144,229,12,16,139,226,2,0,160,225
+	.byte 0,224,210,229
+bl _p_88
+
+	.byte 79,1,0,234,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 336
+	.byte 0,0,159,231,24,96,155,229,6,0,160,225,0,16,160,225,0,224,209,229,8,0,144,229,8,1,139,229,10,0,160,225
+	.byte 0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 380
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
-	.byte 160,240,145,229,0,16,160,225,0,1,155,229
+	.byte 160,240,145,229,0,16,160,225,8,1,155,229
 bl _p_93
 
 	.byte 255,0,0,226,0,0,80,227,154,0,0,10,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 380
+	.long _mono_aot_iNVEST_got - . + 384
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229
 bl _p_33
 
 	.byte 18,11,65,236,7,43,139,237,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 384
+	.long _mono_aot_iNVEST_got - . + 388
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229
 bl _p_33
 
 	.byte 18,11,65,236,9,43,139,237,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 388
+	.long _mono_aot_iNVEST_got - . + 392
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229,0,224,214,229,12,0,134,229,7,43,155,237,66,43,176,238,0,224,214,229,66,43,176,238,10,43,134,237
 	.byte 10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 392
+	.long _mono_aot_iNVEST_got - . + 396
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
-	.byte 160,240,145,229,232,16,139,226
+	.byte 160,240,145,229,240,16,139,226
 bl _p_94
-bl _p_91
+bl _p_78
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 344
-	.byte 0,0,159,231,0,16,144,229,240,16,139,229,4,0,144,229,244,0,139,229,232,0,155,229,236,16,155,229,240,32,155,229
-	.byte 244,48,155,229
+	.long _mono_aot_iNVEST_got - . + 280
+	.byte 0,0,159,231,0,16,144,229,248,16,139,229,4,0,144,229,252,0,139,229,240,0,155,229,244,16,155,229,248,32,155,229
+	.byte 252,48,155,229
 bl _p_95
 
 	.byte 255,0,0,226,0,0,80,227,27,0,0,10,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 392
+	.long _mono_aot_iNVEST_got - . + 396
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229,44,16,139,226
 bl _p_94
 
 	.byte 44,0,139,226,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 396
+	.long _mono_aot_iNVEST_got - . + 400
 	.byte 1,16,159,231
 bl _p_96
 
 	.byte 0,224,214,229,16,0,134,229,18,0,0,234,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 392
+	.long _mono_aot_iNVEST_got - . + 396
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229,0,224,214,229,16,0,134,229,9,43,155,237,66,43,176,238,0,224,214,229,66,43,176,238,8,43,134,237
 	.byte 6,0,160,225,0,224,214,229
 bl _p_97
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 352
-	.byte 0,0,159,231,0,1,139,229,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229
+	.long _mono_aot_iNVEST_got - . + 356
+	.byte 0,0,159,231,8,1,139,229,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 376
+	.long _mono_aot_iNVEST_got - . + 380
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
-	.byte 160,240,145,229,0,16,160,225,0,1,155,229
+	.byte 160,240,145,229,0,16,160,225,8,1,155,229
 bl _p_93
 
-	.byte 255,0,0,226,0,0,80,227,77,0,0,10,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225
-	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 380
+	.byte 255,0,0,226,0,0,80,227,119,0,0,10,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,15,43,139,237
+	.byte 10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 384
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229
 bl _p_33
 
-	.byte 18,11,65,236,13,43,139,237,13,43,155,237,0,59,159,237,1,0,0,234,0,0,0,0,0,0,0,0,67,43,180,238
-	.byte 16,250,241,238,13,0,0,106,12,0,0,170,248,0,155,229,20,0,144,229,8,0,144,229,40,0,144,229,0,1,139,229
+	.byte 18,11,65,236,13,43,139,237,10,0,160,225,0,16,154,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 388
+	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
+	.byte 104,240,145,229
+bl _p_33
+
+	.byte 18,11,65,236,15,43,139,237,13,43,155,237,0,59,159,237,1,0,0,234,0,0,0,0,0,0,0,0,67,43,180,238
+	.byte 16,250,241,238,13,0,0,106,12,0,0,170,0,1,155,229,20,0,144,229,8,0,144,229,44,0,144,229,8,1,139,229
 bl _p_98
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,216,240,146,229,11,0,0,234,248,0,155,229
-	.byte 20,0,144,229,8,0,144,229,40,0,144,229,0,1,139,229
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,216,240,146,229,11,0,0,234,0,1,155,229
+	.byte 20,0,144,229,8,0,144,229,44,0,144,229,8,1,139,229
 bl _p_99
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,216,240,146,229,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,40,0,144,229,0,1,139,229,13,43,155,237,0,59,159,237,1,0,0,234,0,0,0,0,0,0,89,64
-	.byte 3,43,130,238,15,43,139,237,60,0,139,226,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 400
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,216,240,146,229,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,44,0,144,229,12,1,139,229,13,43,155,237,0,59,159,237,1,0,0,234,0,0,0,0,0,0,89,64
+	.byte 3,43,130,238,17,43,139,237,68,0,139,226,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 404
 	.byte 1,16,159,231
 bl _p_53
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,12,0,139,226,0,128,159,229
-	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
-	.byte 8,128,159,231
-bl _p_71
+	.byte 0,16,160,225,12,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,48,0,144,229,8,1,139,229,60,0,139,226,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 172
+	.byte 1,16,159,231
+bl _p_53
 
-	.byte 255,0,0,226,0,0,80,227,208,254,255,26,0,0,0,235,10,0,0,234,8,208,77,226,196,224,139,229,12,0,139,226
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,12,0,139,226,0,128,159,229
+	.byte 0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 336
+	.byte 8,128,159,231
+bl _p_89
+
+	.byte 255,0,0,226,0,0,80,227,166,254,255,26,0,0,0,235,10,0,0,234,8,208,77,226,204,224,139,229,12,0,139,226
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 264
-	.byte 1,16,159,231,84,0,139,229,8,208,141,226,196,192,155,229,12,240,160,225,8,16,155,229,1,0,160,225,0,16,145,229
+	.long _mono_aot_iNVEST_got - . + 336
+	.byte 1,16,159,231,92,0,139,229,8,208,141,226,204,192,155,229,12,240,160,225,8,16,155,229,1,0,160,225,0,16,145,229
 	.byte 0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 404
-	.byte 8,128,159,231,4,224,143,226,60,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,151,254,255,26,0,0,0,235
-	.byte 65,0,0,234,8,208,77,226,200,224,139,229,8,0,155,229,92,0,139,229,92,0,155,229,216,0,139,229,0,0,80,227
-	.byte 24,0,0,10,216,0,155,229,0,0,144,229,220,0,139,229,180,1,208,225,0,16,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 408
-	.byte 1,16,159,231,1,0,80,225,14,0,0,58,220,0,155,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 408
+	.byte 8,128,159,231,4,224,143,226,60,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,109,254,255,26,0,0,0,235
+	.byte 65,0,0,234,8,208,77,226,208,224,139,229,8,0,155,229,100,0,139,229,100,0,155,229,224,0,139,229,0,0,80,227
+	.byte 24,0,0,10,224,0,155,229,0,0,144,229,228,0,139,229,180,1,208,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 412
+	.byte 1,16,159,231,1,0,80,225,14,0,0,58,228,0,155,229,16,0,144,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 412
 	.byte 1,16,159,231,193,33,160,225,2,0,128,224,0,0,208,229,7,32,1,226,1,16,160,227,17,18,160,225,1,0,0,224
-	.byte 0,0,80,227,2,0,0,26,1,0,160,227,224,0,139,229,1,0,0,234,0,0,160,227,224,0,139,229,224,0,155,229
-	.byte 0,0,80,227,2,0,0,10,0,0,160,227,96,0,139,229,1,0,0,234,92,0,155,229,96,0,139,229,96,0,155,229
-	.byte 88,0,139,229,100,0,139,229,0,16,160,225,68,16,139,229,0,0,80,227,9,0,0,10,68,16,155,229,1,0,160,225
+	.byte 0,0,80,227,2,0,0,26,1,0,160,227,232,0,139,229,1,0,0,234,0,0,160,227,232,0,139,229,232,0,155,229
+	.byte 0,0,80,227,2,0,0,10,0,0,160,227,104,0,139,229,1,0,0,234,100,0,155,229,104,0,139,229,104,0,155,229
+	.byte 96,0,139,229,108,0,139,229,0,16,160,225,76,16,139,229,0,0,80,227,9,0,0,10,76,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
-	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,8,208,141,226,200,192,155,229,12,240,160,225,47,0,0,235
-	.byte 190,0,0,234,80,0,155,229,80,0,155,229,72,0,139,229,0,16,160,227
+	.long _mono_aot_iNVEST_got - . + 316
+	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,8,208,141,226,208,192,155,229,12,240,160,225,47,0,0,235
+	.byte 190,0,0,234,88,0,155,229,88,0,155,229,80,0,139,229,0,16,160,227
 bl _p_21
 
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 412
-	.byte 0,0,159,231,4,1,139,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 416
-	.byte 0,0,159,231,8,1,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 76
 	.byte 0,0,159,231,12,1,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 420
+	.byte 0,0,159,231,16,1,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 76
+	.byte 0,0,159,231,20,1,139,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_iNVEST_got - . + 80
 	.byte 0,0,159,231
 bl _p_22
 
-	.byte 4,17,155,229,8,33,155,229,12,193,155,229,0,1,139,229,0,48,160,227,0,192,141,229,0,192,160,227,4,192,141,229
+	.byte 12,17,155,229,16,33,155,229,20,193,155,229,8,1,139,229,0,48,160,227,0,192,141,229,0,192,160,227,4,192,141,229
 bl _p_23
 
-	.byte 0,17,155,229,1,0,160,225,0,16,145,229,15,224,160,225,220,240,145,229
+	.byte 8,17,155,229,1,0,160,225,0,16,145,229,15,224,160,225,220,240,145,229
 bl _p_24
 
-	.byte 228,0,139,229,0,0,80,227,1,0,0,10,228,0,155,229
+	.byte 236,0,139,229,0,0,80,227,1,0,0,10,236,0,155,229
 bl _p_25
 
-	.byte 0,0,0,235,143,0,0,234,8,208,77,226,208,224,139,229,248,0,155,229,20,0,144,229,8,0,144,229,108,0,139,229
-	.byte 60,0,144,229,104,0,139,229,0,0,80,227,15,0,0,10,248,0,155,229,20,0,144,229,8,0,144,229,116,0,139,229
-	.byte 60,0,144,229,112,0,139,229,0,1,139,229,248,0,155,229,16,0,144,229
+	.byte 0,0,0,235,143,0,0,234,8,208,77,226,216,224,139,229,0,1,155,229,20,0,144,229,8,0,144,229,116,0,139,229
+	.byte 68,0,144,229,112,0,139,229,0,0,80,227,15,0,0,10,0,1,155,229,20,0,144,229,8,0,144,229,124,0,139,229
+	.byte 68,0,144,229,120,0,139,229,8,1,139,229,0,1,155,229,16,0,144,229
 bl _p_100
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,124,0,139,229,44,0,144,229,120,0,139,229,0,0,80,227,15,0,0,10,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,132,0,139,229,44,0,144,229,128,0,139,229,0,1,139,229,248,0,155,229,16,0,144,229
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,132,0,139,229,52,0,144,229,128,0,139,229,0,0,80,227,15,0,0,10,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,140,0,139,229,52,0,144,229,136,0,139,229,8,1,139,229,0,1,155,229,16,0,144,229
 bl _p_101
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,140,0,139,229,32,0,144,229,136,0,139,229,0,0,80,227,15,0,0,10,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,148,0,139,229,32,0,144,229,144,0,139,229,0,1,139,229,248,0,155,229,16,0,144,229
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,148,0,139,229,36,0,144,229,144,0,139,229,0,0,80,227,15,0,0,10,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,156,0,139,229,36,0,144,229,152,0,139,229,8,1,139,229,0,1,155,229,16,0,144,229
 bl _p_102
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,156,0,139,229,36,0,144,229,152,0,139,229,0,0,80,227,15,0,0,10,248,0,155,229,20,0,144,229
-	.byte 8,0,144,229,164,0,139,229,36,0,144,229,160,0,139,229,0,1,139,229,248,0,155,229,16,0,144,229
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,164,0,139,229,40,0,144,229,160,0,139,229,0,0,80,227,15,0,0,10,0,1,155,229,20,0,144,229
+	.byte 8,0,144,229,172,0,139,229,40,0,144,229,168,0,139,229,8,1,139,229,0,1,155,229,16,0,144,229
 bl _p_103
 
-	.byte 0,16,160,225,0,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,248,0,155,229,16,16,144,229
+	.byte 0,16,160,225,8,33,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,1,155,229,16,16,144,229
 	.byte 1,0,160,225,0,224,209,229
 bl _p_60
 
-	.byte 76,0,139,229,248,0,155,229,20,0,144,229,8,0,144,229,172,0,139,229,28,0,144,229,168,0,139,229,4,1,139,229
-	.byte 76,0,155,229,8,1,139,229,248,0,155,229,20,0,144,229,8,0,144,229,12,1,139,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 420
+	.byte 84,0,139,229,0,1,155,229,20,0,144,229,8,0,144,229,180,0,139,229,32,0,144,229,176,0,139,229,12,1,139,229
+	.byte 84,0,155,229,16,1,139,229,0,1,155,229,20,0,144,229,8,0,144,229,20,1,139,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 424
 	.byte 0,0,159,231
 bl _p_22
 
-	.byte 8,17,155,229,12,33,155,229,0,1,139,229
+	.byte 16,17,155,229,20,33,155,229,8,1,139,229
 bl _p_104
 
-	.byte 0,17,155,229,4,33,155,229,2,0,160,225,0,224,210,229
+	.byte 8,17,155,229,12,33,155,229,2,0,160,225,0,224,210,229
 bl _p_105
 
-	.byte 248,0,155,229,20,0,144,229,8,0,144,229,180,0,139,229,28,0,144,229,176,0,139,229,0,16,160,225,0,16,145,229
-	.byte 15,224,160,225,236,240,145,229,8,208,141,226,208,192,155,229,12,240,160,225,248,0,155,229,20,0,144,229,8,0,144,229
+	.byte 0,1,155,229,20,0,144,229,8,0,144,229,188,0,139,229,32,0,144,229,184,0,139,229,0,16,160,225,0,16,145,229
+	.byte 15,224,160,225,236,240,145,229,8,208,141,226,216,192,155,229,12,240,160,225,0,1,155,229,20,0,144,229,8,0,144,229
 	.byte 24,16,144,229,1,0,160,225,0,224,209,229
 bl _p_47
 
-	.byte 255,255,255,234,69,223,139,226,96,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+	.byte 255,255,255,234,71,223,139,226,96,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_26
 
 	.byte 191,2,0,2
 
-Lme_60:
+Lme_66:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
@@ -2467,7 +2552,7 @@ _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_61:
+Lme_67:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
@@ -2475,60 +2560,60 @@ _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,0,16,157,229,8,0,145,229,8,0,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 424
+	.long _mono_aot_iNVEST_got - . + 428
 	.byte 0,0,159,231,12,16,145,229
 bl _p_59
 
 	.byte 0,16,160,225,8,32,157,229,2,0,160,225,0,32,146,229,15,224,160,225,204,240,146,229,20,208,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_62:
+Lme_68:
 .text
 	.align 2
 	.no_dead_strip _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
 _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task:
 
 	.byte 128,64,45,233,13,112,160,225,64,13,45,233,96,208,77,226,13,176,160,225,80,0,139,229,84,16,139,229,0,0,160,227
-	.byte 0,0,139,229,0,0,160,227,4,0,139,229,0,0,160,227,8,0,139,229,80,0,155,229,16,0,144,229,64,32,144,229
+	.byte 0,0,139,229,0,0,160,227,4,0,139,229,0,0,160,227,8,0,139,229,80,0,155,229,16,0,144,229,72,32,144,229
 	.byte 0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 428
+	.long _mono_aot_iNVEST_got - . + 432
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,80,0,155,229,8,32,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 364
+	.long _mono_aot_iNVEST_got - . + 368
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
 bl _p_92
 
 	.byte 0,16,160,225,0,16,145,229,15,224,160,225,56,240,145,229,0,0,139,229,50,0,0,234,0,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 368
+	.long _mono_aot_iNVEST_got - . + 372
 	.byte 8,128,159,231,4,224,143,226,16,240,17,229,0,0,0,0,0,96,160,225,0,0,86,227,9,0,0,10,0,0,150,229
 	.byte 0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 372
-	.byte 1,16,159,231,1,0,80,225,147,0,0,27,6,160,160,225,80,0,155,229,16,0,144,229,64,0,144,229,88,0,139,229
+	.long _mono_aot_iNVEST_got - . + 376
+	.byte 1,16,159,231,1,0,80,225,147,0,0,27,6,160,160,225,80,0,155,229,16,0,144,229,72,0,144,229,88,0,139,229
 	.byte 6,0,160,225,0,16,150,229,15,224,160,225,184,240,145,229,0,32,160,225,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 388
+	.long _mono_aot_iNVEST_got - . + 392
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,64,240,146,229,0,16,160,225,0,16,145,229,15,224,160,225
 	.byte 160,240,145,229,0,16,160,225,88,32,155,229,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229,0,16,155,229
 	.byte 1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 404
+	.long _mono_aot_iNVEST_got - . + 408
 	.byte 8,128,159,231,4,224,143,226,60,240,17,229,0,0,0,0,255,0,0,226,0,0,80,227,191,255,255,26,0,0,0,235
 	.byte 63,0,0,234,48,224,139,229,0,0,155,229,20,0,139,229,20,0,155,229,64,0,139,229,0,0,80,227,24,0,0,10
 	.byte 64,0,155,229,0,0,144,229,68,0,139,229,180,1,208,225,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 408
+	.long _mono_aot_iNVEST_got - . + 412
 	.byte 1,16,159,231,1,0,80,225,14,0,0,58,68,0,155,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 408
+	.long _mono_aot_iNVEST_got - . + 412
 	.byte 1,16,159,231,193,33,160,225,2,0,128,224,0,0,208,229,7,32,1,226,1,16,160,227,17,18,160,225,1,0,0,224
 	.byte 0,0,80,227,2,0,0,26,1,0,160,227,72,0,139,229,1,0,0,234,0,0,160,227,72,0,139,229,72,0,155,229
 	.byte 0,0,80,227,2,0,0,10,0,0,160,227,24,0,139,229,1,0,0,234,20,0,155,229,24,0,139,229,24,0,155,229
 	.byte 16,0,139,229,28,0,139,229,0,16,160,225,4,16,139,229,0,0,80,227,9,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 312
+	.long _mono_aot_iNVEST_got - . + 316
 	.byte 8,128,159,231,4,224,143,226,20,240,17,229,0,0,0,0,48,192,155,229,12,240,160,225,27,0,0,235,35,0,0,234
 	.byte 12,0,155,229,12,0,155,229,8,0,139,229,0,16,160,227
 bl _p_21
 
-	.byte 80,0,155,229,16,0,144,229,36,0,139,229,64,0,144,229,32,0,139,229,0,32,160,225,0,16,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 432
+	.byte 80,0,155,229,16,0,144,229,36,0,139,229,72,0,144,229,32,0,139,229,0,32,160,225,0,16,159,229,0,0,0,234
+	.long _mono_aot_iNVEST_got - . + 436
 	.byte 1,16,159,231,2,0,160,225,0,32,146,229,15,224,160,225,224,240,146,229
 bl _p_24
 
@@ -2543,14 +2628,14 @@ bl _p_26
 
 	.byte 191,2,0,2
 
-Lme_63:
+Lme_69:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
 _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task:
 
 	.byte 128,64,45,233,13,112,160,225,112,5,45,233,4,208,77,226,0,96,160,225,1,160,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 436
+	.long _mono_aot_iNVEST_got - . + 440
 	.byte 0,0,159,231,0,0,144,229,0,0,80,227,27,0,0,26,44,0,134,226,0,64,144,229,4,0,160,225,0,0,80,227
 	.byte 17,0,0,26,16,0,134,226,0,80,144,229,5,0,160,225,0,0,80,227,5,0,0,10,8,0,134,226,0,32,144,229
 	.byte 5,0,160,225,10,16,160,225,50,255,47,225,3,0,0,234,8,0,134,226,0,16,144,229,10,0,160,225,49,255,47,225
@@ -2559,7 +2644,7 @@ bl _p_106
 
 	.byte 225,255,255,234
 
-Lme_65:
+Lme_6b:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__IEnumerable_GetEnumerator_T
@@ -2581,7 +2666,7 @@ bl _p_22
 
 	.byte 8,16,128,226,20,32,155,229,0,32,129,229,24,32,155,229,4,32,129,229,40,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_66:
+Lme_6c:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_get_Count
@@ -2590,7 +2675,7 @@ _System_Array_InternalArray__ICollection_get_Count:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229,12,0,144,229,12,208,141,226
 	.byte 0,1,189,232,128,128,189,232
 
-Lme_67:
+Lme_6d:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -2599,7 +2684,7 @@ _System_Array_InternalArray__ICollection_get_IsReadOnly:
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,1,0,160,227,12,208,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_68:
+Lme_6e:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_Clear
@@ -2614,7 +2699,7 @@ bl _p_25
 
 	.byte 12,208,141,226,0,1,189,232,128,128,189,232
 
-Lme_69:
+Lme_6f:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_Add_T_T
@@ -2633,7 +2718,7 @@ bl _p_25
 
 	.byte 24,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_6a:
+Lme_70:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_Remove_T_T
@@ -2652,7 +2737,7 @@ bl _p_25
 
 	.byte 24,208,139,226,0,9,189,232,128,128,189,232
 
-Lme_6b:
+Lme_71:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_Contains_T_T
@@ -2680,7 +2765,7 @@ bl _p_116
 bl _mono_create_corlib_exception_1
 bl _p_25
 
-Lme_6c:
+Lme_72:
 .text
 	.align 2
 	.no_dead_strip _System_Array_InternalArray__ICollection_CopyTo_T_T___int
@@ -2745,14 +2830,14 @@ bl _p_110
 bl _mono_create_corlib_exception_1
 bl _p_25
 
-Lme_6d:
+Lme_73:
 .text
 	.align 2
 	.no_dead_strip _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
 _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,0,80,160,225,1,96,160,225,2,160,160,225,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 436
+	.long _mono_aot_iNVEST_got - . + 440
 	.byte 0,0,159,231,0,0,144,229,0,0,80,227,30,0,0,26,44,0,133,226,0,176,144,229,11,0,160,225,0,0,80,227
 	.byte 19,0,0,26,16,0,133,226,0,64,144,229,4,0,160,225,0,0,80,227,6,0,0,10,8,0,133,226,0,48,144,229
 	.byte 4,0,160,225,6,16,160,225,10,32,160,225,51,255,47,225,4,0,0,234,8,0,133,226,0,32,144,229,6,0,160,225
@@ -2762,7 +2847,7 @@ bl _p_106
 
 	.byte 222,255,255,234
 
-Lme_6e:
+Lme_74:
 .text
 	.align 2
 	.no_dead_strip _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
@@ -2771,7 +2856,7 @@ _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,108,208,77,226,13,176,160,225,72,0,139,229,1,96,160,225,76,32,139,229
 	.byte 80,48,139,229,0,0,160,227,48,0,139,229,0,0,160,227,52,0,139,229,76,0,155,229,0,0,80,227,59,0,0,10
 	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 436
+	.long _mono_aot_iNVEST_got - . + 440
 	.byte 0,0,159,231,0,0,144,229,0,0,80,227,0,0,0,10
 bl _p_119
 
@@ -2782,7 +2867,7 @@ bl _p_119
 	.byte 4,0,141,229,92,0,155,229,2,75,141,237,16,0,141,229,88,0,155,229,5,59,141,237,7,43,141,237,36,192,141,229
 	.byte 80,192,155,229,60,255,47,225,6,0,0,234,56,0,155,229,56,0,155,229,52,0,139,229,76,0,155,229,52,16,155,229
 	.byte 0,16,128,229,255,255,255,234,48,0,155,229,49,0,0,234,0,0,159,229,0,0,0,234
-	.long _mono_aot_iNVEST_got - . + 436
+	.long _mono_aot_iNVEST_got - . + 440
 	.byte 0,0,159,231,0,0,144,229,0,0,80,227,45,0,0,26,0,0,150,229,240,16,208,225,4,0,134,226,0,32,144,229
 	.byte 8,0,134,226,0,0,144,229,0,91,144,237,12,0,134,226,0,0,144,229,0,0,144,229,96,0,139,229,16,0,134,226
 	.byte 0,0,144,229,0,75,144,237,20,0,134,226,0,0,144,229,92,0,139,229,24,0,134,226,0,0,144,229,0,59,144,237
@@ -2794,7 +2879,7 @@ bl _p_119
 
 	.byte 207,255,255,234
 
-Lme_6f:
+Lme_75:
 .text
 	.align 3
 methods_end:
@@ -2829,6 +2914,8 @@ bl _iNVEST_iNVESTViewController_ShowLoading
 bl _iNVEST_iNVESTViewController_HideLoading
 bl _iNVEST_iNVESTViewController_getCode
 bl _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject
+bl _iNVEST_iNVESTViewController_get_dtOrder
+bl _iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker
 bl _iNVEST_iNVESTViewController_get_tblView
 bl _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
 bl _iNVEST_iNVESTViewController_get_txtGanhoPerda
@@ -2837,6 +2924,8 @@ bl _iNVEST_iNVESTViewController_get_txtHomeTax
 bl _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
 bl _iNVEST_iNVESTViewController_get_txtIbov
 bl _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
+bl _iNVEST_iNVESTViewController_get_txtIbovPt
+bl _iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel
 bl _iNVEST_iNVESTViewController_get_txtInicial
 bl _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
 bl _iNVEST_iNVESTViewController_get_txtPapel
@@ -2864,6 +2953,14 @@ bl _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
 bl _iNVEST_LoadingOverlay_Hide
 bl _iNVEST_LoadingOverlay__Hidem__0
 bl _iNVEST_LoadingOverlay__Hidem__1
+bl _iNVEST_Common__ctor
+bl _iNVEST_Common_getDouble_string
+bl _iNVEST_Common_getInt_string
+bl _iNVEST_Common_getDBValue_object
+bl _iNVEST_Common_getDateFromString_string
+bl _iNVEST_DataAccess__ctor_string
+bl _iNVEST_DataAccess_executeQuery
+bl _iNVEST_DataAccess_getData
 bl _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
 bl _iNVEST_Stock_get_Id
 bl _iNVEST_Stock_get_Code
@@ -2889,14 +2986,8 @@ bl _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
 bl _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
 bl _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
 bl _iNVEST_Stock_SaveQuotation
-bl _iNVEST_DataAccess__ctor_string
-bl _iNVEST_DataAccess_executeQuery
-bl _iNVEST_DataAccess_getData
-bl _iNVEST_Common__ctor
-bl _iNVEST_Common_getDouble_string
-bl _iNVEST_Common_getInt_string
-bl _iNVEST_Common_getDBValue_object
-bl _iNVEST_Common_getDateFromString_string
+bl _iNVEST_iNVESTViewStock__ctor_intptr
+bl _iNVEST_iNVESTViewStock_ReleaseDesignerOutlets
 bl _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
 bl _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
 bl _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
@@ -2933,66 +3024,68 @@ unbox_trampolines_end:
 	.align 3
 method_info_offsets:
 
-	.long 112,10,12,2
+	.long 118,10,12,2
 	.short 0, 10, 20, 30, 40, 51, 62, 73
-	.short 84, 95, 106, 117
+	.short 84, 95, 106, 122
 	.byte 1,2,4,2,2,2,2,2,2,2,23,2,2,2,2,2,2,20,2,2,77,2,3,2,13,2,2,2,2,2,109,2
-	.byte 2,2,2,2,2,2,2,2,128,129,2,2,2,2,2,2,2,2,3,128,161,2,14,2,2,2,12,5,10,2,128,214
-	.byte 2,2,2,2,2,2,2,2,2,128,234,2,2,2,2,2,2,2,2,2,129,3,7,7,7,7,5,5,11,25,2,129
-	.byte 82,2,4,9,2,2,8,30,2,3,0,129,156,3,2,2,2,2,2,2,2,129,175,3
+	.byte 2,2,2,2,2,2,2,2,128,129,2,2,2,2,2,2,2,2,2,128,149,2,2,3,13,2,14,2,2,2,128,203
+	.byte 5,10,2,2,2,7,2,4,9,128,251,11,25,2,2,2,2,2,2,2,129,47,2,2,2,2,2,2,2,2,2,129
+	.byte 67,2,7,7,7,7,7,5,2,2,129,115,2,8,32,2,3,255,255,255,254,94,129,174,3,2,129,181,2,2,2,2
+	.byte 2,2,3
 .section __TEXT, __const
 	.align 3
 extra_method_table:
 
 	.long 19,0,0,0,0,0,0,0
-	.long 0,0,483,105,0,461,102,0
-	.long 0,0,0,0,0,0,525,107
-	.long 0,496,106,19,0,0,0,481
-	.long 104,0,554,108,20,0,0,0
+	.long 0,0,501,111,0,479,108,0
+	.long 0,0,0,0,0,0,543,113
+	.long 0,514,112,19,0,0,0,499
+	.long 110,0,572,114,20,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.long 0,479,103,21,438,101,0,0
-	.long 0,0,583,109,0,609,110,0
-	.long 619,111,0
+	.long 0,497,109,21,456,107,0,0
+	.long 0,0,601,115,0,627,116,0
+	.long 637,117,0
 .section __TEXT, __const
 	.align 3
 extra_method_info_offsets:
 
-	.long 11,101,438,102,461,103,479,104
-	.long 481,105,483,106,496,107,525,108
-	.long 554,109,583,110,609,111,619
+	.long 11,107,456,108,479,109,497,110
+	.long 499,111,501,112,514,113,543,114
+	.long 572,115,601,116,627,117,637
 .section __TEXT, __const
 	.align 3
 class_name_table:
 
 	.short 19, 0, 0, 2, 0, 0, 0, 4
-	.short 22, 6, 21, 0, 0, 1, 0, 0
+	.short 23, 6, 21, 0, 0, 1, 0, 0
 	.short 0, 0, 0, 5, 19, 0, 0, 0
 	.short 0, 0, 0, 0, 0, 3, 0, 0
-	.short 0, 0, 0, 0, 0, 8, 23, 7
-	.short 20, 9, 0, 10, 0, 11, 0, 12
-	.short 0
+	.short 0, 0, 0, 0, 0, 8, 24, 7
+	.short 20, 9, 0, 10, 22, 11, 0, 12
+	.short 0, 13, 0
 .section __TEXT, __const
 	.align 3
 got_info_offsets:
 
-	.long 113,10,12,2
+	.long 114,10,12,2
 	.short 0, 11, 22, 33, 44, 55, 66, 77
 	.short 88, 99, 110, 121
-	.byte 130,126,2,1,1,1,3,3,4,4,3,130,152,5,6,4,5,5,10,6,5,5,130,215,4,4,4,5,4,6,4,4
-	.byte 6,131,4,4,4,4,4,4,5,5,10,5,131,54,12,4,4,4,4,4,4,5,6,131,105,4,4,4,14,6,4,6
-	.byte 4,4,131,160,5,4,4,5,5,10,5,5,10,131,219,4,4,4,4,4,4,5,5,5,132,7,5,3,5,5,5,5
-	.byte 4,6,6,132,57,4,4,4,4,4,3,5,4,4,132,97,4,4,4,4,3,4,4,4,4,132,136,4,4
+	.byte 130,144,2,1,1,1,3,3,4,4,3,130,170,5,6,4,5,5,10,6,5,5,130,233,4,4,4,5,4,6,4,4
+	.byte 6,131,22,4,4,4,4,4,5,5,10,5,131,72,12,4,4,4,4,4,4,5,6,131,123,4,4,4,14,6,4,6
+	.byte 4,4,131,178,5,4,4,5,5,10,5,5,10,131,235,4,6,6,6,4,4,4,5,5,132,28,5,5,3,5,5,5
+	.byte 5,6,4,132,75,4,4,4,4,4,4,3,5,4,132,115,4,4,4,4,4,3,4,4,4,132,154,4,4,4
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
 
-	.long 112,10,12,2
+	.long 118,10,12,2
 	.short 0, 11, 22, 33, 44, 55, 66, 77
-	.short 88, 99, 110, 121
-	.byte 136,202,3,3,3,3,3,3,3,3,3,136,232,3,3,3,3,3,3,15,3,3,137,30,3,3,3,4,4,3,3,3
-	.byte 3,137,62,3,3,3,3,3,3,3,3,3,137,92,3,3,3,3,3,3,3,4,4,137,125,4,4,4,4,4,30,4
-	.byte 4,4,137,190,4,3,3,3,3,3,3,3,3,137,222,3,4,3,4,4,3,3,3,4,138,11,14,14,14,14,4,4
-	.byte 4,4,3,138,89,3,4,16,3,3,16,55,3,4,0,138,236,4,31,3,3,3,31,31,31,139,148,4
+	.short 88, 99, 110, 126
+	.byte 136,224,3,3,3,3,3,3,3,3,3,136,254,3,3,3,3,3,3,15,3,3,137,52,3,3,3,4,4,3,3,3
+	.byte 3,137,84,3,3,3,3,3,3,3,3,3,137,114,3,3,3,3,3,3,3,3,3,137,144,3,4,4,4,4,4,4
+	.byte 4,4,137,209,4,4,4,3,3,3,3,4,16,138,1,4,4,4,3,3,3,3,3,3,138,34,3,4,3,4,3,4
+	.byte 4,3,3,138,68,4,14,14,14,14,14,4,3,3,138,155,3,16,55,3,4,255,255,255,245,20,139,20,4,31,139,58
+	.byte 3,3,31,31,31,31,4
 .section __TEXT, __const
 	.align 3
 unwind_info:
@@ -3008,15 +3101,15 @@ unwind_info:
 	.byte 68,14,32,25,12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,152,1,31,12,13
 	.byte 0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,26,12,13
 	.byte 0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,224,2,68,13,11,20,12,13,0,72,14,8,135
-	.byte 2,68,14,16,136,4,138,3,142,1,68,14,40,25,12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142
-	.byte 1,68,14,80,68,13,11,27,12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72
-	.byte 68,13,11,29,12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13
-	.byte 11,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,72,20,12,13,0,72,14,8,135,2,68
-	.byte 14,16,134,4,136,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56,32,12
-	.byte 13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11,27
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,29,12,13,0,72
+	.byte 2,68,14,16,136,4,138,3,142,1,68,14,40,27,12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139
+	.byte 3,142,1,68,14,112,68,13,11,20,12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24,18,12
+	.byte 13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56,32,12,13,0,72,14,8,135,2,68,14,32,132,8,133
+	.byte 7,134,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11,25,12,13,0,72,14,8,135,2,68,14,20,136,5
+	.byte 138,4,139,3,142,1,68,14,80,68,13,11,27,12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3
+	.byte 142,1,68,14,72,68,13,11,29,12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1
+	.byte 68,14,64,68,13,11,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,72,29,12,13,0,72
 	.byte 14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,30,12,13,0,72,14,8
-	.byte 135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,2,68,13,11,27,12,13,0,72,14,8,135
+	.byte 135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,184,2,68,13,11,27,12,13,0,72,14,8,135
 	.byte 2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11,26,12,13,0,72,14,8,135,2,68,14,28
 	.byte 132,7,133,6,134,5,136,4,138,3,142,1,68,14,32,23,12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142
 	.byte 1,68,14,56,68,13,11,23,12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11,31
@@ -3028,9 +3121,9 @@ unwind_info:
 	.align 3
 class_info_offsets:
 
-	.long 12,10,2,2
+	.long 13,10,2,2
 	.short 0, 13
-	.byte 139,168,7,15,75,128,135,79,128,191,15,15,15,141,218,15
+	.byte 139,208,7,15,75,128,135,79,128,191,15,15,15,142,122,15,15
 
 .text
 	.align 4
@@ -3041,715 +3134,715 @@ plt_Xamarin_Insights_Initialize_string:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 452,1169
+	.long _mono_aot_iNVEST_got - . + 456,1191
 	.no_dead_strip plt_MonoTouch_UIKit_UIApplication_Main_string___string_string
 plt_MonoTouch_UIKit_UIApplication_Main_string___string_string:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 456,1174
+	.long _mono_aot_iNVEST_got - . + 460,1196
 	.no_dead_strip plt_MonoTouch_UIKit_UIApplicationDelegate__ctor
 plt_MonoTouch_UIKit_UIApplicationDelegate__ctor:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 460,1179
+	.long _mono_aot_iNVEST_got - . + 464,1201
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController__ctor_intptr
 plt_MonoTouch_UIKit_UIViewController__ctor_intptr:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 464,1184
+	.long _mono_aot_iNVEST_got - . + 468,1206
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_DidReceiveMemoryWarning
 plt_MonoTouch_UIKit_UIViewController_DidReceiveMemoryWarning:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 468,1189
+	.long _mono_aot_iNVEST_got - . + 472,1211
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewDidLoad
 plt_MonoTouch_UIKit_UIViewController_ViewDidLoad:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 472,1194
+	.long _mono_aot_iNVEST_got - . + 476,1216
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewWillAppear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewWillAppear_bool:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 476,1199
+	.long _mono_aot_iNVEST_got - . + 480,1221
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewDidAppear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewDidAppear_bool:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 480,1204
+	.long _mono_aot_iNVEST_got - . + 484,1226
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewWillDisappear_bool:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 484,1209
+	.long _mono_aot_iNVEST_got - . + 488,1231
 	.no_dead_strip plt_MonoTouch_UIKit_UIViewController_ViewDidDisappear_bool
 plt_MonoTouch_UIKit_UIViewController_ViewDidDisappear_bool:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 488,1214
+	.long _mono_aot_iNVEST_got - . + 492,1236
 	.no_dead_strip plt__jit_icall_mono_object_new_fast
 plt__jit_icall_mono_object_new_fast:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 492,1219
+	.long _mono_aot_iNVEST_got - . + 496,1241
 	.no_dead_strip plt_iNVEST_DataAccess__ctor_string
 plt_iNVEST_DataAccess__ctor_string:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 496,1242
+	.long _mono_aot_iNVEST_got - . + 500,1264
 	.no_dead_strip plt_iNVEST_DataAccess_getData
 plt_iNVEST_DataAccess_getData:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 500,1247
+	.long _mono_aot_iNVEST_got - . + 504,1269
 	.no_dead_strip plt_iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
 plt_iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 504,1252
+	.long _mono_aot_iNVEST_got - . + 508,1274
 	.no_dead_strip plt_iNVEST_iNVESTViewController_ShowLoading
 plt_iNVEST_iNVESTViewController_ShowLoading:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 508,1257
+	.long _mono_aot_iNVEST_got - . + 512,1279
 	.no_dead_strip plt_System_Xml_XmlDocument__ctor
 plt_System_Xml_XmlDocument__ctor:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 512,1262
+	.long _mono_aot_iNVEST_got - . + 516,1284
 	.no_dead_strip plt__class_init_System_Threading_Tasks_Task
 plt__class_init_System_Threading_Tasks_Task:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 516,1267
+	.long _mono_aot_iNVEST_got - . + 520,1289
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_StartNew_System_Action
 plt_System_Threading_Tasks_TaskFactory_StartNew_System_Action:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 520,1271
+	.long _mono_aot_iNVEST_got - . + 524,1293
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext
 plt_System_Threading_Tasks_TaskScheduler_FromCurrentSynchronizationContext:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 524,1274
+	.long _mono_aot_iNVEST_got - . + 528,1296
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_ContinueWith_System_Action_1_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 528,1277
+	.long _mono_aot_iNVEST_got - . + 532,1299
 	.no_dead_strip plt_Xamarin_Insights_Report_System_Exception_Xamarin_ReportSeverity
 plt_Xamarin_Insights_Report_System_Exception_Xamarin_ReportSeverity:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 532,1280
+	.long _mono_aot_iNVEST_got - . + 536,1302
 	.no_dead_strip plt__jit_icall_mono_object_new_specific
 plt__jit_icall_mono_object_new_specific:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 536,1285
+	.long _mono_aot_iNVEST_got - . + 540,1307
 	.no_dead_strip plt_MonoTouch_UIKit_UIAlertView__ctor_string_string_MonoTouch_UIKit_UIAlertViewDelegate_string_string__
 plt_MonoTouch_UIKit_UIAlertView__ctor_string_string_MonoTouch_UIKit_UIAlertViewDelegate_string_string__:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 540,1312
+	.long _mono_aot_iNVEST_got - . + 544,1334
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 544,1317
+	.long _mono_aot_iNVEST_got - . + 548,1339
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 548,1356
+	.long _mono_aot_iNVEST_got - . + 552,1378
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 552,1384
+	.long _mono_aot_iNVEST_got - . + 556,1406
 	.no_dead_strip plt_iNVEST_iNVESTViewController_loadInfoWhait_bool
 plt_iNVEST_iNVESTViewController_loadInfoWhait_bool:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 556,1419
+	.long _mono_aot_iNVEST_got - . + 560,1441
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 560,1424
+	.long _mono_aot_iNVEST_got - . + 564,1446
 	.no_dead_strip plt_double_TryParse_string_double_
 plt_double_TryParse_string_double_:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 564,1427
+	.long _mono_aot_iNVEST_got - . + 568,1449
 	.no_dead_strip plt_int_TryParse_string_int_
 plt_int_TryParse_string_int_:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 568,1430
+	.long _mono_aot_iNVEST_got - . + 572,1452
 	.no_dead_strip plt_string_Trim
 plt_string_Trim:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 572,1433
+	.long _mono_aot_iNVEST_got - . + 576,1455
 	.no_dead_strip plt_string_ToUpper
 plt_string_ToUpper:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 576,1436
+	.long _mono_aot_iNVEST_got - . + 580,1458
 	.no_dead_strip plt_iNVEST_Common_getDouble_string
 plt_iNVEST_Common_getDouble_string:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 580,1439
+	.long _mono_aot_iNVEST_got - . + 584,1461
 	.no_dead_strip plt__jit_icall_mono_array_new_specific
 plt__jit_icall_mono_array_new_specific:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 584,1444
+	.long _mono_aot_iNVEST_got - . + 588,1466
 	.no_dead_strip plt_double_ToString
 plt_double_ToString:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 588,1470
+	.long _mono_aot_iNVEST_got - . + 592,1492
 	.no_dead_strip plt_string_Replace_char_char
 plt_string_Replace_char_char:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 592,1473
+	.long _mono_aot_iNVEST_got - . + 596,1495
 	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree_box
 plt__jit_icall_mono_object_new_ptrfree_box:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 596,1476
+	.long _mono_aot_iNVEST_got - . + 600,1498
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 600,1506
+	.long _mono_aot_iNVEST_got - . + 604,1528
 	.no_dead_strip plt_iNVEST_DataAccess_executeQuery
 plt_iNVEST_DataAccess_executeQuery:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 604,1509
+	.long _mono_aot_iNVEST_got - . + 608,1531
 	.no_dead_strip plt_MonoTouch_UIKit_UIScreen_get_MainScreen
 plt_MonoTouch_UIKit_UIScreen_get_MainScreen:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 608,1514
+	.long _mono_aot_iNVEST_got - . + 612,1536
 	.no_dead_strip plt_MonoTouch_UIKit_UIApplication_get_SharedApplication
 plt_MonoTouch_UIKit_UIApplication_get_SharedApplication:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 612,1519
+	.long _mono_aot_iNVEST_got - . + 616,1541
 	.no_dead_strip plt_System_Drawing_RectangleF_get_Size
 plt_System_Drawing_RectangleF_get_Size:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 616,1524
+	.long _mono_aot_iNVEST_got - . + 620,1546
 	.no_dead_strip plt_System_Drawing_SizeF__ctor_single_single
 plt_System_Drawing_SizeF__ctor_single_single:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 620,1529
+	.long _mono_aot_iNVEST_got - . + 624,1551
 	.no_dead_strip plt_System_Drawing_RectangleF_set_Size_System_Drawing_SizeF
 plt_System_Drawing_RectangleF_set_Size_System_Drawing_SizeF:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 624,1534
+	.long _mono_aot_iNVEST_got - . + 628,1556
 	.no_dead_strip plt_iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
 plt_iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 628,1539
+	.long _mono_aot_iNVEST_got - . + 632,1561
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_Add_MonoTouch_UIKit_UIView
 plt_MonoTouch_UIKit_UIView_Add_MonoTouch_UIKit_UIView:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 632,1544
+	.long _mono_aot_iNVEST_got - . + 636,1566
 	.no_dead_strip plt_iNVEST_LoadingOverlay_Hide
 plt_iNVEST_LoadingOverlay_Hide:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 636,1549
+	.long _mono_aot_iNVEST_got - . + 640,1571
 	.no_dead_strip plt_iNVEST_iNVESTViewController_getCode
 plt_iNVEST_iNVESTViewController_getCode:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 640,1554
+	.long _mono_aot_iNVEST_got - . + 644,1576
 	.no_dead_strip plt_MonoTouch_Foundation_NSObject_Dispose
 plt_MonoTouch_Foundation_NSObject_Dispose:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 644,1559
+	.long _mono_aot_iNVEST_got - . + 648,1581
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewSource__ctor
 plt_MonoTouch_UIKit_UITableViewSource__ctor:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 648,1564
+	.long _mono_aot_iNVEST_got - . + 652,1586
 	.no_dead_strip plt_int_ToString_string
 plt_int_ToString_string:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 652,1569
+	.long _mono_aot_iNVEST_got - . + 656,1591
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 656,1572
+	.long _mono_aot_iNVEST_got - . + 660,1594
 	.no_dead_strip plt_double_ToString_string
 plt_double_ToString_string:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 660,1575
+	.long _mono_aot_iNVEST_got - . + 664,1597
 	.no_dead_strip plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_string
 plt_MonoTouch_UIKit_UITableViewCell__ctor_MonoTouch_UIKit_UITableViewCellStyle_string:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 664,1578
+	.long _mono_aot_iNVEST_got - . + 668,1600
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 668,1583
+	.long _mono_aot_iNVEST_got - . + 672,1605
 	.no_dead_strip plt__class_init_System_EmptyArray_iNVEST_Stock_
 plt__class_init_System_EmptyArray_iNVEST_Stock_:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 672,1586
+	.long _mono_aot_iNVEST_got - . + 676,1608
 	.no_dead_strip plt_System_Collections_Generic_List_1_iNVEST_Stock_Add_iNVEST_Stock
 plt_System_Collections_Generic_List_1_iNVEST_Stock_Add_iNVEST_Stock:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 676,1590
+	.long _mono_aot_iNVEST_got - . + 680,1612
 	.no_dead_strip plt_int16_ToString
 plt_int16_ToString:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 680,1601
+	.long _mono_aot_iNVEST_got - . + 684,1623
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 684,1604
+	.long _mono_aot_iNVEST_got - . + 688,1626
 	.no_dead_strip plt_System_Collections_Generic_List_1_iNVEST_Stock_ToArray
 plt_System_Collections_Generic_List_1_iNVEST_Stock_ToArray:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 688,1607
+	.long _mono_aot_iNVEST_got - . + 692,1629
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 692,1618
+	.long _mono_aot_iNVEST_got - . + 696,1640
 	.no_dead_strip plt_MonoTouch_UIKit_UIView__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UIView__ctor_System_Drawing_RectangleF:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 696,1621
+	.long _mono_aot_iNVEST_got - . + 700,1643
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Black
 plt_MonoTouch_UIKit_UIColor_get_Black:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 700,1626
+	.long _mono_aot_iNVEST_got - . + 704,1648
 	.no_dead_strip plt_MonoTouch_UIKit_UIActivityIndicatorView__ctor_MonoTouch_UIKit_UIActivityIndicatorViewStyle
 plt_MonoTouch_UIKit_UIActivityIndicatorView__ctor_MonoTouch_UIKit_UIActivityIndicatorViewStyle:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 704,1631
+	.long _mono_aot_iNVEST_got - . + 708,1653
 	.no_dead_strip plt_System_Drawing_RectangleF__ctor_single_single_single_single
 plt_System_Drawing_RectangleF__ctor_single_single_single_single:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 708,1636
+	.long _mono_aot_iNVEST_got - . + 712,1658
 	.no_dead_strip plt_MonoTouch_UIKit_UILabel__ctor_System_Drawing_RectangleF
 plt_MonoTouch_UIKit_UILabel__ctor_System_Drawing_RectangleF:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 712,1641
+	.long _mono_aot_iNVEST_got - . + 716,1663
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Clear
 plt_MonoTouch_UIKit_UIColor_get_Clear:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 716,1646
+	.long _mono_aot_iNVEST_got - . + 720,1668
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_White
 plt_MonoTouch_UIKit_UIColor_get_White:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 720,1651
+	.long _mono_aot_iNVEST_got - . + 724,1673
 	.no_dead_strip plt_MonoTouch_UIKit_UIView_Animate_double_MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction
 plt_MonoTouch_UIKit_UIView_Animate_double_MonoTouch_Foundation_NSAction_MonoTouch_Foundation_NSAction:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 724,1656
-	.no_dead_strip plt_System_Collections_Generic_List_1_iNVEST_Stock_GetEnumerator
-plt_System_Collections_Generic_List_1_iNVEST_Stock_GetEnumerator:
+	.long _mono_aot_iNVEST_got - . + 728,1678
+	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
+plt_System_Globalization_CultureInfo_get_CurrentCulture:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 728,1661
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_iNVEST_Stock_MoveNext
-plt_System_Collections_Generic_List_1_Enumerator_iNVEST_Stock_MoveNext:
+	.long _mono_aot_iNVEST_got - . + 732,1683
+	.no_dead_strip plt_string_Equals_string
+plt_string_Equals_string:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 732,1672
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
+	.long _mono_aot_iNVEST_got - . + 736,1686
+	.no_dead_strip plt_string_Replace_string_string
+plt_string_Replace_string_string:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 736,1683
-	.no_dead_strip plt_string_Contains_string
-plt_string_Contains_string:
+	.long _mono_aot_iNVEST_got - . + 740,1689
+	.no_dead_strip plt_int16_TryParse_string_int16_
+plt_int16_TryParse_string_int16_:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 740,1686
-	.no_dead_strip plt_string_Concat_string_string_string
-plt_string_Concat_string_string_string:
+	.long _mono_aot_iNVEST_got - . + 744,1692
+	.no_dead_strip plt_string_Split_char__
+plt_string_Split_char__:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 744,1689
-	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
-plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
+	.long _mono_aot_iNVEST_got - . + 748,1695
+	.no_dead_strip plt_int_Parse_string
+plt_int_Parse_string:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 748,1692
-	.no_dead_strip plt_System_IO_Path_Combine_string_string
-plt_System_IO_Path_Combine_string_string:
+	.long _mono_aot_iNVEST_got - . + 752,1698
+	.no_dead_strip plt_string_Substring_int_int
+plt_string_Substring_int_int:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 752,1695
-	.no_dead_strip plt_System_IO_Directory_Exists_string
-plt_System_IO_Directory_Exists_string:
+	.long _mono_aot_iNVEST_got - . + 756,1701
+	.no_dead_strip plt_System_DateTime__ctor_int_int_int_int_int_int
+plt_System_DateTime__ctor_int_int_int_int_int_int:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 756,1698
-	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
-plt_System_IO_Directory_CreateDirectory_string:
+	.long _mono_aot_iNVEST_got - . + 760,1704
+	.no_dead_strip plt__class_init_System_DateTime
+plt__class_init_System_DateTime:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 760,1701
-	.no_dead_strip plt_System_IO_File_Exists_string
-plt_System_IO_File_Exists_string:
+	.long _mono_aot_iNVEST_got - . + 764,1707
+	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
+plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 764,1704
-	.no_dead_strip plt_System_IO_File_Copy_string_string
-plt_System_IO_File_Copy_string_string:
+	.long _mono_aot_iNVEST_got - . + 768,1711
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 768,1707
-	.no_dead_strip plt_Mono_Data_Sqlite_SqliteConnection__ctor_string
-plt_Mono_Data_Sqlite_SqliteConnection__ctor_string:
+	.long _mono_aot_iNVEST_got - . + 772,1714
+	.no_dead_strip plt_System_IO_Directory_Exists_string
+plt_System_IO_Directory_Exists_string:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 772,1710
-	.no_dead_strip plt_iNVEST_Common_getDBValue_object
-plt_iNVEST_Common_getDBValue_object:
+	.long _mono_aot_iNVEST_got - . + 776,1717
+	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
+plt_System_IO_Directory_CreateDirectory_string:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 776,1715
-	.no_dead_strip plt_int16_TryParse_string_int16_
-plt_int16_TryParse_string_int16_:
+	.long _mono_aot_iNVEST_got - . + 780,1720
+	.no_dead_strip plt_System_IO_File_Exists_string
+plt_System_IO_File_Exists_string:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 780,1720
-	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
-plt_System_Globalization_CultureInfo_get_CurrentCulture:
+	.long _mono_aot_iNVEST_got - . + 784,1723
+	.no_dead_strip plt_System_IO_File_Copy_string_string
+plt_System_IO_File_Copy_string_string:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 784,1723
-	.no_dead_strip plt_string_Equals_string
-plt_string_Equals_string:
+	.long _mono_aot_iNVEST_got - . + 788,1726
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 788,1726
-	.no_dead_strip plt_string_Split_char__
-plt_string_Split_char__:
+	.long _mono_aot_iNVEST_got - . + 792,1729
+	.no_dead_strip plt_Mono_Data_Sqlite_SqliteConnection__ctor_string
+plt_Mono_Data_Sqlite_SqliteConnection__ctor_string:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 792,1729
-	.no_dead_strip plt_int_Parse_string
-plt_int_Parse_string:
+	.long _mono_aot_iNVEST_got - . + 796,1732
+	.no_dead_strip plt_iNVEST_Common_getDBValue_object
+plt_iNVEST_Common_getDBValue_object:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 796,1732
-	.no_dead_strip plt_string_Substring_int_int
-plt_string_Substring_int_int:
+	.long _mono_aot_iNVEST_got - . + 800,1737
+	.no_dead_strip plt_System_Collections_Generic_List_1_iNVEST_Stock_GetEnumerator
+plt_System_Collections_Generic_List_1_iNVEST_Stock_GetEnumerator:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 800,1735
-	.no_dead_strip plt_string_Replace_string_string
-plt_string_Replace_string_string:
+	.long _mono_aot_iNVEST_got - . + 804,1742
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_iNVEST_Stock_MoveNext
+plt_System_Collections_Generic_List_1_Enumerator_iNVEST_Stock_MoveNext:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 804,1738
-	.no_dead_strip plt_System_DateTime__ctor_int_int_int_int_int_int
-plt_System_DateTime__ctor_int_int_int_int_int_int:
+	.long _mono_aot_iNVEST_got - . + 808,1753
+	.no_dead_strip plt_string_Contains_string
+plt_string_Contains_string:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 808,1741
-	.no_dead_strip plt__class_init_System_DateTime
-plt__class_init_System_DateTime:
+	.long _mono_aot_iNVEST_got - . + 812,1764
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 812,1744
+	.long _mono_aot_iNVEST_got - . + 816,1767
 	.no_dead_strip plt_System_Xml_XmlNode_SelectNodes_string
 plt_System_Xml_XmlNode_SelectNodes_string:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 816,1748
+	.long _mono_aot_iNVEST_got - . + 820,1770
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 820,1753
+	.long _mono_aot_iNVEST_got - . + 824,1775
 	.no_dead_strip plt_iNVEST_Common_getDateFromString_string
 plt_iNVEST_Common_getDateFromString_string:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 824,1756
+	.long _mono_aot_iNVEST_got - . + 828,1778
 	.no_dead_strip plt_System_DateTime_op_Inequality_System_DateTime_System_DateTime
 plt_System_DateTime_op_Inequality_System_DateTime_System_DateTime:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 828,1761
+	.long _mono_aot_iNVEST_got - . + 832,1783
 	.no_dead_strip plt_System_DateTime_ToString_string
 plt_System_DateTime_ToString_string:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 832,1764
+	.long _mono_aot_iNVEST_got - . + 836,1786
 	.no_dead_strip plt_iNVEST_Stock_SaveQuotation
 plt_iNVEST_Stock_SaveQuotation:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 836,1767
+	.long _mono_aot_iNVEST_got - . + 840,1789
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Red
 plt_MonoTouch_UIKit_UIColor_get_Red:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 840,1772
+	.long _mono_aot_iNVEST_got - . + 844,1794
 	.no_dead_strip plt_MonoTouch_UIKit_UIColor_get_Green
 plt_MonoTouch_UIKit_UIColor_get_Green:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 844,1777
+	.long _mono_aot_iNVEST_got - . + 848,1799
 	.no_dead_strip plt_iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
 plt_iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 848,1782
+	.long _mono_aot_iNVEST_got - . + 852,1804
 	.no_dead_strip plt_iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
 plt_iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 852,1787
+	.long _mono_aot_iNVEST_got - . + 856,1809
 	.no_dead_strip plt_iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
 plt_iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 856,1792
+	.long _mono_aot_iNVEST_got - . + 860,1814
 	.no_dead_strip plt_iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
 plt_iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 860,1797
+	.long _mono_aot_iNVEST_got - . + 864,1819
 	.no_dead_strip plt_iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
 plt_iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 864,1802
+	.long _mono_aot_iNVEST_got - . + 868,1824
 	.no_dead_strip plt_MonoTouch_UIKit_UITableView_set_Source_MonoTouch_UIKit_UITableViewSource
 plt_MonoTouch_UIKit_UITableView_set_Source_MonoTouch_UIKit_UITableViewSource:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 868,1807
+	.long _mono_aot_iNVEST_got - . + 872,1829
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 872,1812
+	.long _mono_aot_iNVEST_got - . + 876,1834
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 876,1868
+	.long _mono_aot_iNVEST_got - . + 880,1890
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 880,1902
+	.long _mono_aot_iNVEST_got - . + 884,1924
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 884,1910
+	.long _mono_aot_iNVEST_got - . + 888,1932
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 888,1933
+	.long _mono_aot_iNVEST_got - . + 892,1955
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 892,1980
+	.long _mono_aot_iNVEST_got - . + 896,2002
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 896,2024
+	.long _mono_aot_iNVEST_got - . + 900,2046
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 900,2068
+	.long _mono_aot_iNVEST_got - . + 904,2090
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 904,2094
+	.long _mono_aot_iNVEST_got - . + 908,2116
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 908,2117
+	.long _mono_aot_iNVEST_got - . + 912,2139
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 912,2156
+	.long _mono_aot_iNVEST_got - . + 916,2178
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 916,2177
+	.long _mono_aot_iNVEST_got - . + 920,2199
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 920,2203
+	.long _mono_aot_iNVEST_got - . + 924,2225
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint
 plt__jit_icall_mono_thread_force_interruption_checkpoint:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_iNVEST_got - . + 924,2206
+	.long _mono_aot_iNVEST_got - . + 928,2228
 plt_end:
 .section __TEXT, __const
 	.align 3
@@ -3757,42 +3850,42 @@ image_table:
 
 	.long 7
 	.asciz "mscorlib"
-	.asciz "BDF460AF-EC2F-407F-8469-0C7BD2E7AEED"
+	.asciz "DCCF1D6F-36EB-4422-8665-F7F05141CE74"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "iNVEST"
-	.asciz "80C41DA9-AAEA-423D-AC49-FD77D0CBCC96"
+	.asciz "9723FD94-9958-493C-AC28-011BE3E070DC"
 	.asciz ""
 	.asciz ""
 	.align 3
 
 	.long 0,0,0,0,0
 	.asciz "System.Xml"
-	.asciz "9DDC55D0-85DC-4BEC-A501-9D90D136F493"
+	.asciz "CD8393EF-D823-4832-AF1A-16E627A81635"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "monotouch"
-	.asciz "C560E8A6-274C-455D-B9FD-ED2514EBCD1D"
+	.asciz "26DFA3A7-FC11-40DF-B9D9-C2DE1F2384FE"
 	.asciz ""
 	.asciz "84e04ff9cfb79065"
 	.align 3
 
 	.long 1,0,0,0,0
 	.asciz "Mono.Data.Sqlite"
-	.asciz "1916224F-CADC-41DE-A344-82914562B389"
+	.asciz "25EC26BC-BF95-422C-AB93-C9F49B758E29"
 	.asciz ""
 	.asciz "0738eb9f132ed756"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Data"
-	.asciz "F965D774-1DAD-4B1D-A8D0-DE820E676C36"
+	.asciz "5F5D62C0-7625-4F3C-831D-8D5C09894DF1"
 	.asciz ""
 	.asciz "b77a5c561934e089"
 	.align 3
@@ -3808,12 +3901,12 @@ image_table:
 .data
 	.align 3
 _mono_aot_iNVEST_got:
-	.space 932
+	.space 936
 got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "80C41DA9-AAEA-423D-AC49-FD77D0CBCC96"
+	.asciz "9723FD94-9958-493C-AC28-011BE3E070DC"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -3888,7 +3981,7 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 113,932,120,112,10,387000831,0,3576
+	.long 114,936,120,118,10,387000831,0,3751
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
 	.long 0,0,0,0,0
@@ -3905,114 +3998,120 @@ blob:
 	.byte 0,0,0,0,18,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,0,0,0,0,0,16,24,25,25
 	.byte 26,27,28,29,9,30,31,22,23,20,32,22,23,0,0,0,1,33,0,0,0,11,34,10,11,12,35,36,37,16,38,39
 	.byte 40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,41,0,11,42,25,43,28,44,45,46,46,46,22
-	.byte 23,0,0,0,12,47,47,48,49,46,50,46,51,48,52,52,46,0,0,0,0,0,0,0,10,53,54,55,9,56,20,57
-	.byte 22,23,58,0,3,59,60,61,0,8,62,63,64,65,62,66,67,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,69,69
-	.byte 69,70,46,0,5,69,69,69,70,46,0,5,69,69,69,70,46,0,5,69,69,69,70,46,0,5,25,69,71,69,69,0
-	.byte 3,72,28,9,0,3,25,73,73,0,9,74,75,76,77,78,79,80,81,81,0,23,74,75,76,77,78,82,53,54,83,83
-	.byte 83,83,83,83,83,83,83,26,84,85,81,80,81,0,0,0,1,86,0,0,0,2,87,25,0,7,88,88,88,88,49,25
-	.byte 89,0,0,0,0,0,6,90,91,92,93,22,23,0,28,94,95,96,69,97,98,99,100,101,89,101,102,101,91,97,98,103
-	.byte 69,69,104,105,105,81,106,107,22,23,108,0,0,0,1,109,0,10,110,94,95,96,100,104,105,105,81,111,0,1,112,0
-	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,112,0,2,112,112,255,252,0,0,0,1,1,3,219,0
-	.byte 0,1,5,30,0,1,255,255,255,255,255,142,228,255,253,0,0,0,1,130,110,0,198,0,14,228,0,1,7,129,194,142
-	.byte 226,142,227,142,229,5,30,0,1,255,255,255,255,255,142,230,255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7
-	.byte 129,229,5,30,0,1,255,255,255,255,255,142,231,255,253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,2,5
-	.byte 30,0,1,255,255,255,255,255,142,232,255,253,0,0,0,1,130,110,0,198,0,14,232,0,1,7,130,31,5,30,0,1
-	.byte 255,255,255,255,255,142,233,255,253,0,0,0,1,130,110,0,198,0,14,233,0,1,7,130,60,4,1,130,132,1,2,7
-	.byte 1,255,252,0,0,0,1,1,7,130,89,255,252,0,0,0,4,11,32,9,1,6,28,13,8,13,28,13,13,28,12,1
-	.byte 39,42,47,17,1,1,17,1,83,14,2,10,1,14,2,11,1,17,1,107,14,2,8,1,14,2,129,122,2,16,1,130
-	.byte 30,135,191,14,1,130,96,6,193,0,0,96,50,193,0,0,96,30,1,130,96,1,193,0,0,96,0,14,3,219,0,0
-	.byte 1,6,193,0,0,97,50,193,0,0,97,30,3,219,0,0,1,1,193,0,0,97,0,17,1,130,226,17,1,130,236,17
-	.byte 1,131,133,14,2,128,148,3,17,1,131,139,16,1,130,241,138,15,14,2,7,1,17,1,131,143,14,6,1,1,130,219
-	.byte 14,1,130,188,17,1,132,68,17,1,132,106,17,1,133,95,14,2,6,1,14,2,12,1,6,193,0,0,99,50,193,0
-	.byte 0,99,30,1,130,96,1,193,0,0,99,0,6,193,0,0,100,50,193,0,0,100,30,3,219,0,0,1,1,193,0,0
-	.byte 100,0,17,1,137,112,17,1,137,132,17,1,137,164,17,1,137,236,17,1,137,254,17,1,138,16,14,2,128,165,3,14
-	.byte 6,1,1,130,241,17,1,138,22,17,1,138,26,17,1,138,34,17,1,138,38,14,3,219,0,0,2,4,1,130,151,1
-	.byte 2,7,1,16,7,131,123,137,100,17,1,138,46,14,6,1,2,15,3,17,1,138,118,17,1,138,214,14,2,128,193,3
-	.byte 14,2,128,194,3,17,1,139,20,14,2,50,3,6,193,0,0,59,50,193,0,0,59,30,2,50,3,1,193,0,0,59
-	.byte 0,6,193,0,0,60,50,193,0,0,60,30,2,50,3,1,193,0,0,60,0,14,3,219,0,0,3,17,1,139,42,17
-	.byte 1,139,48,17,1,139,52,17,1,140,5,17,1,140,25,14,2,11,4,6,197,0,5,93,6,197,0,5,92,6,197,0
-	.byte 5,89,6,197,0,5,86,6,197,0,5,91,6,146,232,6,197,0,5,87,6,197,0,5,85,6,197,0,5,77,6,197
-	.byte 0,5,75,17,1,140,45,16,1,130,137,137,12,14,6,1,1,130,130,16,1,130,138,137,27,17,1,133,246,17,1,134
-	.byte 143,17,1,134,153,17,1,134,205,17,1,135,114,6,132,174,11,2,129,126,2,17,1,135,166,17,1,135,180,17,1,135
-	.byte 200,17,1,135,214,17,1,135,224,17,1,135,234,17,1,136,12,6,132,175,23,1,130,181,17,1,136,18,17,1,136,32
-	.byte 14,2,5,1,17,1,136,163,17,1,137,66,17,1,137,100,33,3,198,0,0,214,3,195,0,3,174,3,195,0,4,149
-	.byte 3,195,0,4,104,3,195,0,4,107,3,195,0,4,113,3,195,0,4,114,3,195,0,4,111,3,195,0,4,115,3,195
-	.byte 0,4,112,7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,193,0,0,86,3
-	.byte 193,0,0,88,3,193,0,0,84,3,193,0,0,22,3,194,0,10,50,15,1,130,30,3,141,116,3,141,137,3,141,19
-	.byte 3,198,0,0,230,7,24,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0
-	.byte 3,195,0,3,161,7,36,109,111,110,111,95,116,104,114,101,97,100,95,103,101,116,95,117,110,100,101,110,105,97,98,108
-	.byte 101,95,101,120,99,101,112,116,105,111,110,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120
-	.byte 99,101,112,116,105,111,110,0,7,32,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98
-	.byte 95,101,120,99,101,112,116,105,111,110,0,3,193,0,0,17,3,149,101,3,146,14,3,147,33,3,148,246,3,149,55,3
-	.byte 193,0,0,90,7,23,109,111,110,111,95,97,114,114,97,121,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,146
-	.byte 15,3,149,47,7,27,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102,114,101,101,95,98,111
-	.byte 120,0,3,149,63,3,193,0,0,87,3,195,0,3,243,3,195,0,3,178,3,195,0,2,82,3,195,0,2,93,3,195
-	.byte 0,2,83,3,193,0,0,57,3,195,0,4,68,3,193,0,0,58,3,193,0,0,24,3,195,0,1,75,3,195,0,5
-	.byte 101,3,147,37,3,149,61,3,146,17,3,195,0,4,3,3,149,72,15,7,131,123,3,255,254,0,0,0,1,202,0,0
-	.byte 92,3,146,250,3,149,60,3,255,254,0,0,0,1,202,0,0,77,3,144,0,3,195,0,4,67,3,195,0,3,206,3
-	.byte 195,0,5,65,3,195,0,2,78,3,195,0,5,71,3,195,0,3,208,3,195,0,3,211,3,195,0,4,70,3,255,254
-	.byte 0,0,0,1,202,0,0,60,3,255,254,0,0,0,1,202,0,0,74,3,149,68,3,149,39,3,149,69,3,128,147,3
-	.byte 134,239,3,134,78,3,134,76,3,134,104,3,134,101,3,196,0,0,190,3,193,0,0,92,3,146,249,3,133,105,3,148
-	.byte 232,3,148,239,3,147,31,3,148,244,3,149,48,3,145,11,15,1,130,138,3,194,0,11,127,3,148,229,3,193,0,0
-	.byte 93,3,145,87,3,145,79,3,193,0,0,85,3,195,0,3,210,3,195,0,3,209,3,193,0,0,81,3,193,0,0,80
-	.byte 3,193,0,0,82,3,193,0,0,83,3,193,0,0,49,3,195,0,3,247,7,35,109,111,110,111,95,116,104,114,101,97
-	.byte 100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0,255,253,0,0,0,1
-	.byte 130,110,0,198,0,14,228,0,1,7,129,194,35,135,58,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,228
-	.byte 0,1,7,129,194,0,4,1,130,111,1,7,129,194,35,135,58,150,5,7,135,102,35,135,58,140,13,255,253,0,0,0
-	.byte 7,135,102,0,198,0,15,54,1,7,129,194,0,7,26,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114
-	.byte 95,109,115,99,111,114,108,105,98,0,255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,229,35,135,170,192
-	.byte 0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,229,0,255,253,0,0,0,1,130,110,0,198
-	.byte 0,14,231,0,1,7,130,2,35,135,214,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130
-	.byte 2,0,255,253,0,0,0,1,130,110,0,198,0,14,232,0,1,7,130,31,35,136,2,192,0,92,41,255,253,0,0,0
-	.byte 1,130,110,0,198,0,14,232,0,1,7,130,31,0,35,136,2,140,17,255,253,0,0,0,1,130,110,0,198,0,14,241
-	.byte 0,1,7,130,31,35,136,2,192,0,90,33,16,1,3,1,18,1,130,110,8,16,30,7,130,31,255,253,0,0,0,1
-	.byte 130,110,0,198,0,14,241,0,1,7,130,31,3,128,150,255,253,0,0,0,1,130,110,0,198,0,14,233,0,1,7,130
-	.byte 60,35,136,111,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,233,0,1,7,130,60,0,3,143,13,7,41
-	.byte 109,111,110,111,95,116,104,114,101,97,100,95,102,111,114,99,101,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99
-	.byte 104,101,99,107,112,111,105,110,116,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2
-	.byte 0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,6,19,1,0,16,3
-	.byte 1,130,162,72,130,52,130,52,0,2,0,0,2,0,0,6,47,1,0,80,3,1,130,162,104,133,140,133,140,0,2,80
-	.byte 0,2,101,0,2,0,0,2,128,128,0,2,128,149,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0
-	.byte 0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2
-	.byte 0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,128,172,0,2,128,190,0,2,128,211,0,2,128,240
-	.byte 0,2,129,3,0,2,128,240,0,2,128,240,0,2,128,240,0,38,129,29,1,2,0,12,3,1,130,219,72,130,128,130
-	.byte 128,2,28,131,88,72,131,40,131,44,1,4,130,124,0,2,129,61,0,2,129,88,0,2,128,240,0,2,0,0,2,129
-	.byte 109,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,128,240,0,2,0
-	.byte 0,2,128,240,0,2,0,0,2,128,240,0,2,128,172,0,2,0,0,2,0,0,2,0,0,2,128,172,0,6,129,135
-	.byte 1,2,36,129,4,112,128,220,128,224,0,6,129,135,1,2,36,129,4,112,128,220,128,224,0,6,129,135,1,2,36,129
-	.byte 44,112,129,4,129,8,0,6,129,135,1,2,36,128,244,112,128,204,128,208,0,6,129,163,1,2,28,129,4,92,128,224
-	.byte 128,228,0,2,129,193,0,2,129,214,0,2,129,235,0,2,129,254,0,2,0,0,2,80,0,2,0,0,2,128,172,0
-	.byte 6,130,31,1,0,56,3,1,130,162,68,130,140,130,140,0,2,0,0,2,0,0,6,130,59,1,0,12,3,1,130,162
-	.byte 32,128,152,128,152,0,38,130,89,1,4,2,128,196,134,60,129,72,134,12,134,16,2,128,200,135,128,128,204,134,116,134
-	.byte 120,0,80,3,1,130,162,128,128,135,136,135,136,2,128,208,138,132,128,128,136,64,136,68,3,4,135,132,0,2,0,0
-	.byte 2,128,240,0,38,130,120,1,3,2,48,130,164,128,152,129,160,129,164,0,12,3,1,130,162,52,130,172,130,172,2,56
-	.byte 131,60,52,131,20,131,24,2,4,130,168,0,2,130,148,0,3,130,175,0,1,11,4,18,255,253,0,0,0,1,130,110
-	.byte 0,198,0,14,228,0,1,7,129,194,1,0,1,0,0,2,0,0,2,0,0,2,0,0,3,130,199,0,1,11,4,18
-	.byte 255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,229,1,0,1,0,0,3,130,199,0,1,11,4,18,255
-	.byte 253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,2,1,0,1,0,0,3,130,223,0,1,11,4,18,255,253
-	.byte 0,0,0,1,130,110,0,198,0,14,232,0,1,7,130,31,1,0,1,0,0,3,130,255,0,1,11,8,18,255,253,0
-	.byte 0,0,1,130,110,0,198,0,14,233,0,1,7,130,60,1,0,1,0,0,2,131,32,0,6,131,58,1,0,56,3,1
-	.byte 130,162,64,129,12,129,12,0,0,128,144,8,0,0,1,4,128,144,8,0,0,1,148,106,148,103,148,102,148,100,17,128
-	.byte 162,195,0,1,74,24,0,0,4,195,0,1,91,148,103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0,1
-	.byte 102,195,0,1,101,195,0,1,100,195,0,1,93,195,0,1,81,193,0,0,5,193,0,0,4,193,0,0,9,193,0,0
-	.byte 8,193,0,0,6,193,0,0,7,32,128,170,195,0,1,74,72,0,0,4,195,0,1,91,148,103,195,0,1,74,148,100
-	.byte 195,0,1,85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,4,106,195,0,4,120,195,0,1,81,195,0,3,237
-	.byte 195,0,4,105,195,0,4,109,195,0,4,110,195,0,4,108,195,0,4,116,195,0,4,117,195,0,4,118,195,0,4,119
-	.byte 195,0,4,118,195,0,4,117,195,0,4,116,193,0,0,15,193,0,0,13,193,0,0,12,193,0,0,16,193,0,0,14
-	.byte 195,0,4,110,195,0,4,109,195,0,4,108,193,0,0,11,18,128,162,195,0,1,74,32,0,0,4,195,0,1,91,148
-	.byte 103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,1,100,195,0,1,93,195
-	.byte 0,1,81,193,0,0,51,193,0,0,50,193,0,0,52,193,0,0,55,193,0,0,56,193,0,0,54,193,0,0,53,46
-	.byte 128,162,195,0,1,74,40,0,0,4,195,0,1,91,148,103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0
-	.byte 1,102,195,0,1,101,195,0,4,71,195,0,4,94,195,0,1,81,195,0,3,237,195,0,4,69,195,0,4,80,195,0
-	.byte 4,81,195,0,4,75,195,0,4,74,195,0,4,77,195,0,4,76,195,0,4,85,195,0,4,86,195,0,4,87,195,0
-	.byte 4,85,195,0,4,92,195,0,4,93,195,0,4,93,195,0,4,92,195,0,4,91,195,0,4,90,195,0,4,89,195,0
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,41,0,11,42,25
+	.byte 43,28,44,45,46,46,46,22,23,0,0,0,12,47,47,48,49,46,50,46,51,48,52,52,46,0,0,0,0,0,0,0
+	.byte 10,53,54,55,9,56,20,57,22,23,58,0,3,59,60,61,0,8,62,63,64,65,62,66,67,68,0,0,0,0,0,0
+	.byte 0,5,69,69,25,70,69,0,0,0,2,71,25,0,7,72,72,72,72,49,25,73,0,3,25,74,74,0,9,75,76,77
+	.byte 78,79,80,81,82,82,0,23,75,76,77,78,79,83,53,54,84,84,84,84,84,84,84,84,84,26,85,86,82,81,82,0
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+	.byte 0,0,0,0,0,0,5,87,87,87,88,46,0,5,87,87,87,88,46,0,5,87,87,87,88,46,0,5,87,87,87,88
+	.byte 46,0,5,25,87,89,87,87,0,3,90,28,9,0,0,0,0,0,0,0,0,0,6,91,92,93,94,22,23,0,30,95
+	.byte 96,97,87,98,99,100,101,102,73,102,103,102,92,98,99,100,104,46,87,87,105,106,106,82,107,108,22,23,109,0,0,0
+	.byte 1,110,0,10,111,95,96,97,101,105,106,106,82,112,0,1,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+	.byte 0,0,1,113,0,2,113,113,255,252,0,0,0,1,1,3,219,0,0,1,5,30,0,1,255,255,255,255,255,142,228,255
+	.byte 253,0,0,0,1,130,110,0,198,0,14,228,0,1,7,129,212,142,226,142,227,142,229,5,30,0,1,255,255,255,255,255
+	.byte 142,230,255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,247,5,30,0,1,255,255,255,255,255,142,231,255
+	.byte 253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,20,5,30,0,1,255,255,255,255,255,142,232,255,253,0,0
+	.byte 0,1,130,110,0,198,0,14,232,0,1,7,130,49,5,30,0,1,255,255,255,255,255,142,233,255,253,0,0,0,1,130
+	.byte 110,0,198,0,14,233,0,1,7,130,78,4,1,130,132,1,2,9,1,255,252,0,0,0,1,1,7,130,107,255,252,0
+	.byte 0,0,4,11,32,9,1,6,28,13,8,13,28,13,13,28,12,1,39,42,47,17,1,1,17,1,83,14,2,11,1,14
+	.byte 2,12,1,17,1,107,14,2,8,1,14,2,129,122,2,16,1,130,30,135,191,14,1,130,96,6,193,0,0,102,50,193
+	.byte 0,0,102,30,1,130,96,1,193,0,0,102,0,14,3,219,0,0,1,6,193,0,0,103,50,193,0,0,103,30,3,219
+	.byte 0,0,1,1,193,0,0,103,0,17,1,130,226,17,1,130,236,17,1,131,133,14,2,128,148,3,17,1,131,139,16,1
+	.byte 130,241,138,15,14,2,9,1,17,1,131,143,14,6,1,1,130,219,14,1,130,188,17,1,132,68,17,1,132,106,17,1
+	.byte 133,95,14,2,6,1,14,2,13,1,6,193,0,0,105,50,193,0,0,105,30,1,130,96,1,193,0,0,105,0,6,193
+	.byte 0,0,106,50,193,0,0,106,30,3,219,0,0,1,1,193,0,0,106,0,17,1,137,118,17,1,137,138,17,1,137,170
+	.byte 17,1,137,242,17,1,138,4,17,1,136,18,14,2,128,165,3,14,6,1,1,130,241,17,1,138,22,17,1,138,26,17
+	.byte 1,138,34,17,1,138,38,14,3,219,0,0,2,4,1,130,151,1,2,9,1,16,7,131,141,137,100,17,1,138,46,14
+	.byte 6,1,2,15,3,17,1,138,118,17,1,138,214,14,2,128,193,3,14,2,128,194,3,17,1,139,20,14,2,50,3,6
+	.byte 193,0,0,63,50,193,0,0,63,30,2,50,3,1,193,0,0,63,0,6,193,0,0,64,50,193,0,0,64,30,2,50
+	.byte 3,1,193,0,0,64,0,17,1,139,42,17,1,139,46,16,1,130,137,137,12,14,6,1,1,130,130,16,1,130,138,137
+	.byte 27,17,1,139,50,17,1,139,70,14,2,11,4,6,197,0,5,93,6,197,0,5,92,6,197,0,5,89,6,197,0,5
+	.byte 86,6,197,0,5,91,6,146,232,6,197,0,5,87,6,197,0,5,85,6,197,0,5,77,6,197,0,5,75,14,3,219
+	.byte 0,0,3,17,1,139,90,17,1,139,96,17,1,139,100,17,1,133,246,17,1,134,143,17,1,134,153,17,1,134,205,17
+	.byte 1,135,114,6,132,174,11,2,129,126,2,17,1,135,166,17,1,135,180,17,1,135,200,17,1,135,214,17,1,135,224,17
+	.byte 1,135,234,17,1,136,12,6,132,175,23,1,130,181,17,1,136,24,17,1,136,38,14,2,5,1,17,1,136,169,17,1
+	.byte 137,72,17,1,137,106,33,3,198,0,0,214,3,195,0,3,172,3,195,0,4,147,3,195,0,4,102,3,195,0,4,105
+	.byte 3,195,0,4,111,3,195,0,4,112,3,195,0,4,109,3,195,0,4,113,3,195,0,4,110,7,20,109,111,110,111,95
+	.byte 111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,193,0,0,70,3,193,0,0,72,3,193,0,0,96,3
+	.byte 193,0,0,22,3,194,0,10,50,15,1,130,30,3,141,116,3,141,137,3,141,19,3,198,0,0,230,7,24,109,111,110
+	.byte 111,95,111,98,106,101,99,116,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,195,0,3,159,7,36,109,111,110
+	.byte 111,95,116,104,114,101,97,100,95,103,101,116,95,117,110,100,101,110,105,97,98,108,101,95,101,120,99,101,112,116,105,111
+	.byte 110,0,7,25,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,7,32
+	.byte 109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110
+	.byte 0,3,193,0,0,17,3,149,101,3,146,14,3,147,33,3,148,246,3,149,55,3,193,0,0,66,7,23,109,111,110,111
+	.byte 95,97,114,114,97,121,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,146,15,3,149,47,7,27,109,111,110,111
+	.byte 95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102,114,101,101,95,98,111,120,0,3,149,63,3,193,0,0,71
+	.byte 3,195,0,3,241,3,195,0,3,176,3,195,0,2,80,3,195,0,2,91,3,195,0,2,81,3,193,0,0,61,3,195
+	.byte 0,4,66,3,193,0,0,62,3,193,0,0,24,3,195,0,1,75,3,195,0,5,103,3,147,37,3,149,61,3,146,17
+	.byte 3,195,0,4,1,3,149,72,15,7,131,141,3,255,254,0,0,0,1,202,0,0,93,3,146,250,3,149,60,3,255,254
+	.byte 0,0,0,1,202,0,0,78,3,144,0,3,195,0,4,65,3,195,0,3,204,3,195,0,5,63,3,195,0,2,76,3
+	.byte 195,0,5,69,3,195,0,3,206,3,195,0,3,209,3,195,0,4,68,3,133,105,3,148,232,3,149,48,3,146,249,3
+	.byte 148,239,3,147,31,3,148,244,3,145,11,15,1,130,138,3,128,147,3,134,239,3,134,78,3,134,76,3,134,104,3,134
+	.byte 101,3,149,68,3,196,0,0,190,3,193,0,0,68,3,255,254,0,0,0,1,202,0,0,60,3,255,254,0,0,0,1
+	.byte 202,0,0,75,3,149,39,3,149,69,3,194,0,11,127,3,148,229,3,193,0,0,69,3,145,87,3,145,79,3,193,0
+	.byte 0,97,3,195,0,3,208,3,195,0,3,207,3,193,0,0,93,3,193,0,0,92,3,193,0,0,94,3,193,0,0,95
+	.byte 3,193,0,0,53,3,195,0,3,245,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112
+	.byte 116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0,255,253,0,0,0,1,130,110,0,198,0,14,228,0,1,7
+	.byte 129,212,35,135,80,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,228,0,1,7,129,212,0,4,1,130,111
+	.byte 1,7,129,212,35,135,80,150,5,7,135,124,35,135,80,140,13,255,253,0,0,0,7,135,124,0,198,0,15,54,1,7
+	.byte 129,212,0,7,26,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,95,109,115,99,111,114,108,105,98,0
+	.byte 255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,247,35,135,192,192,0,92,41,255,253,0,0,0,1,130
+	.byte 110,0,198,0,14,230,0,1,7,129,247,0,255,253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,20,35,135
+	.byte 236,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,20,0,255,253,0,0,0,1,130,110
+	.byte 0,198,0,14,232,0,1,7,130,49,35,136,24,192,0,92,41,255,253,0,0,0,1,130,110,0,198,0,14,232,0,1
+	.byte 7,130,49,0,35,136,24,140,17,255,253,0,0,0,1,130,110,0,198,0,14,241,0,1,7,130,49,35,136,24,192,0
+	.byte 90,33,16,1,3,1,18,1,130,110,8,16,30,7,130,49,255,253,0,0,0,1,130,110,0,198,0,14,241,0,1,7
+	.byte 130,49,3,128,150,255,253,0,0,0,1,130,110,0,198,0,14,233,0,1,7,130,78,35,136,133,192,0,92,41,255,253
+	.byte 0,0,0,1,130,110,0,198,0,14,233,0,1,7,130,78,0,3,143,13,7,41,109,111,110,111,95,116,104,114,101,97
+	.byte 100,95,102,111,114,99,101,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0
+	.byte 2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0
+	.byte 0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,6,19,1,0,16,3,1,130,162,72,130,52,130,52,0,2
+	.byte 0,0,2,0,0,6,47,1,0,80,3,1,130,162,104,133,140,133,140,0,2,80,0,2,101,0,2,0,0,2,128,128
+	.byte 0,2,128,149,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0
+	.byte 2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0
+	.byte 0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,128,172,0,2,128,190,0,2,128,211,0,2
+	.byte 128,240,0,2,129,3,0,2,128,240,0,2,128,240,0,2,128,240,0,38,129,29,1,2,0,12,3,1,130,219,72,130
+	.byte 128,130,128,2,28,131,88,72,131,40,131,44,1,4,130,124,0,2,129,61,0,2,129,88,0,2,128,240,0,2,0,0
+	.byte 2,0,0,2,80,0,2,0,0,2,128,172,0,6,129,109,1,0,56,3,1,130,162,68,130,140,130,140,0,2,129,137
+	.byte 0,2,129,158,0,2,129,177,0,2,129,210,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2,0,0,2
+	.byte 0,0,2,0,0,2,128,240,0,2,0,0,2,128,240,0,2,0,0,2,128,240,0,2,128,172,0,2,0,0,2,0
+	.byte 0,2,0,0,2,128,172,0,6,129,236,1,2,36,129,4,112,128,220,128,224,0,6,129,236,1,2,36,129,4,112,128
+	.byte 220,128,224,0,6,129,236,1,2,36,129,44,112,129,4,129,8,0,6,129,236,1,2,36,128,244,112,128,204,128,208,0
+	.byte 6,130,8,1,2,28,129,4,92,128,224,128,228,0,2,130,38,0,2,0,0,2,0,0,2,0,0,2,0,0,6,130
+	.byte 59,1,0,12,3,1,130,162,32,128,152,128,152,0,38,130,89,1,4,2,128,204,134,248,129,92,134,200,134,204,2,128
+	.byte 208,136,60,128,224,135,48,135,52,0,88,3,1,130,162,128,148,136,68,136,68,2,128,216,139,64,128,148,136,252,137,0
+	.byte 3,4,136,64,0,2,0,0,2,128,240,0,38,130,120,1,3,2,48,130,164,128,152,129,160,129,164,0,12,3,1,130
+	.byte 162,52,130,172,130,172,2,56,131,60,52,131,20,131,24,2,4,130,168,0,2,130,148,0,3,130,175,0,1,11,4,18
+	.byte 255,253,0,0,0,1,130,110,0,198,0,14,228,0,1,7,129,212,1,0,1,0,0,2,0,0,2,0,0,2,0,0
+	.byte 3,130,199,0,1,11,4,18,255,253,0,0,0,1,130,110,0,198,0,14,230,0,1,7,129,247,1,0,1,0,0,3
+	.byte 130,199,0,1,11,4,18,255,253,0,0,0,1,130,110,0,198,0,14,231,0,1,7,130,20,1,0,1,0,0,3,130
+	.byte 223,0,1,11,4,18,255,253,0,0,0,1,130,110,0,198,0,14,232,0,1,7,130,49,1,0,1,0,0,3,130,255
+	.byte 0,1,11,8,18,255,253,0,0,0,1,130,110,0,198,0,14,233,0,1,7,130,78,1,0,1,0,0,2,131,32,0
+	.byte 6,131,58,1,0,56,3,1,130,162,64,129,12,129,12,0,0,128,144,8,0,0,1,4,128,144,8,0,0,1,148,106
+	.byte 148,103,148,102,148,100,17,128,162,195,0,1,74,24,0,0,4,195,0,1,91,148,103,195,0,1,74,148,100,195,0,1
+	.byte 85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,1,100,195,0,1,93,195,0,1,81,193,0,0,5,193,0,0
+	.byte 4,193,0,0,9,193,0,0,8,193,0,0,6,193,0,0,7,32,128,170,195,0,1,74,80,0,0,4,195,0,1,91
+	.byte 148,103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,4,104,195,0,4,118
+	.byte 195,0,1,81,195,0,3,235,195,0,4,103,195,0,4,107,195,0,4,108,195,0,4,106,195,0,4,114,195,0,4,115
+	.byte 195,0,4,116,195,0,4,117,195,0,4,116,195,0,4,115,195,0,4,114,193,0,0,15,193,0,0,13,193,0,0,12
+	.byte 193,0,0,16,193,0,0,14,195,0,4,108,195,0,4,107,195,0,4,106,193,0,0,11,18,128,162,195,0,1,74,32
+	.byte 0,0,4,195,0,1,91,148,103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0,1,102,195,0,1,101,195
+	.byte 0,1,100,195,0,1,93,195,0,1,81,193,0,0,55,193,0,0,54,193,0,0,56,193,0,0,59,193,0,0,60,193
+	.byte 0,0,58,193,0,0,57,46,128,162,195,0,1,74,40,0,0,4,195,0,1,91,148,103,195,0,1,74,148,100,195,0
+	.byte 1,85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,4,69,195,0,4,92,195,0,1,81,195,0,3,235,195,0
+	.byte 4,67,195,0,4,78,195,0,4,79,195,0,4,73,195,0,4,72,195,0,4,75,195,0,4,74,195,0,4,83,195,0
+	.byte 4,84,195,0,4,85,195,0,4,83,195,0,4,90,195,0,4,91,195,0,4,91,195,0,4,90,195,0,4,89,195,0
 	.byte 4,88,195,0,4,87,195,0,4,86,195,0,4,85,195,0,4,84,195,0,4,83,195,0,4,82,195,0,4,81,195,0
-	.byte 4,80,195,0,4,79,195,0,4,78,195,0,4,77,195,0,4,76,195,0,4,75,195,0,4,74,195,0,4,72,4,128
-	.byte 160,60,0,0,4,148,106,148,103,148,102,148,100,4,128,160,20,0,0,4,148,106,148,103,148,102,148,100,4,128,144,8
-	.byte 0,0,1,148,106,148,103,148,102,148,100,4,128,160,16,0,0,4,148,106,148,103,148,102,148,100,4,128,160,24,0,0
-	.byte 4,148,106,148,103,148,102,148,100,4,128,160,20,0,0,4,148,106,148,103,148,102,148,100,98,111,101,104,109,0
+	.byte 4,80,195,0,4,79,195,0,4,78,195,0,4,77,195,0,4,76,195,0,4,75,195,0,4,74,195,0,4,73,195,0
+	.byte 4,72,195,0,4,70,4,128,144,8,0,0,1,148,106,148,103,148,102,148,100,4,128,160,20,0,0,4,148,106,148,103
+	.byte 148,102,148,100,4,128,160,60,0,0,4,148,106,148,103,148,102,148,100,32,128,162,195,0,1,74,24,0,0,4,195,0
+	.byte 1,91,148,103,195,0,1,74,148,100,195,0,1,85,195,0,1,75,195,0,1,102,195,0,1,101,195,0,4,104,195,0
+	.byte 4,118,195,0,1,81,195,0,3,235,195,0,4,103,195,0,4,107,195,0,4,108,195,0,4,106,195,0,4,114,195,0
+	.byte 4,115,195,0,4,116,195,0,4,117,195,0,4,116,195,0,4,115,195,0,4,114,195,0,4,113,195,0,4,112,195,0
+	.byte 4,111,195,0,4,110,195,0,4,109,195,0,4,108,195,0,4,107,195,0,4,106,195,0,4,105,4,128,160,16,0,0
+	.byte 4,148,106,148,103,148,102,148,100,4,128,160,24,0,0,4,148,106,148,103,148,102,148,100,4,128,160,20,0,0,4,148
+	.byte 106,148,103,148,102,148,100,98,111,101,104,109,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -4768,228 +4867,261 @@ LDIFF_SYM110=LTDIE_14 - Ldebug_info_start
 LTDIE_18:
 
 	.byte 5
-	.asciz "MonoTouch_UIKit_UIScrollView"
+	.asciz "MonoTouch_UIKit_UIControl"
 
-	.byte 36,16
+	.byte 32,16
 LDIFF_SYM111=LTDIE_9 - Ldebug_info_start
 	.long LDIFF_SYM111
-	.byte 2,35,0,6
-	.asciz "__mt_WeakDelegate_var"
+	.byte 2,35,0,0,7
+	.asciz "MonoTouch_UIKit_UIControl"
 
-LDIFF_SYM112=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM112=LTDIE_18 - Ldebug_info_start
 	.long LDIFF_SYM112
-	.byte 2,35,32,0,7
-	.asciz "MonoTouch_UIKit_UIScrollView"
-
-LDIFF_SYM113=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM113
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM114=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM114
+LDIFF_SYM113=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM113
 LTDIE_18_REFERENCE:
 
 	.byte 14
+LDIFF_SYM114=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM114
+LTDIE_17:
+
+	.byte 5
+	.asciz "MonoTouch_UIKit_UIDatePicker"
+
+	.byte 32,16
 LDIFF_SYM115=LTDIE_18 - Ldebug_info_start
 	.long LDIFF_SYM115
-LTDIE_17:
+	.byte 2,35,0,0,7
+	.asciz "MonoTouch_UIKit_UIDatePicker"
+
+LDIFF_SYM116=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM116
+LTDIE_17_POINTER:
+
+	.byte 13
+LDIFF_SYM117=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM117
+LTDIE_17_REFERENCE:
+
+	.byte 14
+LDIFF_SYM118=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM118
+LTDIE_20:
+
+	.byte 5
+	.asciz "MonoTouch_UIKit_UIScrollView"
+
+	.byte 36,16
+LDIFF_SYM119=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM119
+	.byte 2,35,0,6
+	.asciz "__mt_WeakDelegate_var"
+
+LDIFF_SYM120=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM120
+	.byte 2,35,32,0,7
+	.asciz "MonoTouch_UIKit_UIScrollView"
+
+LDIFF_SYM121=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM121
+LTDIE_20_POINTER:
+
+	.byte 13
+LDIFF_SYM122=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM122
+LTDIE_20_REFERENCE:
+
+	.byte 14
+LDIFF_SYM123=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM123
+LTDIE_19:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UITableView"
 
 	.byte 44,16
-LDIFF_SYM116=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM116
+LDIFF_SYM124=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM124
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDataSource_var"
 
-LDIFF_SYM117=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM117
+LDIFF_SYM125=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM125
 	.byte 2,35,36,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM118=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM118
+LDIFF_SYM126=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM126
 	.byte 2,35,40,0,7
 	.asciz "MonoTouch_UIKit_UITableView"
 
-LDIFF_SYM119=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM119
-LTDIE_17_POINTER:
+LDIFF_SYM127=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM127
+LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM120=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM120
-LTDIE_17_REFERENCE:
+LDIFF_SYM128=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM128
+LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM121=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM121
-LTDIE_20:
-
-	.byte 5
-	.asciz "MonoTouch_UIKit_UIControl"
-
-	.byte 32,16
-LDIFF_SYM122=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM122
-	.byte 2,35,0,0,7
-	.asciz "MonoTouch_UIKit_UIControl"
-
-LDIFF_SYM123=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM123
-LTDIE_20_POINTER:
-
-	.byte 13
-LDIFF_SYM124=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM124
-LTDIE_20_REFERENCE:
-
-	.byte 14
-LDIFF_SYM125=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM125
-LTDIE_19:
+LDIFF_SYM129=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM129
+LTDIE_21:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UITextField"
 
 	.byte 60,16
-LDIFF_SYM126=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM126
+LDIFF_SYM130=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM130
 	.byte 2,35,0,6
 	.asciz "__mt_BeginningOfDocument_var"
 
-LDIFF_SYM127=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM127
+LDIFF_SYM131=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM131
 	.byte 2,35,32,6
 	.asciz "__mt_EndOfDocument_var"
 
-LDIFF_SYM128=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM128
+LDIFF_SYM132=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM132
 	.byte 2,35,36,6
 	.asciz "__mt_MarkedTextRange_var"
 
-LDIFF_SYM129=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM129
+LDIFF_SYM133=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM133
 	.byte 2,35,40,6
 	.asciz "__mt_MarkedTextStyle_var"
 
-LDIFF_SYM130=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM130
+LDIFF_SYM134=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM134
 	.byte 2,35,44,6
 	.asciz "__mt_SelectedTextRange_var"
 
-LDIFF_SYM131=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM131
+LDIFF_SYM135=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM135
 	.byte 2,35,48,6
 	.asciz "__mt_WeakInputDelegate_var"
 
-LDIFF_SYM132=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM132
+LDIFF_SYM136=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM136
 	.byte 2,35,52,6
 	.asciz "__mt_WeakTokenizer_var"
 
-LDIFF_SYM133=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM133
+LDIFF_SYM137=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM137
 	.byte 2,35,56,0,7
 	.asciz "MonoTouch_UIKit_UITextField"
 
-LDIFF_SYM134=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM134
-LTDIE_19_POINTER:
+LDIFF_SYM138=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM138
+LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM135=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM135
-LTDIE_19_REFERENCE:
+LDIFF_SYM139=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM139
+LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM136=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM136
+LDIFF_SYM140=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM140
 LTDIE_12:
 
 	.byte 5
 	.asciz "iNVEST_iNVESTViewController"
 
-	.byte 72,16
-LDIFF_SYM137=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM137
+	.byte 80,16
+LDIFF_SYM141=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM141
 	.byte 2,35,0,6
 	.asciz "_loadPop"
 
-LDIFF_SYM138=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM138
-	.byte 2,35,24,6
-	.asciz "<tblView>k__BackingField"
-
-LDIFF_SYM139=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM139
-	.byte 2,35,28,6
-	.asciz "<txtGanhoPerda>k__BackingField"
-
-LDIFF_SYM140=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM140
-	.byte 2,35,32,6
-	.asciz "<txtHomeTax>k__BackingField"
-
-LDIFF_SYM141=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM141
-	.byte 2,35,36,6
-	.asciz "<txtIbov>k__BackingField"
-
-LDIFF_SYM142=LTDIE_16_REFERENCE - Ldebug_info_start
+LDIFF_SYM142=LTDIE_14_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM142
-	.byte 2,35,40,6
-	.asciz "<txtInicial>k__BackingField"
+	.byte 2,35,24,6
+	.asciz "<dtOrder>k__BackingField"
 
-LDIFF_SYM143=LTDIE_16_REFERENCE - Ldebug_info_start
+LDIFF_SYM143=LTDIE_17_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM143
-	.byte 2,35,44,6
-	.asciz "<txtPapel>k__BackingField"
+	.byte 2,35,28,6
+	.asciz "<tblView>k__BackingField"
 
 LDIFF_SYM144=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM144
-	.byte 2,35,48,6
-	.asciz "<txtQuantidade>k__BackingField"
+	.byte 2,35,32,6
+	.asciz "<txtGanhoPerda>k__BackingField"
 
-LDIFF_SYM145=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM145=LTDIE_16_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM145
-	.byte 2,35,52,6
-	.asciz "<txtTaxas>k__BackingField"
+	.byte 2,35,36,6
+	.asciz "<txtHomeTax>k__BackingField"
 
-LDIFF_SYM146=LTDIE_19_REFERENCE - Ldebug_info_start
+LDIFF_SYM146=LTDIE_16_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM146
-	.byte 2,35,56,6
-	.asciz "<txtTotal>k__BackingField"
+	.byte 2,35,40,6
+	.asciz "<txtIbov>k__BackingField"
 
 LDIFF_SYM147=LTDIE_16_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM147
-	.byte 2,35,60,6
-	.asciz "<txtValidado>k__BackingField"
+	.byte 2,35,44,6
+	.asciz "<txtIbovPt>k__BackingField"
 
 LDIFF_SYM148=LTDIE_16_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM148
+	.byte 2,35,48,6
+	.asciz "<txtInicial>k__BackingField"
+
+LDIFF_SYM149=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM149
+	.byte 2,35,52,6
+	.asciz "<txtPapel>k__BackingField"
+
+LDIFF_SYM150=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 2,35,56,6
+	.asciz "<txtQuantidade>k__BackingField"
+
+LDIFF_SYM151=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM151
+	.byte 2,35,60,6
+	.asciz "<txtTaxas>k__BackingField"
+
+LDIFF_SYM152=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM152
 	.byte 2,35,64,6
+	.asciz "<txtTotal>k__BackingField"
+
+LDIFF_SYM153=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM153
+	.byte 2,35,68,6
+	.asciz "<txtValidado>k__BackingField"
+
+LDIFF_SYM154=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,35,72,6
 	.asciz "<txtValor>k__BackingField"
 
-LDIFF_SYM149=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM149
-	.byte 2,35,68,0,7
+LDIFF_SYM155=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM155
+	.byte 2,35,76,0,7
 	.asciz "iNVEST_iNVESTViewController"
 
-LDIFF_SYM150=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM150
+LDIFF_SYM156=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM156
 LTDIE_12_POINTER:
 
 	.byte 13
-LDIFF_SYM151=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM151
+LDIFF_SYM157=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM157
 LTDIE_12_REFERENCE:
 
 	.byte 14
-LDIFF_SYM152=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM152
+LDIFF_SYM158=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM158
 	.byte 2
 	.asciz "iNVEST.iNVESTViewController:.ctor"
 	.long _iNVEST_iNVESTViewController__ctor_intptr
@@ -4998,27 +5130,27 @@ LDIFF_SYM152=LTDIE_12 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM153=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM153
+LDIFF_SYM159=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM159
 	.byte 2,125,0,3
 	.asciz "handle"
 
-LDIFF_SYM154=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM154
+LDIFF_SYM160=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM160
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM155=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM155
+LDIFF_SYM161=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM161
 Lfde9_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController__ctor_intptr
 
-LDIFF_SYM156=Lme_9 - _iNVEST_iNVESTViewController__ctor_intptr
-	.long LDIFF_SYM156
+LDIFF_SYM162=Lme_9 - _iNVEST_iNVESTViewController__ctor_intptr
+	.long LDIFF_SYM162
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde9_end:
@@ -5033,22 +5165,22 @@ Lfde9_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM157=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM157
+LDIFF_SYM163=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM163
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM158=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM158
+LDIFF_SYM164=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM164
 Lfde10_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM159=Lme_a - _iNVEST_iNVESTViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM159
+LDIFF_SYM165=Lme_a - _iNVEST_iNVESTViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM165
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde10_end:
@@ -5063,22 +5195,22 @@ Lfde10_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM160=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM160
+LDIFF_SYM166=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM166
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM161=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM161
+LDIFF_SYM167=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM167
 Lfde11_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ViewDidLoad
 
-LDIFF_SYM162=Lme_b - _iNVEST_iNVESTViewController_ViewDidLoad
-	.long LDIFF_SYM162
+LDIFF_SYM168=Lme_b - _iNVEST_iNVESTViewController_ViewDidLoad
+	.long LDIFF_SYM168
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde11_end:
@@ -5093,27 +5225,27 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM163=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM163
+LDIFF_SYM169=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM169
 	.byte 2,125,0,3
 	.asciz "animated"
 
-LDIFF_SYM164=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM164
+LDIFF_SYM170=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM170
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM165=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM165
+LDIFF_SYM171=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM171
 Lfde12_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ViewWillAppear_bool
 
-LDIFF_SYM166=Lme_c - _iNVEST_iNVESTViewController_ViewWillAppear_bool
-	.long LDIFF_SYM166
+LDIFF_SYM172=Lme_c - _iNVEST_iNVESTViewController_ViewWillAppear_bool
+	.long LDIFF_SYM172
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde12_end:
@@ -5128,27 +5260,27 @@ Lfde12_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM167=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM167
+LDIFF_SYM173=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM173
 	.byte 2,125,0,3
 	.asciz "animated"
 
-LDIFF_SYM168=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM168
+LDIFF_SYM174=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM174
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM169=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM169
+LDIFF_SYM175=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM175
 Lfde13_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ViewDidAppear_bool
 
-LDIFF_SYM170=Lme_d - _iNVEST_iNVESTViewController_ViewDidAppear_bool
-	.long LDIFF_SYM170
+LDIFF_SYM176=Lme_d - _iNVEST_iNVESTViewController_ViewDidAppear_bool
+	.long LDIFF_SYM176
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde13_end:
@@ -5163,27 +5295,27 @@ Lfde13_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM171=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM171
+LDIFF_SYM177=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM177
 	.byte 2,125,0,3
 	.asciz "animated"
 
-LDIFF_SYM172=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM172
+LDIFF_SYM178=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM178
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM173=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM173
+LDIFF_SYM179=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM179
 Lfde14_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ViewWillDisappear_bool
 
-LDIFF_SYM174=Lme_e - _iNVEST_iNVESTViewController_ViewWillDisappear_bool
-	.long LDIFF_SYM174
+LDIFF_SYM180=Lme_e - _iNVEST_iNVESTViewController_ViewWillDisappear_bool
+	.long LDIFF_SYM180
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde14_end:
@@ -5198,89 +5330,89 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM175=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM175
+LDIFF_SYM181=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM181
 	.byte 2,125,0,3
 	.asciz "animated"
 
-LDIFF_SYM176=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM176
+LDIFF_SYM182=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM182
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM177=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM177
+LDIFF_SYM183=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM183
 Lfde15_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ViewDidDisappear_bool
 
-LDIFF_SYM178=Lme_f - _iNVEST_iNVESTViewController_ViewDidDisappear_bool
-	.long LDIFF_SYM178
+LDIFF_SYM184=Lme_f - _iNVEST_iNVESTViewController_ViewDidDisappear_bool
+	.long LDIFF_SYM184
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde15_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_21:
+LTDIE_22:
 
 	.byte 5
 	.asciz "_<loadInfoWhait>c__AnonStorey1"
 
 	.byte 16,16
-LDIFF_SYM179=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM179
+LDIFF_SYM185=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM185
 	.byte 2,35,0,6
 	.asciz "update"
 
-LDIFF_SYM180=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM180
+LDIFF_SYM186=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM186
 	.byte 2,35,12,6
 	.asciz "$this"
 
-LDIFF_SYM181=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM181
+LDIFF_SYM187=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM187
 	.byte 2,35,8,0,7
 	.asciz "_<loadInfoWhait>c__AnonStorey1"
 
-LDIFF_SYM182=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM182
-LTDIE_21_POINTER:
+LDIFF_SYM188=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM188
+LTDIE_22_POINTER:
 
 	.byte 13
-LDIFF_SYM183=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM183
-LTDIE_21_REFERENCE:
+LDIFF_SYM189=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM189
+LTDIE_22_REFERENCE:
 
 	.byte 14
-LDIFF_SYM184=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM184
-LTDIE_26:
+LDIFF_SYM190=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM190
+LTDIE_27:
 
 	.byte 5
 	.asciz "System_Xml_XmlNodeList"
 
 	.byte 8,16
-LDIFF_SYM185=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM191=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM191
 	.byte 2,35,0,0,7
 	.asciz "System_Xml_XmlNodeList"
 
-LDIFF_SYM186=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM186
-LTDIE_26_POINTER:
+LDIFF_SYM192=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM192
+LTDIE_27_POINTER:
 
 	.byte 13
-LDIFF_SYM187=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM187
-LTDIE_26_REFERENCE:
+LDIFF_SYM193=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM193
+LTDIE_27_REFERENCE:
 
 	.byte 14
-LDIFF_SYM188=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM188
-LTDIE_27:
+LDIFF_SYM194=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM194
+LTDIE_28:
 
 	.byte 17
 	.asciz "System_Xml_IHasXmlChildNode"
@@ -5288,255 +5420,255 @@ LTDIE_27:
 	.byte 8,7
 	.asciz "System_Xml_IHasXmlChildNode"
 
-LDIFF_SYM189=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM189
-LTDIE_27_POINTER:
+LDIFF_SYM195=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM195
+LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM190=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM190
-LTDIE_27_REFERENCE:
+LDIFF_SYM196=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM196
+LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM191=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM191
-LTDIE_25:
+LDIFF_SYM197=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM197
+LTDIE_26:
 
 	.byte 5
 	.asciz "System_Xml_XmlNodeListChildren"
 
 	.byte 12,16
-LDIFF_SYM192=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM192
+LDIFF_SYM198=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2,35,0,6
 	.asciz "parent"
 
-LDIFF_SYM193=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM193
+LDIFF_SYM199=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM199
 	.byte 2,35,8,0,7
 	.asciz "System_Xml_XmlNodeListChildren"
 
-LDIFF_SYM194=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM194
-LTDIE_25_POINTER:
+LDIFF_SYM200=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM200
+LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM195=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM195
-LTDIE_25_REFERENCE:
+LDIFF_SYM201=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM201
+LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM196=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM196
-LTDIE_24:
+LDIFF_SYM202=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM202
+LTDIE_25:
 
 	.byte 5
 	.asciz "System_Xml_XmlNode"
 
 	.byte 20,16
-LDIFF_SYM197=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM197
+LDIFF_SYM203=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM203
 	.byte 2,35,0,6
 	.asciz "ownerDocument"
 
-LDIFF_SYM198=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM204=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM204
 	.byte 2,35,8,6
 	.asciz "parentNode"
 
-LDIFF_SYM199=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM199
+LDIFF_SYM205=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,35,12,6
 	.asciz "childNodes"
 
-LDIFF_SYM200=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM200
+LDIFF_SYM206=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM206
 	.byte 2,35,16,0,7
 	.asciz "System_Xml_XmlNode"
 
-LDIFF_SYM201=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM201
-LTDIE_24_POINTER:
-
-	.byte 13
-LDIFF_SYM202=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM202
-LTDIE_24_REFERENCE:
-
-	.byte 14
-LDIFF_SYM203=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM203
-LTDIE_28:
-
-	.byte 5
-	.asciz "System_Xml_XmlNameTable"
-
-	.byte 8,16
-LDIFF_SYM204=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM204
-	.byte 2,35,0,0,7
-	.asciz "System_Xml_XmlNameTable"
-
-LDIFF_SYM205=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM205
-LTDIE_28_POINTER:
-
-	.byte 13
-LDIFF_SYM206=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM206
-LTDIE_28_REFERENCE:
-
-	.byte 14
-LDIFF_SYM207=LTDIE_28 - Ldebug_info_start
+LDIFF_SYM207=LTDIE_25 - Ldebug_info_start
 	.long LDIFF_SYM207
+LTDIE_25_POINTER:
+
+	.byte 13
+LDIFF_SYM208=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM208
+LTDIE_25_REFERENCE:
+
+	.byte 14
+LDIFF_SYM209=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM209
 LTDIE_29:
 
 	.byte 5
-	.asciz "System_Xml_XmlImplementation"
+	.asciz "System_Xml_XmlNameTable"
 
-	.byte 12,16
-LDIFF_SYM208=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM208
-	.byte 2,35,0,6
-	.asciz "InternalNameTable"
-
-LDIFF_SYM209=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM209
-	.byte 2,35,8,0,7
-	.asciz "System_Xml_XmlImplementation"
-
-LDIFF_SYM210=LTDIE_29 - Ldebug_info_start
+	.byte 8,16
+LDIFF_SYM210=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM210
+	.byte 2,35,0,0,7
+	.asciz "System_Xml_XmlNameTable"
+
+LDIFF_SYM211=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM211
 LTDIE_29_POINTER:
 
 	.byte 13
-LDIFF_SYM211=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM211
+LDIFF_SYM212=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM212
 LTDIE_29_REFERENCE:
 
 	.byte 14
-LDIFF_SYM212=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM212
+LDIFF_SYM213=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM213
 LTDIE_30:
+
+	.byte 5
+	.asciz "System_Xml_XmlImplementation"
+
+	.byte 12,16
+LDIFF_SYM214=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM214
+	.byte 2,35,0,6
+	.asciz "InternalNameTable"
+
+LDIFF_SYM215=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM215
+	.byte 2,35,8,0,7
+	.asciz "System_Xml_XmlImplementation"
+
+LDIFF_SYM216=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM216
+LTDIE_30_POINTER:
+
+	.byte 13
+LDIFF_SYM217=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM217
+LTDIE_30_REFERENCE:
+
+	.byte 14
+LDIFF_SYM218=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM218
+LTDIE_31:
 
 	.byte 5
 	.asciz "System_Xml_XmlResolver"
 
 	.byte 8,16
-LDIFF_SYM213=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM213
+LDIFF_SYM219=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM219
 	.byte 2,35,0,0,7
 	.asciz "System_Xml_XmlResolver"
 
-LDIFF_SYM214=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM214
-LTDIE_30_POINTER:
-
-	.byte 13
-LDIFF_SYM215=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM215
-LTDIE_30_REFERENCE:
-
-	.byte 14
-LDIFF_SYM216=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM216
-LTDIE_32:
-
-	.byte 5
-	.asciz "_HashKeys"
-
-	.byte 12,16
-LDIFF_SYM217=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM217
-	.byte 2,35,0,6
-	.asciz "host"
-
-LDIFF_SYM218=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM218
-	.byte 2,35,8,0,7
-	.asciz "_HashKeys"
-
-LDIFF_SYM219=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM219
-LTDIE_32_POINTER:
-
-	.byte 13
-LDIFF_SYM220=LTDIE_32 - Ldebug_info_start
+LDIFF_SYM220=LTDIE_31 - Ldebug_info_start
 	.long LDIFF_SYM220
-LTDIE_32_REFERENCE:
+LTDIE_31_POINTER:
+
+	.byte 13
+LDIFF_SYM221=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM221
+LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM221=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM221
+LDIFF_SYM222=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM222
 LTDIE_33:
 
 	.byte 5
-	.asciz "_HashValues"
+	.asciz "_HashKeys"
 
 	.byte 12,16
-LDIFF_SYM222=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM222
+LDIFF_SYM223=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM223
 	.byte 2,35,0,6
 	.asciz "host"
 
-LDIFF_SYM223=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM223
-	.byte 2,35,8,0,7
-	.asciz "_HashValues"
-
-LDIFF_SYM224=LTDIE_33 - Ldebug_info_start
+LDIFF_SYM224=LTDIE_32_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM224
+	.byte 2,35,8,0,7
+	.asciz "_HashKeys"
+
+LDIFF_SYM225=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM225
 LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM225=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM226=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM226
 LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM226=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM226
+LDIFF_SYM227=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM227
 LTDIE_34:
 
-	.byte 17
-	.asciz "System_Collections_IHashCodeProvider"
+	.byte 5
+	.asciz "_HashValues"
 
-	.byte 8,7
-	.asciz "System_Collections_IHashCodeProvider"
+	.byte 12,16
+LDIFF_SYM228=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2,35,0,6
+	.asciz "host"
 
-LDIFF_SYM227=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM227
+LDIFF_SYM229=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 2,35,8,0,7
+	.asciz "_HashValues"
+
+LDIFF_SYM230=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM230
 LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM228=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM228
+LDIFF_SYM231=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM231
 LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM229=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM232=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM232
 LTDIE_35:
 
 	.byte 17
+	.asciz "System_Collections_IHashCodeProvider"
+
+	.byte 8,7
+	.asciz "System_Collections_IHashCodeProvider"
+
+LDIFF_SYM233=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM233
+LTDIE_35_POINTER:
+
+	.byte 13
+LDIFF_SYM234=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM234
+LTDIE_35_REFERENCE:
+
+	.byte 14
+LDIFF_SYM235=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM235
+LTDIE_36:
+
+	.byte 17
 	.asciz "System_Collections_IComparer"
 
 	.byte 8,7
 	.asciz "System_Collections_IComparer"
 
-LDIFF_SYM230=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM230
-LTDIE_35_POINTER:
+LDIFF_SYM236=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM236
+LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM231=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM231
-LTDIE_35_REFERENCE:
+LDIFF_SYM237=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM237
+LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM232=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM232
-LTDIE_38:
+LDIFF_SYM238=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM238
+LTDIE_39:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -5544,214 +5676,214 @@ LTDIE_38:
 	.byte 8,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM233=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM233
-LTDIE_38_POINTER:
+LDIFF_SYM239=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM239
+LTDIE_39_POINTER:
 
 	.byte 13
-LDIFF_SYM234=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM234
-LTDIE_38_REFERENCE:
+LDIFF_SYM240=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM240
+LTDIE_39_REFERENCE:
 
 	.byte 14
-LDIFF_SYM235=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM235
-LTDIE_39:
+LDIFF_SYM241=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM241
+LTDIE_40:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 12,16
-LDIFF_SYM236=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM242=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM242
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM237
+LDIFF_SYM243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM243
 	.byte 2,35,8,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM238=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM238
-LTDIE_39_POINTER:
+LDIFF_SYM244=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM244
+LTDIE_40_POINTER:
 
 	.byte 13
-LDIFF_SYM239=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM239
-LTDIE_39_REFERENCE:
+LDIFF_SYM245=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM245
+LTDIE_40_REFERENCE:
 
 	.byte 14
-LDIFF_SYM240=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM240
-LTDIE_37:
+LDIFF_SYM246=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM246
+LTDIE_38:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 52,16
-LDIFF_SYM241=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM241
+LDIFF_SYM247=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM242=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM248=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM248
 	.byte 2,35,8,6
 	.asciz "linkSlots"
 
-LDIFF_SYM243=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM243
+LDIFF_SYM249=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM249
 	.byte 2,35,12,6
 	.asciz "keySlots"
 
-LDIFF_SYM244=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM244
+LDIFF_SYM250=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM250
 	.byte 2,35,16,6
 	.asciz "valueSlots"
 
-LDIFF_SYM245=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM245
+LDIFF_SYM251=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,35,20,6
 	.asciz "hcp"
 
-LDIFF_SYM246=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM246
+LDIFF_SYM252=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
 	.byte 2,35,24,6
 	.asciz "serialization_info"
 
-LDIFF_SYM247=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM247
+LDIFF_SYM253=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM253
 	.byte 2,35,28,6
 	.asciz "touchedSlots"
 
-LDIFF_SYM248=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM248
+LDIFF_SYM254=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM254
 	.byte 2,35,32,6
 	.asciz "emptySlot"
 
-LDIFF_SYM249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM249
+LDIFF_SYM255=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 2,35,36,6
 	.asciz "count"
 
-LDIFF_SYM250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM250
+LDIFF_SYM256=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM256
 	.byte 2,35,40,6
 	.asciz "threshold"
 
-LDIFF_SYM251=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM251
+LDIFF_SYM257=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM257
 	.byte 2,35,44,6
 	.asciz "generation"
 
-LDIFF_SYM252=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM252
+LDIFF_SYM258=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM253=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM253
-LTDIE_37_POINTER:
+LDIFF_SYM259=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM259
+LTDIE_38_POINTER:
 
 	.byte 13
-LDIFF_SYM254=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM254
-LTDIE_37_REFERENCE:
+LDIFF_SYM260=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM260
+LTDIE_38_REFERENCE:
 
 	.byte 14
-LDIFF_SYM255=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM255
-LTDIE_40:
+LDIFF_SYM261=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM261
+LTDIE_41:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 20,16
-LDIFF_SYM256=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM256
+LDIFF_SYM262=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM257=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM263=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM263
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM258
+LDIFF_SYM264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM264
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM259
+LDIFF_SYM265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM260=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM260
-LTDIE_40_POINTER:
+LDIFF_SYM266=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM266
+LTDIE_41_POINTER:
 
 	.byte 13
-LDIFF_SYM261=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM261
-LTDIE_40_REFERENCE:
+LDIFF_SYM267=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM267
+LTDIE_41_REFERENCE:
 
 	.byte 14
-LDIFF_SYM262=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM262
-LTDIE_42:
+LDIFF_SYM268=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_43:
 
 	.byte 5
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 8,16
-LDIFF_SYM263=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM269=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM269
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM264=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM264
-LTDIE_42_POINTER:
+LDIFF_SYM270=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM270
+LTDIE_43_POINTER:
 
 	.byte 13
-LDIFF_SYM265=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM265
-LTDIE_42_REFERENCE:
+LDIFF_SYM271=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM271
+LTDIE_43_REFERENCE:
 
 	.byte 14
-LDIFF_SYM266=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM266
-LTDIE_41:
+LDIFF_SYM272=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM272
+LTDIE_42:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 12,16
-LDIFF_SYM267=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM273=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM273
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM268=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM274
 	.byte 2,35,8,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM269=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM269
-LTDIE_41_POINTER:
+LDIFF_SYM275=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM275
+LTDIE_42_POINTER:
 
 	.byte 13
-LDIFF_SYM270=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM270
-LTDIE_41_REFERENCE:
+LDIFF_SYM276=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM276
+LTDIE_42_REFERENCE:
 
 	.byte 14
-LDIFF_SYM271=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM271
-LTDIE_43:
+LDIFF_SYM277=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM277
+LTDIE_44:
 
 	.byte 17
 	.asciz "System_Runtime_Serialization_IFormatterConverter"
@@ -5759,72 +5891,72 @@ LTDIE_43:
 	.byte 8,7
 	.asciz "System_Runtime_Serialization_IFormatterConverter"
 
-LDIFF_SYM272=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM272
-LTDIE_43_POINTER:
+LDIFF_SYM278=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM278
+LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM273=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM273
-LTDIE_43_REFERENCE:
+LDIFF_SYM279=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM279
+LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM274=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM274
-LTDIE_36:
+LDIFF_SYM280=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM280
+LTDIE_37:
 
 	.byte 5
 	.asciz "System_Runtime_Serialization_SerializationInfo"
 
 	.byte 32,16
-LDIFF_SYM275=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM275
+LDIFF_SYM281=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM281
 	.byte 2,35,0,6
 	.asciz "serialized"
 
-LDIFF_SYM276=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM282=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 2,35,8,6
 	.asciz "values"
 
-LDIFF_SYM277=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM283=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM283
 	.byte 2,35,12,6
 	.asciz "assemblyName"
 
-LDIFF_SYM278=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM284=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM284
 	.byte 2,35,16,6
 	.asciz "fullTypeName"
 
-LDIFF_SYM279=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM285=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM285
 	.byte 2,35,20,6
 	.asciz "objectType"
 
-LDIFF_SYM280=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM286=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM286
 	.byte 2,35,24,6
 	.asciz "converter"
 
-LDIFF_SYM281=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM281
+LDIFF_SYM287=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM287
 	.byte 2,35,28,0,7
 	.asciz "System_Runtime_Serialization_SerializationInfo"
 
-LDIFF_SYM282=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM282
-LTDIE_36_POINTER:
+LDIFF_SYM288=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM288
+LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM283=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM283
-LTDIE_36_REFERENCE:
+LDIFF_SYM289=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM289
+LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM284=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM284
-LTDIE_44:
+LDIFF_SYM290=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM290
+LTDIE_45:
 
 	.byte 17
 	.asciz "System_Collections_IEqualityComparer"
@@ -5832,249 +5964,249 @@ LTDIE_44:
 	.byte 8,7
 	.asciz "System_Collections_IEqualityComparer"
 
-LDIFF_SYM285=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM285
-LTDIE_44_POINTER:
+LDIFF_SYM291=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM291
+LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM286=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM286
-LTDIE_44_REFERENCE:
+LDIFF_SYM292=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM292
+LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM287=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM287
-LTDIE_45:
+LDIFF_SYM293=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM293
+LTDIE_46:
 
 	.byte 5
 	.asciz "System_Single"
 
 	.byte 12,16
-LDIFF_SYM288=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM288
+LDIFF_SYM294=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM294
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM289=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM295=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM295
 	.byte 2,35,8,0,7
 	.asciz "System_Single"
 
-LDIFF_SYM290=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM290
-LTDIE_45_POINTER:
+LDIFF_SYM296=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM296
+LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM291=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM291
-LTDIE_45_REFERENCE:
+LDIFF_SYM297=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM297
+LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM292=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM292
-LTDIE_31:
+LDIFF_SYM298=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_32:
 
 	.byte 5
 	.asciz "System_Collections_Hashtable"
 
 	.byte 56,16
-LDIFF_SYM293=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM299=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM299
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM294=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM300=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM300
 	.byte 2,35,8,6
 	.asciz "hashes"
 
-LDIFF_SYM295=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM295
+LDIFF_SYM301=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM301
 	.byte 2,35,12,6
 	.asciz "hashKeys"
 
-LDIFF_SYM296=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM302=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM302
 	.byte 2,35,16,6
 	.asciz "hashValues"
 
-LDIFF_SYM297=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM303=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM303
 	.byte 2,35,20,6
 	.asciz "hcpRef"
 
-LDIFF_SYM298=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM304=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM304
 	.byte 2,35,24,6
 	.asciz "comparerRef"
 
-LDIFF_SYM299=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM305=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM305
 	.byte 2,35,28,6
 	.asciz "serializationInfo"
 
-LDIFF_SYM300=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM306=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM306
 	.byte 2,35,32,6
 	.asciz "equalityComparer"
 
-LDIFF_SYM301=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM307=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM307
 	.byte 2,35,36,6
 	.asciz "inUse"
 
-LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM308=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM308
 	.byte 2,35,40,6
 	.asciz "modificationCount"
 
-LDIFF_SYM303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM309
 	.byte 2,35,44,6
 	.asciz "loadFactor"
 
-LDIFF_SYM304=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM310=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM310
 	.byte 2,35,48,6
 	.asciz "threshold"
 
-LDIFF_SYM305=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM311
 	.byte 2,35,52,0,7
 	.asciz "System_Collections_Hashtable"
 
-LDIFF_SYM306=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM306
-LTDIE_31_POINTER:
+LDIFF_SYM312=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM312
+LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM307=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM307
-LTDIE_31_REFERENCE:
+LDIFF_SYM313=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM313
+LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM308=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM308
-LTDIE_47:
+LDIFF_SYM314=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM314
+LTDIE_48:
 
 	.byte 5
 	.asciz "System_Xml_XmlNameEntry"
 
 	.byte 28,16
-LDIFF_SYM309=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM315=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM315
 	.byte 2,35,0,6
 	.asciz "Prefix"
 
-LDIFF_SYM310=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM316=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM316
 	.byte 2,35,8,6
 	.asciz "LocalName"
 
-LDIFF_SYM311=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM317=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM317
 	.byte 2,35,12,6
 	.asciz "NS"
 
-LDIFF_SYM312=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM318=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 2,35,16,6
 	.asciz "Hash"
 
-LDIFF_SYM313=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 2,35,24,6
 	.asciz "prefixed_name_cache"
 
-LDIFF_SYM314=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM320=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 2,35,20,0,7
 	.asciz "System_Xml_XmlNameEntry"
 
-LDIFF_SYM315=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM315
-LTDIE_47_POINTER:
-
-	.byte 13
-LDIFF_SYM316=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM316
-LTDIE_47_REFERENCE:
-
-	.byte 14
-LDIFF_SYM317=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM317
-LTDIE_46:
-
-	.byte 5
-	.asciz "System_Xml_XmlNameEntryCache"
-
-	.byte 24,16
-LDIFF_SYM318=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM318
-	.byte 2,35,0,6
-	.asciz "table"
-
-LDIFF_SYM319=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM319
-	.byte 2,35,8,6
-	.asciz "nameTable"
-
-LDIFF_SYM320=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM320
-	.byte 2,35,12,6
-	.asciz "dummy"
-
-LDIFF_SYM321=LTDIE_47_REFERENCE - Ldebug_info_start
+LDIFF_SYM321=LTDIE_48 - Ldebug_info_start
 	.long LDIFF_SYM321
-	.byte 2,35,16,6
-	.asciz "cacheBuffer"
-
-LDIFF_SYM322=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM322
-	.byte 2,35,20,0,7
-	.asciz "System_Xml_XmlNameEntryCache"
-
-LDIFF_SYM323=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM323
-LTDIE_46_POINTER:
-
-	.byte 13
-LDIFF_SYM324=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM324
-LTDIE_46_REFERENCE:
-
-	.byte 14
-LDIFF_SYM325=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM325
-LTDIE_48:
-
-	.byte 5
-	.asciz "System_Xml_XmlLinkedNode"
-
-	.byte 24,16
-LDIFF_SYM326=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM326
-	.byte 2,35,0,6
-	.asciz "nextSibling"
-
-LDIFF_SYM327=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM327
-	.byte 2,35,20,0,7
-	.asciz "System_Xml_XmlLinkedNode"
-
-LDIFF_SYM328=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM328
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM329=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM329
+LDIFF_SYM322=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM322
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM330=LTDIE_48 - Ldebug_info_start
+LDIFF_SYM323=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM323
+LTDIE_47:
+
+	.byte 5
+	.asciz "System_Xml_XmlNameEntryCache"
+
+	.byte 24,16
+LDIFF_SYM324=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 2,35,0,6
+	.asciz "table"
+
+LDIFF_SYM325=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM325
+	.byte 2,35,8,6
+	.asciz "nameTable"
+
+LDIFF_SYM326=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
+	.byte 2,35,12,6
+	.asciz "dummy"
+
+LDIFF_SYM327=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM327
+	.byte 2,35,16,6
+	.asciz "cacheBuffer"
+
+LDIFF_SYM328=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM328
+	.byte 2,35,20,0,7
+	.asciz "System_Xml_XmlNameEntryCache"
+
+LDIFF_SYM329=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM329
+LTDIE_47_POINTER:
+
+	.byte 13
+LDIFF_SYM330=LTDIE_47 - Ldebug_info_start
 	.long LDIFF_SYM330
-LTDIE_50:
+LTDIE_47_REFERENCE:
+
+	.byte 14
+LDIFF_SYM331=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM331
+LTDIE_49:
+
+	.byte 5
+	.asciz "System_Xml_XmlLinkedNode"
+
+	.byte 24,16
+LDIFF_SYM332=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM332
+	.byte 2,35,0,6
+	.asciz "nextSibling"
+
+LDIFF_SYM333=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM333
+	.byte 2,35,20,0,7
+	.asciz "System_Xml_XmlLinkedNode"
+
+LDIFF_SYM334=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM334
+LTDIE_49_POINTER:
+
+	.byte 13
+LDIFF_SYM335=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM335
+LTDIE_49_REFERENCE:
+
+	.byte 14
+LDIFF_SYM336=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM336
+LTDIE_51:
 
 	.byte 17
 	.asciz "System_Xml_Schema_IXmlSchemaInfo"
@@ -6082,770 +6214,770 @@ LTDIE_50:
 	.byte 8,7
 	.asciz "System_Xml_Schema_IXmlSchemaInfo"
 
-LDIFF_SYM331=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM331
-LTDIE_50_POINTER:
+LDIFF_SYM337=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM337
+LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM332=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM332
-LTDIE_50_REFERENCE:
+LDIFF_SYM338=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM333=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM333
-LTDIE_49:
+LDIFF_SYM339=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_50:
 
 	.byte 5
 	.asciz "System_Xml_XmlAttribute"
 
 	.byte 36,16
-LDIFF_SYM334=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM340=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,35,0,6
 	.asciz "name"
 
-LDIFF_SYM335=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM341=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,20,6
 	.asciz "isDefault"
 
-LDIFF_SYM336=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM342=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM342
 	.byte 2,35,32,6
 	.asciz "lastLinkedChild"
 
-LDIFF_SYM337=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM343=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM343
 	.byte 2,35,24,6
 	.asciz "schemaInfo"
 
-LDIFF_SYM338=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM344=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 2,35,28,0,7
 	.asciz "System_Xml_XmlAttribute"
 
-LDIFF_SYM339=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM339
-LTDIE_49_POINTER:
+LDIFF_SYM345=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM345
+LTDIE_50_POINTER:
 
 	.byte 13
-LDIFF_SYM340=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM340
-LTDIE_49_REFERENCE:
+LDIFF_SYM346=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM346
+LTDIE_50_REFERENCE:
 
 	.byte 14
-LDIFF_SYM341=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM341
-LTDIE_52:
+LDIFF_SYM347=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM347
+LTDIE_53:
 
 	.byte 5
 	.asciz "System_Collections_ArrayList"
 
 	.byte 20,16
-LDIFF_SYM342=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM348=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM343=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM349=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM350=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM351=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_ArrayList"
 
-LDIFF_SYM346=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM346
-LTDIE_52_POINTER:
+LDIFF_SYM352=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM352
+LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM347=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM347
-LTDIE_52_REFERENCE:
+LDIFF_SYM353=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM353
+LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM348=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM348
-LTDIE_55:
+LDIFF_SYM354=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM354
+LTDIE_56:
 
 	.byte 5
 	.asciz "_DictionaryNode"
 
 	.byte 20,16
-LDIFF_SYM349=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM355=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 2,35,0,6
 	.asciz "key"
 
-LDIFF_SYM350=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM356=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 2,35,8,6
 	.asciz "value"
 
-LDIFF_SYM351=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM357=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 2,35,12,6
 	.asciz "next"
 
-LDIFF_SYM352=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM358=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 2,35,16,0,7
 	.asciz "_DictionaryNode"
 
-LDIFF_SYM353=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM353
-LTDIE_55_POINTER:
+LDIFF_SYM359=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM359
+LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM354=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM354
-LTDIE_55_REFERENCE:
+LDIFF_SYM360=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM360
+LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM355=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM355
-LTDIE_54:
+LDIFF_SYM361=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM361
+LTDIE_55:
 
 	.byte 5
 	.asciz "System_Collections_Specialized_ListDictionary"
 
 	.byte 24,16
-LDIFF_SYM356=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM362=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 2,35,0,6
 	.asciz "count"
 
-LDIFF_SYM357=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM357
+LDIFF_SYM363=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 2,35,16,6
 	.asciz "version"
 
-LDIFF_SYM358=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM364=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,35,20,6
 	.asciz "head"
 
-LDIFF_SYM359=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM365=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,35,8,6
 	.asciz "comparer"
 
-LDIFF_SYM360=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM366=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,35,12,0,7
 	.asciz "System_Collections_Specialized_ListDictionary"
 
-LDIFF_SYM361=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM361
-LTDIE_54_POINTER:
+LDIFF_SYM367=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM367
+LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM362=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM362
-LTDIE_54_REFERENCE:
+LDIFF_SYM368=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM368
+LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM363=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM363
-LTDIE_53:
+LDIFF_SYM369=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM369
+LTDIE_54:
 
 	.byte 5
 	.asciz "System_Xml_Schema_XmlSchemaObjectTable"
 
 	.byte 12,16
-LDIFF_SYM364=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM364
+LDIFF_SYM370=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,0,6
 	.asciz "table"
 
-LDIFF_SYM365=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM371=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,35,8,0,7
 	.asciz "System_Xml_Schema_XmlSchemaObjectTable"
 
-LDIFF_SYM366=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM366
-LTDIE_53_POINTER:
+LDIFF_SYM372=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM367=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM367
-LTDIE_53_REFERENCE:
+LDIFF_SYM373=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM373
+LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM368=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM368
-LTDIE_56:
+LDIFF_SYM374=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM374
+LTDIE_57:
 
 	.byte 5
 	.asciz "System_Xml_Schema_XmlSchemaCompilationSettings"
 
 	.byte 9,16
-LDIFF_SYM369=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM375=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM375
 	.byte 2,35,0,6
 	.asciz "enable_upa_check"
 
-LDIFF_SYM370=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM376=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 2,35,8,0,7
 	.asciz "System_Xml_Schema_XmlSchemaCompilationSettings"
 
-LDIFF_SYM371=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM371
-LTDIE_56_POINTER:
+LDIFF_SYM377=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM377
+LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM372=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM372
-LTDIE_56_REFERENCE:
+LDIFF_SYM378=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM378
+LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM373=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM379=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM379
+LTDIE_62:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 8,16
+LDIFF_SYM380=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM380
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM381=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM381
+LTDIE_62_POINTER:
+
+	.byte 13
+LDIFF_SYM382=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM382
+LTDIE_62_REFERENCE:
+
+	.byte 14
+LDIFF_SYM383=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM383
 LTDIE_61:
 
 	.byte 5
-	.asciz "System_Reflection_MethodBase"
+	.asciz "System_Reflection_MethodInfo"
 
 	.byte 8,16
-LDIFF_SYM374=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM384=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodBase"
+	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM375=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM385=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM385
 LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM376=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM386=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM386
 LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM377=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM377
-LTDIE_60:
-
-	.byte 5
-	.asciz "System_Reflection_MethodInfo"
-
-	.byte 8,16
-LDIFF_SYM378=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM378
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodInfo"
-
-LDIFF_SYM379=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM379
-LTDIE_60_POINTER:
-
-	.byte 13
-LDIFF_SYM380=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM380
-LTDIE_60_REFERENCE:
-
-	.byte 14
-LDIFF_SYM381=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM381
-LTDIE_62:
+LDIFF_SYM387=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM387
+LTDIE_63:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 20,16
-LDIFF_SYM382=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM388=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM383=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM389=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 2,35,8,6
 	.asciz "method_name"
 
-LDIFF_SYM384=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM390=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 2,35,12,6
 	.asciz "curried_first_arg"
 
-LDIFF_SYM385=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM391=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM391
 	.byte 2,35,16,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM386=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM386
-LTDIE_62_POINTER:
+LDIFF_SYM392=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM392
+LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM387=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM387
-LTDIE_62_REFERENCE:
+LDIFF_SYM393=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM393
+LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM388=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM388
-LTDIE_59:
+LDIFF_SYM394=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM394
+LTDIE_60:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 44,16
-LDIFF_SYM389=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM395=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM390=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM396=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 2,35,8,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM391=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 2,35,12,6
 	.asciz "m_target"
 
-LDIFF_SYM392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM398=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 2,35,16,6
 	.asciz "method"
 
-LDIFF_SYM393=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM399=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,35,20,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM394=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM400=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,35,24,6
 	.asciz "method_code"
 
-LDIFF_SYM395=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM395
+LDIFF_SYM401=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 2,35,28,6
 	.asciz "method_info"
 
-LDIFF_SYM396=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM396
+LDIFF_SYM402=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 2,35,32,6
 	.asciz "original_method_info"
 
-LDIFF_SYM397=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM403=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 2,35,36,6
 	.asciz "data"
 
-LDIFF_SYM398=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM404=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2,35,40,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM399=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM399
-LTDIE_59_POINTER:
+LDIFF_SYM405=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM405
+LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM400=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM400
-LTDIE_59_REFERENCE:
+LDIFF_SYM406=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM406
+LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM401=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM401
-LTDIE_58:
+LDIFF_SYM407=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM407
+LTDIE_59:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 52,16
-LDIFF_SYM402=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM408=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 2,35,0,6
 	.asciz "prev"
 
-LDIFF_SYM403=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM409=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 2,35,44,6
 	.asciz "kpm_next"
 
-LDIFF_SYM404=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM410=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM410
 	.byte 2,35,48,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM405=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM405
-LTDIE_58_POINTER:
+LDIFF_SYM411=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM411
+LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM406=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM406
-LTDIE_58_REFERENCE:
+LDIFF_SYM412=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM412
+LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM407=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM407
-LTDIE_57:
+LDIFF_SYM413=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM413
+LTDIE_58:
 
 	.byte 5
 	.asciz "System_Xml_Schema_ValidationEventHandler"
 
 	.byte 52,16
-LDIFF_SYM408=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM414=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM414
 	.byte 2,35,0,0,7
 	.asciz "System_Xml_Schema_ValidationEventHandler"
 
-LDIFF_SYM409=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM409
-LTDIE_57_POINTER:
+LDIFF_SYM415=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM415
+LTDIE_58_POINTER:
 
 	.byte 13
-LDIFF_SYM410=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM410
-LTDIE_57_REFERENCE:
+LDIFF_SYM416=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM416
+LTDIE_58_REFERENCE:
 
 	.byte 14
-LDIFF_SYM411=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM411
-LTDIE_51:
+LDIFF_SYM417=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM417
+LTDIE_52:
 
 	.byte 5
 	.asciz "System_Xml_Schema_XmlSchemaSet"
 
 	.byte 80,16
-LDIFF_SYM412=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM418=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 2,35,0,6
 	.asciz "nameTable"
 
-LDIFF_SYM413=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM419=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 2,35,8,6
 	.asciz "xmlResolver"
 
-LDIFF_SYM414=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM420=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2,35,12,6
 	.asciz "schemas"
 
-LDIFF_SYM415=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM421=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 2,35,16,6
 	.asciz "attributes"
 
-LDIFF_SYM416=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM422=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 2,35,20,6
 	.asciz "elements"
 
-LDIFF_SYM417=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM423=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 2,35,24,6
 	.asciz "types"
 
-LDIFF_SYM418=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM418
+LDIFF_SYM424=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 2,35,28,6
 	.asciz "settings"
 
-LDIFF_SYM419=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM419
+LDIFF_SYM425=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
 	.byte 2,35,32,6
 	.asciz "isCompiled"
 
-LDIFF_SYM420=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM426=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 2,35,60,6
 	.asciz "<CompilationId>k__BackingField"
 
-LDIFF_SYM421=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM427=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM427
 	.byte 2,35,64,6
 	.asciz "ValidationEventHandler"
 
-LDIFF_SYM422=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM428=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM428
 	.byte 2,35,36,6
 	.asciz "global_attribute_groups"
 
-LDIFF_SYM423=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM429=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 2,35,40,6
 	.asciz "global_groups"
 
-LDIFF_SYM424=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM430=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 2,35,44,6
 	.asciz "global_notations"
 
-LDIFF_SYM425=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
+LDIFF_SYM431=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 2,35,48,6
 	.asciz "global_identity_constraints"
 
-LDIFF_SYM426=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM426
+LDIFF_SYM432=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 2,35,52,6
 	.asciz "global_ids"
 
-LDIFF_SYM427=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM433=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 2,35,56,0,7
 	.asciz "System_Xml_Schema_XmlSchemaSet"
 
-LDIFF_SYM428=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM428
-LTDIE_51_POINTER:
+LDIFF_SYM434=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM434
+LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM429=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM429
-LTDIE_51_REFERENCE:
+LDIFF_SYM435=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM435
+LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM430=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM430
-LTDIE_63:
+LDIFF_SYM436=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM436
+LTDIE_64:
 
 	.byte 5
 	.asciz "System_Xml_XmlNodeChangedEventHandler"
 
 	.byte 52,16
-LDIFF_SYM431=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM437=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 2,35,0,0,7
 	.asciz "System_Xml_XmlNodeChangedEventHandler"
 
-LDIFF_SYM432=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM432
-LTDIE_63_POINTER:
+LDIFF_SYM438=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM438
+LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM433=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM433
-LTDIE_63_REFERENCE:
+LDIFF_SYM439=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM439
+LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM434=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM434
-LTDIE_23:
+LDIFF_SYM440=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM440
+LTDIE_24:
 
 	.byte 5
 	.asciz "System_Xml_XmlDocument"
 
 	.byte 88,16
-LDIFF_SYM435=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM441=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM441
 	.byte 2,35,0,6
 	.asciz "optimal_create_element"
 
-LDIFF_SYM436=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM436
+LDIFF_SYM442=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 2,35,84,6
 	.asciz "optimal_create_attribute"
 
-LDIFF_SYM437=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM437
+LDIFF_SYM443=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,35,85,6
 	.asciz "nameTable"
 
-LDIFF_SYM438=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM444=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 2,35,20,6
 	.asciz "baseURI"
 
-LDIFF_SYM439=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM445=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM445
 	.byte 2,35,24,6
 	.asciz "implementation"
 
-LDIFF_SYM440=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM440
+LDIFF_SYM446=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM446
 	.byte 2,35,28,6
 	.asciz "preserveWhitespace"
 
-LDIFF_SYM441=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM441
+LDIFF_SYM447=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 2,35,86,6
 	.asciz "resolver"
 
-LDIFF_SYM442=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM448=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,35,32,6
 	.asciz "idTable"
 
-LDIFF_SYM443=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM449=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
 	.byte 2,35,36,6
 	.asciz "nameCache"
 
-LDIFF_SYM444=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM444
+LDIFF_SYM450=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
 	.byte 2,35,40,6
 	.asciz "lastLinkedChild"
 
-LDIFF_SYM445=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM445
+LDIFF_SYM451=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
 	.byte 2,35,44,6
 	.asciz "nsNodeXml"
 
-LDIFF_SYM446=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM452=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM452
 	.byte 2,35,48,6
 	.asciz "schemas"
 
-LDIFF_SYM447=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM453=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM453
 	.byte 2,35,52,6
 	.asciz "schemaInfo"
 
-LDIFF_SYM448=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM454=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM454
 	.byte 2,35,56,6
 	.asciz "loadMode"
 
-LDIFF_SYM449=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM455=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM455
 	.byte 2,35,87,6
 	.asciz "NodeChanged"
 
-LDIFF_SYM450=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM450
+LDIFF_SYM456=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 2,35,60,6
 	.asciz "NodeChanging"
 
-LDIFF_SYM451=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM451
+LDIFF_SYM457=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM457
 	.byte 2,35,64,6
 	.asciz "NodeInserted"
 
-LDIFF_SYM452=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM452
+LDIFF_SYM458=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM458
 	.byte 2,35,68,6
 	.asciz "NodeInserting"
 
-LDIFF_SYM453=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM453
+LDIFF_SYM459=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 2,35,72,6
 	.asciz "NodeRemoved"
 
-LDIFF_SYM454=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM454
+LDIFF_SYM460=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM460
 	.byte 2,35,76,6
 	.asciz "NodeRemoving"
 
-LDIFF_SYM455=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM455
+LDIFF_SYM461=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM461
 	.byte 2,35,80,0,7
 	.asciz "System_Xml_XmlDocument"
 
-LDIFF_SYM456=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM456
-LTDIE_23_POINTER:
+LDIFF_SYM462=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM462
+LTDIE_24_POINTER:
 
 	.byte 13
-LDIFF_SYM457=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM457
-LTDIE_23_REFERENCE:
+LDIFF_SYM463=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM463
+LTDIE_24_REFERENCE:
 
 	.byte 14
-LDIFF_SYM458=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM458
-LTDIE_64:
+LDIFF_SYM464=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM464
+LTDIE_65:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 20,16
-LDIFF_SYM459=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM459
+LDIFF_SYM465=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM465
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM460=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM466=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM461=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM467=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM462=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM462
+LDIFF_SYM468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM468
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM463=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM463
-LTDIE_64_POINTER:
+LDIFF_SYM469=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM469
+LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM464=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM464
-LTDIE_64_REFERENCE:
+LDIFF_SYM470=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM470
+LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM465=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM465
-LTDIE_22:
+LDIFF_SYM471=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM471
+LTDIE_23:
 
 	.byte 5
 	.asciz "_<loadInfoWhait>c__AnonStorey0"
 
 	.byte 24,16
-LDIFF_SYM466=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM466
+LDIFF_SYM472=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM472
 	.byte 2,35,0,6
 	.asciz "papel"
 
-LDIFF_SYM467=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM467
+LDIFF_SYM473=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 2,35,8,6
 	.asciz "xml"
 
-LDIFF_SYM468=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM468
+LDIFF_SYM474=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 2,35,12,6
 	.asciz "stocklist"
 
-LDIFF_SYM469=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM469
+LDIFF_SYM475=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM475
 	.byte 2,35,16,6
 	.asciz "<>f__ref$1"
 
-LDIFF_SYM470=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM470
+LDIFF_SYM476=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM476
 	.byte 2,35,20,0,7
 	.asciz "_<loadInfoWhait>c__AnonStorey0"
 
-LDIFF_SYM471=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM471
-LTDIE_22_POINTER:
+LDIFF_SYM477=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM477
+LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM472=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM472
-LTDIE_22_REFERENCE:
+LDIFF_SYM478=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM478
+LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM473=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM473
-LTDIE_66:
+LDIFF_SYM479=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM479
+LTDIE_67:
 
 	.byte 17
 	.asciz "System_Collections_IDictionary"
@@ -6853,106 +6985,106 @@ LTDIE_66:
 	.byte 8,7
 	.asciz "System_Collections_IDictionary"
 
-LDIFF_SYM474=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM474
-LTDIE_66_POINTER:
+LDIFF_SYM480=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM480
+LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM475=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM475
-LTDIE_66_REFERENCE:
+LDIFF_SYM481=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM481
+LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM476=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM476
-LTDIE_65:
+LDIFF_SYM482=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM482
+LTDIE_66:
 
 	.byte 5
 	.asciz "System_Exception"
 
 	.byte 60,16
-LDIFF_SYM477=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM477
+LDIFF_SYM483=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM483
 	.byte 2,35,0,6
 	.asciz "trace_ips"
 
-LDIFF_SYM478=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM478
+LDIFF_SYM484=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 2,35,8,6
 	.asciz "inner_exception"
 
-LDIFF_SYM479=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM479
+LDIFF_SYM485=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM485
 	.byte 2,35,12,6
 	.asciz "message"
 
-LDIFF_SYM480=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM480
+LDIFF_SYM486=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 2,35,16,6
 	.asciz "help_link"
 
-LDIFF_SYM481=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM487=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM487
 	.byte 2,35,20,6
 	.asciz "class_name"
 
-LDIFF_SYM482=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM488=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM488
 	.byte 2,35,24,6
 	.asciz "stack_trace"
 
-LDIFF_SYM483=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM483
+LDIFF_SYM489=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM489
 	.byte 2,35,28,6
 	.asciz "_remoteStackTraceString"
 
-LDIFF_SYM484=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM484
+LDIFF_SYM490=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 2,35,32,6
 	.asciz "remote_stack_index"
 
-LDIFF_SYM485=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM491=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM491
 	.byte 2,35,36,6
 	.asciz "hresult"
 
-LDIFF_SYM486=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM486
+LDIFF_SYM492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM492
 	.byte 2,35,40,6
 	.asciz "source"
 
-LDIFF_SYM487=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM493=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM493
 	.byte 2,35,44,6
 	.asciz "_data"
 
-LDIFF_SYM488=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM494=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM494
 	.byte 2,35,48,6
 	.asciz "captured_traces"
 
-LDIFF_SYM489=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM495=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM495
 	.byte 2,35,52,6
 	.asciz "native_trace_ips"
 
-LDIFF_SYM490=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM490
+LDIFF_SYM496=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM496
 	.byte 2,35,56,0,7
 	.asciz "System_Exception"
 
-LDIFF_SYM491=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM491
-LTDIE_65_POINTER:
+LDIFF_SYM497=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM497
+LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM492=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM492
-LTDIE_65_REFERENCE:
+LDIFF_SYM498=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM498
+LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM493=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM493
+LDIFF_SYM499=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM499
 	.byte 2
 	.asciz "iNVEST.iNVESTViewController:loadInfoWhait"
 	.long _iNVEST_iNVESTViewController_loadInfoWhait_bool
@@ -6961,42 +7093,42 @@ LDIFF_SYM493=LTDIE_65 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM494=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM494
+LDIFF_SYM500=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM500
 	.byte 1,90,3
 	.asciz "update"
 
-LDIFF_SYM495=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM501=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM501
 	.byte 2,123,36,11
 	.asciz "V_0"
 
-LDIFF_SYM496=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM502=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM502
 	.byte 2,123,8,11
 	.asciz "V_1"
 
-LDIFF_SYM497=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM497
+LDIFF_SYM503=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 1,86,11
 	.asciz "V_2"
 
-LDIFF_SYM498=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM498
+LDIFF_SYM504=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM504
 	.byte 2,123,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM499=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM499
+LDIFF_SYM505=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM505
 Lfde16_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_loadInfoWhait_bool
 
-LDIFF_SYM500=Lme_10 - _iNVEST_iNVESTViewController_loadInfoWhait_bool
-	.long LDIFF_SYM500
+LDIFF_SYM506=Lme_10 - _iNVEST_iNVESTViewController_loadInfoWhait_bool
+	.long LDIFF_SYM506
 	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,104,68,13,11
 	.align 2
 Lfde16_end:
@@ -7011,27 +7143,27 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM501=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM501
+LDIFF_SYM507=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM507
 	.byte 2,125,0,3
 	.asciz "update"
 
-LDIFF_SYM502=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM508=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM508
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM503=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM503
+LDIFF_SYM509=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM509
 Lfde17_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_LoadInfo_bool
 
-LDIFF_SYM504=Lme_11 - _iNVEST_iNVESTViewController_LoadInfo_bool
-	.long LDIFF_SYM504
+LDIFF_SYM510=Lme_11 - _iNVEST_iNVESTViewController_LoadInfo_bool
+	.long LDIFF_SYM510
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde17_end:
@@ -7046,156 +7178,156 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM505=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM505
+LDIFF_SYM511=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM511
 	.byte 2,125,0,3
 	.asciz "sender"
 
-LDIFF_SYM506=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM506
+LDIFF_SYM512=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM507=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM507
+LDIFF_SYM513=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM513
 Lfde18_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_btnLoad_MonoTouch_Foundation_NSObject
 
-LDIFF_SYM508=Lme_12 - _iNVEST_iNVESTViewController_btnLoad_MonoTouch_Foundation_NSObject
-	.long LDIFF_SYM508
+LDIFF_SYM514=Lme_12 - _iNVEST_iNVESTViewController_btnLoad_MonoTouch_Foundation_NSObject
+	.long LDIFF_SYM514
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_67:
+LTDIE_68:
 
 	.byte 5
 	.asciz "System_Double"
 
 	.byte 16,16
-LDIFF_SYM509=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM515=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM515
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM510=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM516=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 2,35,8,0,7
 	.asciz "System_Double"
 
-LDIFF_SYM511=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM511
-LTDIE_67_POINTER:
+LDIFF_SYM517=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM517
+LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM512=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM512
-LTDIE_67_REFERENCE:
+LDIFF_SYM518=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM518
+LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM513=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM513
-LTDIE_69:
+LDIFF_SYM519=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM519
+LTDIE_70:
 
 	.byte 5
 	.asciz "System_Int16"
 
 	.byte 10,16
-LDIFF_SYM514=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM514
+LDIFF_SYM520=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM520
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM515=LDIE_I2 - Ldebug_info_start
-	.long LDIFF_SYM515
+LDIFF_SYM521=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 2,35,8,0,7
 	.asciz "System_Int16"
 
-LDIFF_SYM516=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM516
-LTDIE_69_POINTER:
+LDIFF_SYM522=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM522
+LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM517=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM517
-LTDIE_69_REFERENCE:
+LDIFF_SYM523=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM523
+LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM518=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM518
-LTDIE_68:
+LDIFF_SYM524=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM524
+LTDIE_69:
 
 	.byte 5
 	.asciz "iNVEST_Stock"
 
 	.byte 60,16
-LDIFF_SYM519=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM525=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 2,35,0,6
 	.asciz "id"
 
-LDIFF_SYM520=LDIE_I2 - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM526=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM526
 	.byte 2,35,20,6
 	.asciz "code"
 
-LDIFF_SYM521=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM521
+LDIFF_SYM527=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM527
 	.byte 2,35,8,6
 	.asciz "name"
 
-LDIFF_SYM522=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM522
+LDIFF_SYM528=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM528
 	.byte 2,35,12,6
 	.asciz "updatedDate"
 
-LDIFF_SYM523=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM529=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM529
 	.byte 2,35,16,6
 	.asciz "original_value"
 
-LDIFF_SYM524=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM530=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM530
 	.byte 2,35,24,6
 	.asciz "last_value"
 
-LDIFF_SYM525=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM525
+LDIFF_SYM531=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM531
 	.byte 2,35,32,6
 	.asciz "variation_percent"
 
-LDIFF_SYM526=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM526
+LDIFF_SYM532=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM532
 	.byte 2,35,40,6
 	.asciz "tax"
 
-LDIFF_SYM527=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM527
+LDIFF_SYM533=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM533
 	.byte 2,35,48,6
 	.asciz "quantity"
 
-LDIFF_SYM528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM528
+LDIFF_SYM534=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM534
 	.byte 2,35,56,0,7
 	.asciz "iNVEST_Stock"
 
-LDIFF_SYM529=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM529
-LTDIE_68_POINTER:
+LDIFF_SYM535=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM535
+LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM530=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM530
-LTDIE_68_REFERENCE:
+LDIFF_SYM536=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM536
+LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM531=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM531
+LDIFF_SYM537=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM537
 	.byte 2
 	.asciz "iNVEST.iNVESTViewController:btnNew"
 	.long _iNVEST_iNVESTViewController_btnNew_MonoTouch_Foundation_NSObject
@@ -7204,57 +7336,57 @@ LDIFF_SYM531=LTDIE_68 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM532=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM532
+LDIFF_SYM538=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM538
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM533=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM533
+LDIFF_SYM539=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM539
 	.byte 0,11
 	.asciz "V_0"
 
-LDIFF_SYM534=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM534
+LDIFF_SYM540=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM540
 	.byte 2,123,48,11
 	.asciz "V_1"
 
-LDIFF_SYM535=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM541=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 2,123,56,11
 	.asciz "V_2"
 
-LDIFF_SYM536=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM542=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM542
 	.byte 1,86,11
 	.asciz "V_3"
 
-LDIFF_SYM537=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM537
+LDIFF_SYM543=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM543
 	.byte 2,123,60,11
 	.asciz "V_4"
 
-LDIFF_SYM538=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM538
+LDIFF_SYM544=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM544
 	.byte 3,123,196,0,11
 	.asciz "V_5"
 
-LDIFF_SYM539=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM539
+LDIFF_SYM545=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 3,123,204,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM540=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM540
+LDIFF_SYM546=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM546
 Lfde19_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_btnNew_MonoTouch_Foundation_NSObject
 
-LDIFF_SYM541=Lme_13 - _iNVEST_iNVESTViewController_btnNew_MonoTouch_Foundation_NSObject
-	.long LDIFF_SYM541
+LDIFF_SYM547=Lme_13 - _iNVEST_iNVESTViewController_btnNew_MonoTouch_Foundation_NSObject
+	.long LDIFF_SYM547
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,2,68,13,11
 	.align 2
 Lfde19_end:
@@ -7269,27 +7401,27 @@ Lfde19_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM542=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM542
+LDIFF_SYM548=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM543
+LDIFF_SYM549=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM549
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM544=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM544
+LDIFF_SYM550=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM550
 Lfde20_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_btnEdit_MonoTouch_Foundation_NSObject
 
-LDIFF_SYM545=Lme_14 - _iNVEST_iNVESTViewController_btnEdit_MonoTouch_Foundation_NSObject
-	.long LDIFF_SYM545
+LDIFF_SYM551=Lme_14 - _iNVEST_iNVESTViewController_btnEdit_MonoTouch_Foundation_NSObject
+	.long LDIFF_SYM551
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde20_end:
@@ -7304,37 +7436,37 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM546=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM552=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM552
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM547=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM547
+LDIFF_SYM553=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 2,123,16,11
 	.asciz "V_1"
 
-LDIFF_SYM548=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM548
+LDIFF_SYM554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM554
 	.byte 2,123,32,11
 	.asciz "V_2"
 
-LDIFF_SYM549=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM549
+LDIFF_SYM555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM555
 	.byte 2,123,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM550=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM550
+LDIFF_SYM556=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM556
 Lfde21_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_ShowLoading
 
-LDIFF_SYM551=Lme_15 - _iNVEST_iNVESTViewController_ShowLoading
-	.long LDIFF_SYM551
+LDIFF_SYM557=Lme_15 - _iNVEST_iNVESTViewController_ShowLoading
+	.long LDIFF_SYM557
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,160,1,68,13,11
 	.align 2
 Lfde21_end:
@@ -7349,65 +7481,65 @@ Lfde21_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM552=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM552
+LDIFF_SYM558=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM558
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM553=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM553
+LDIFF_SYM559=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM559
 Lfde22_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_HideLoading
 
-LDIFF_SYM554=Lme_16 - _iNVEST_iNVESTViewController_HideLoading
-	.long LDIFF_SYM554
+LDIFF_SYM560=Lme_16 - _iNVEST_iNVESTViewController_HideLoading
+	.long LDIFF_SYM560
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_70:
+LTDIE_71:
 
 	.byte 5
 	.asciz "_<getCode>c__AnonStorey2"
 
 	.byte 20,16
-LDIFF_SYM555=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM561=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM561
 	.byte 2,35,0,6
 	.asciz "xml"
 
-LDIFF_SYM556=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM556
+LDIFF_SYM562=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM562
 	.byte 2,35,8,6
 	.asciz "code"
 
-LDIFF_SYM557=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM557
+LDIFF_SYM563=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM563
 	.byte 2,35,12,6
 	.asciz "$this"
 
-LDIFF_SYM558=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM564=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 2,35,16,0,7
 	.asciz "_<getCode>c__AnonStorey2"
 
-LDIFF_SYM559=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM559
-LTDIE_70_POINTER:
+LDIFF_SYM565=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM565
+LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM560=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM560
-LTDIE_70_REFERENCE:
+LDIFF_SYM566=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM566
+LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM561=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM561
+LDIFF_SYM567=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM567
 	.byte 2
 	.asciz "iNVEST.iNVESTViewController:getCode"
 	.long _iNVEST_iNVESTViewController_getCode
@@ -7416,27 +7548,27 @@ LDIFF_SYM561=LTDIE_70 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM562=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM568=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM568
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM563=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM563
+LDIFF_SYM569=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM564=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM564
+LDIFF_SYM570=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM570
 Lfde23_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_getCode
 
-LDIFF_SYM565=Lme_17 - _iNVEST_iNVESTViewController_getCode
-	.long LDIFF_SYM565
+LDIFF_SYM571=Lme_17 - _iNVEST_iNVESTViewController_getCode
+	.long LDIFF_SYM571
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,56
 	.align 2
 Lfde23_end:
@@ -7451,27 +7583,27 @@ Lfde23_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM566=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM572=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM572
 	.byte 2,125,0,3
 	.asciz "sender"
 
-LDIFF_SYM567=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM573=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM573
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM568=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM568
+LDIFF_SYM574=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM574
 Lfde24_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject
 
-LDIFF_SYM569=Lme_18 - _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject
-	.long LDIFF_SYM569
+LDIFF_SYM575=Lme_18 - _iNVEST_iNVESTViewController_txtCodigo_Changed_MonoTouch_Foundation_NSObject
+	.long LDIFF_SYM575
 	.byte 12,13,0,72,14,8,135,2,68,14,20,133,5,134,4,136,3,142,1,68,14,32
 	.align 2
 Lfde24_end:
@@ -7479,29 +7611,29 @@ Lfde24_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_tblView"
-	.long _iNVEST_iNVESTViewController_get_tblView
+	.asciz "iNVEST.iNVESTViewController:get_dtOrder"
+	.long _iNVEST_iNVESTViewController_get_dtOrder
 	.long Lme_19
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM570=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM576=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM576
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM571=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM571
+LDIFF_SYM577=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM577
 Lfde25_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_tblView
+	.long _iNVEST_iNVESTViewController_get_dtOrder
 
-LDIFF_SYM572=Lme_19 - _iNVEST_iNVESTViewController_get_tblView
-	.long LDIFF_SYM572
+LDIFF_SYM578=Lme_19 - _iNVEST_iNVESTViewController_get_dtOrder
+	.long LDIFF_SYM578
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde25_end:
@@ -7509,34 +7641,34 @@ Lfde25_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_tblView"
-	.long _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
+	.asciz "iNVEST.iNVESTViewController:set_dtOrder"
+	.long _iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker
 	.long Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM573=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM573
+LDIFF_SYM579=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM579
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM574=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM574
+LDIFF_SYM580=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM580
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM575=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM575
+LDIFF_SYM581=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM581
 Lfde26_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
+	.long _iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker
 
-LDIFF_SYM576=Lme_1a - _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
-	.long LDIFF_SYM576
+LDIFF_SYM582=Lme_1a - _iNVEST_iNVESTViewController_set_dtOrder_MonoTouch_UIKit_UIDatePicker
+	.long LDIFF_SYM582
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde26_end:
@@ -7544,29 +7676,29 @@ Lfde26_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtGanhoPerda"
-	.long _iNVEST_iNVESTViewController_get_txtGanhoPerda
+	.asciz "iNVEST.iNVESTViewController:get_tblView"
+	.long _iNVEST_iNVESTViewController_get_tblView
 	.long Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM577=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM583=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM583
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM578=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM578
+LDIFF_SYM584=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM584
 Lfde27_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtGanhoPerda
+	.long _iNVEST_iNVESTViewController_get_tblView
 
-LDIFF_SYM579=Lme_1b - _iNVEST_iNVESTViewController_get_txtGanhoPerda
-	.long LDIFF_SYM579
+LDIFF_SYM585=Lme_1b - _iNVEST_iNVESTViewController_get_tblView
+	.long LDIFF_SYM585
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde27_end:
@@ -7574,34 +7706,34 @@ Lfde27_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtGanhoPerda"
-	.long _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_tblView"
+	.long _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
 	.long Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM580=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM586=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM581=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM587=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM587
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM582=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM582
+LDIFF_SYM588=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM588
 Lfde28_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
 
-LDIFF_SYM583=Lme_1c - _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM583
+LDIFF_SYM589=Lme_1c - _iNVEST_iNVESTViewController_set_tblView_MonoTouch_UIKit_UITableView
+	.long LDIFF_SYM589
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde28_end:
@@ -7609,29 +7741,29 @@ Lfde28_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtHomeTax"
-	.long _iNVEST_iNVESTViewController_get_txtHomeTax
+	.asciz "iNVEST.iNVESTViewController:get_txtGanhoPerda"
+	.long _iNVEST_iNVESTViewController_get_txtGanhoPerda
 	.long Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM584=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM590=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM590
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM585=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM585
+LDIFF_SYM591=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM591
 Lfde29_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtHomeTax
+	.long _iNVEST_iNVESTViewController_get_txtGanhoPerda
 
-LDIFF_SYM586=Lme_1d - _iNVEST_iNVESTViewController_get_txtHomeTax
-	.long LDIFF_SYM586
+LDIFF_SYM592=Lme_1d - _iNVEST_iNVESTViewController_get_txtGanhoPerda
+	.long LDIFF_SYM592
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde29_end:
@@ -7639,34 +7771,34 @@ Lfde29_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtHomeTax"
-	.long _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_txtGanhoPerda"
+	.long _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
 	.long Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM587=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM593=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM588=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM594=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM589=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM589
+LDIFF_SYM595=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM595
 Lfde30_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM590=Lme_1e - _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM590
+LDIFF_SYM596=Lme_1e - _iNVEST_iNVESTViewController_set_txtGanhoPerda_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM596
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde30_end:
@@ -7674,29 +7806,29 @@ Lfde30_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtIbov"
-	.long _iNVEST_iNVESTViewController_get_txtIbov
+	.asciz "iNVEST.iNVESTViewController:get_txtHomeTax"
+	.long _iNVEST_iNVESTViewController_get_txtHomeTax
 	.long Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM591=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM597=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM592=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM592
+LDIFF_SYM598=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM598
 Lfde31_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtIbov
+	.long _iNVEST_iNVESTViewController_get_txtHomeTax
 
-LDIFF_SYM593=Lme_1f - _iNVEST_iNVESTViewController_get_txtIbov
-	.long LDIFF_SYM593
+LDIFF_SYM599=Lme_1f - _iNVEST_iNVESTViewController_get_txtHomeTax
+	.long LDIFF_SYM599
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde31_end:
@@ -7704,34 +7836,34 @@ Lfde31_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtIbov"
-	.long _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_txtHomeTax"
+	.long _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
 	.long Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM594=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM594
+LDIFF_SYM600=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM600
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM595=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
+LDIFF_SYM601=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM596=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM596
+LDIFF_SYM602=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM602
 Lfde32_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM597=Lme_20 - _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM597
+LDIFF_SYM603=Lme_20 - _iNVEST_iNVESTViewController_set_txtHomeTax_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM603
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde32_end:
@@ -7739,29 +7871,29 @@ Lfde32_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtInicial"
-	.long _iNVEST_iNVESTViewController_get_txtInicial
+	.asciz "iNVEST.iNVESTViewController:get_txtIbov"
+	.long _iNVEST_iNVESTViewController_get_txtIbov
 	.long Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM598=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM598
+LDIFF_SYM604=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM604
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM599=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM599
+LDIFF_SYM605=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM605
 Lfde33_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtInicial
+	.long _iNVEST_iNVESTViewController_get_txtIbov
 
-LDIFF_SYM600=Lme_21 - _iNVEST_iNVESTViewController_get_txtInicial
-	.long LDIFF_SYM600
+LDIFF_SYM606=Lme_21 - _iNVEST_iNVESTViewController_get_txtIbov
+	.long LDIFF_SYM606
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde33_end:
@@ -7769,34 +7901,34 @@ Lfde33_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtInicial"
-	.long _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_txtIbov"
+	.long _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
 	.long Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM601=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM607=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM602=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
+LDIFF_SYM608=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM603=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM603
+LDIFF_SYM609=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM609
 Lfde34_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM604=Lme_22 - _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM604
+LDIFF_SYM610=Lme_22 - _iNVEST_iNVESTViewController_set_txtIbov_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM610
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde34_end:
@@ -7804,29 +7936,29 @@ Lfde34_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtPapel"
-	.long _iNVEST_iNVESTViewController_get_txtPapel
+	.asciz "iNVEST.iNVESTViewController:get_txtIbovPt"
+	.long _iNVEST_iNVESTViewController_get_txtIbovPt
 	.long Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM605=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM605
+LDIFF_SYM611=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM606=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM606
+LDIFF_SYM612=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM612
 Lfde35_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtPapel
+	.long _iNVEST_iNVESTViewController_get_txtIbovPt
 
-LDIFF_SYM607=Lme_23 - _iNVEST_iNVESTViewController_get_txtPapel
-	.long LDIFF_SYM607
+LDIFF_SYM613=Lme_23 - _iNVEST_iNVESTViewController_get_txtIbovPt
+	.long LDIFF_SYM613
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde35_end:
@@ -7834,34 +7966,34 @@ Lfde35_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtPapel"
-	.long _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
+	.asciz "iNVEST.iNVESTViewController:set_txtIbovPt"
+	.long _iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel
 	.long Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM608=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM608
+LDIFF_SYM614=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM614
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM609=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM615=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM615
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM610=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM610
+LDIFF_SYM616=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM616
 Lfde36_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
+	.long _iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM611=Lme_24 - _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
-	.long LDIFF_SYM611
+LDIFF_SYM617=Lme_24 - _iNVEST_iNVESTViewController_set_txtIbovPt_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM617
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde36_end:
@@ -7869,29 +8001,29 @@ Lfde36_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtQuantidade"
-	.long _iNVEST_iNVESTViewController_get_txtQuantidade
+	.asciz "iNVEST.iNVESTViewController:get_txtInicial"
+	.long _iNVEST_iNVESTViewController_get_txtInicial
 	.long Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM612=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM612
+LDIFF_SYM618=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM613=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM613
+LDIFF_SYM619=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM619
 Lfde37_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtQuantidade
+	.long _iNVEST_iNVESTViewController_get_txtInicial
 
-LDIFF_SYM614=Lme_25 - _iNVEST_iNVESTViewController_get_txtQuantidade
-	.long LDIFF_SYM614
+LDIFF_SYM620=Lme_25 - _iNVEST_iNVESTViewController_get_txtInicial
+	.long LDIFF_SYM620
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde37_end:
@@ -7899,34 +8031,34 @@ Lfde37_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtQuantidade"
-	.long _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
+	.asciz "iNVEST.iNVESTViewController:set_txtInicial"
+	.long _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
 	.long Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM615=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM615
+LDIFF_SYM621=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM616=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM622=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM617=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM617
+LDIFF_SYM623=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM623
 Lfde38_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
+	.long _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM618=Lme_26 - _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
-	.long LDIFF_SYM618
+LDIFF_SYM624=Lme_26 - _iNVEST_iNVESTViewController_set_txtInicial_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM624
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde38_end:
@@ -7934,29 +8066,29 @@ Lfde38_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtTaxas"
-	.long _iNVEST_iNVESTViewController_get_txtTaxas
+	.asciz "iNVEST.iNVESTViewController:get_txtPapel"
+	.long _iNVEST_iNVESTViewController_get_txtPapel
 	.long Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM619=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM619
+LDIFF_SYM625=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM620=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM620
+LDIFF_SYM626=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM626
 Lfde39_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtTaxas
+	.long _iNVEST_iNVESTViewController_get_txtPapel
 
-LDIFF_SYM621=Lme_27 - _iNVEST_iNVESTViewController_get_txtTaxas
-	.long LDIFF_SYM621
+LDIFF_SYM627=Lme_27 - _iNVEST_iNVESTViewController_get_txtPapel
+	.long LDIFF_SYM627
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde39_end:
@@ -7964,34 +8096,34 @@ Lfde39_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtTaxas"
-	.long _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
+	.asciz "iNVEST.iNVESTViewController:set_txtPapel"
+	.long _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
 	.long Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM622=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM622
+LDIFF_SYM628=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM628
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM623=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM623
+LDIFF_SYM629=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM629
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM624=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM624
+LDIFF_SYM630=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM630
 Lfde40_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
+	.long _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
 
-LDIFF_SYM625=Lme_28 - _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
-	.long LDIFF_SYM625
+LDIFF_SYM631=Lme_28 - _iNVEST_iNVESTViewController_set_txtPapel_MonoTouch_UIKit_UITextField
+	.long LDIFF_SYM631
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde40_end:
@@ -7999,29 +8131,29 @@ Lfde40_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtTotal"
-	.long _iNVEST_iNVESTViewController_get_txtTotal
+	.asciz "iNVEST.iNVESTViewController:get_txtQuantidade"
+	.long _iNVEST_iNVESTViewController_get_txtQuantidade
 	.long Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM626=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM632=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM632
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM627=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM627
+LDIFF_SYM633=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM633
 Lfde41_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtTotal
+	.long _iNVEST_iNVESTViewController_get_txtQuantidade
 
-LDIFF_SYM628=Lme_29 - _iNVEST_iNVESTViewController_get_txtTotal
-	.long LDIFF_SYM628
+LDIFF_SYM634=Lme_29 - _iNVEST_iNVESTViewController_get_txtQuantidade
+	.long LDIFF_SYM634
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde41_end:
@@ -8029,34 +8161,34 @@ Lfde41_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtTotal"
-	.long _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_txtQuantidade"
+	.long _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
 	.long Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM629=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM635=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM630=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM636=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM631=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM631
+LDIFF_SYM637=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM637
 Lfde42_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
 
-LDIFF_SYM632=Lme_2a - _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM632
+LDIFF_SYM638=Lme_2a - _iNVEST_iNVESTViewController_set_txtQuantidade_MonoTouch_UIKit_UITextField
+	.long LDIFF_SYM638
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde42_end:
@@ -8064,29 +8196,29 @@ Lfde42_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtValidado"
-	.long _iNVEST_iNVESTViewController_get_txtValidado
+	.asciz "iNVEST.iNVESTViewController:get_txtTaxas"
+	.long _iNVEST_iNVESTViewController_get_txtTaxas
 	.long Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM633=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM639=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM634=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM634
+LDIFF_SYM640=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM640
 Lfde43_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtValidado
+	.long _iNVEST_iNVESTViewController_get_txtTaxas
 
-LDIFF_SYM635=Lme_2b - _iNVEST_iNVESTViewController_get_txtValidado
-	.long LDIFF_SYM635
+LDIFF_SYM641=Lme_2b - _iNVEST_iNVESTViewController_get_txtTaxas
+	.long LDIFF_SYM641
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde43_end:
@@ -8094,34 +8226,34 @@ Lfde43_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtValidado"
-	.long _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
+	.asciz "iNVEST.iNVESTViewController:set_txtTaxas"
+	.long _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
 	.long Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM636=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM642=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM642
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM637=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM637
+LDIFF_SYM643=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM643
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM638=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM638
+LDIFF_SYM644=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM644
 Lfde44_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
+	.long _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
 
-LDIFF_SYM639=Lme_2c - _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
-	.long LDIFF_SYM639
+LDIFF_SYM645=Lme_2c - _iNVEST_iNVESTViewController_set_txtTaxas_MonoTouch_UIKit_UITextField
+	.long LDIFF_SYM645
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde44_end:
@@ -8129,29 +8261,29 @@ Lfde44_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:get_txtValor"
-	.long _iNVEST_iNVESTViewController_get_txtValor
+	.asciz "iNVEST.iNVESTViewController:get_txtTotal"
+	.long _iNVEST_iNVESTViewController_get_txtTotal
 	.long Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM640=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM646=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM646
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM641=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM641
+LDIFF_SYM647=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM647
 Lfde45_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_get_txtValor
+	.long _iNVEST_iNVESTViewController_get_txtTotal
 
-LDIFF_SYM642=Lme_2d - _iNVEST_iNVESTViewController_get_txtValor
-	.long LDIFF_SYM642
+LDIFF_SYM648=Lme_2d - _iNVEST_iNVESTViewController_get_txtTotal
+	.long LDIFF_SYM648
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde45_end:
@@ -8159,34 +8291,34 @@ Lfde45_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:set_txtValor"
-	.long _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+	.asciz "iNVEST.iNVESTViewController:set_txtTotal"
+	.long _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
 	.long Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM643=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM649=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 2,125,0,3
 	.asciz "value"
 
-LDIFF_SYM644=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM650=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM650
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM645=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM645
+LDIFF_SYM651=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM651
 Lfde46_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+	.long _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM646=Lme_2e - _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
-	.long LDIFF_SYM646
+LDIFF_SYM652=Lme_2e - _iNVEST_iNVESTViewController_set_txtTotal_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM652
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde46_end:
@@ -8194,167 +8326,174 @@ Lfde46_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController:ReleaseDesignerOutlets"
-	.long _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
+	.asciz "iNVEST.iNVESTViewController:get_txtValidado"
+	.long _iNVEST_iNVESTViewController_get_txtValidado
 	.long Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM647=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM647
-	.byte 1,90,0
+LDIFF_SYM653=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM653
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM648=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM648
+LDIFF_SYM654=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM654
 Lfde47_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
+	.long _iNVEST_iNVESTViewController_get_txtValidado
 
-LDIFF_SYM649=Lme_2f - _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM649
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM655=Lme_2f - _iNVEST_iNVESTViewController_get_txtValidado
+	.long LDIFF_SYM655
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_73:
 
-	.byte 5
-	.asciz "MonoTouch_UIKit_UIScrollViewDelegate"
-
-	.byte 20,16
-LDIFF_SYM650=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM650
-	.byte 2,35,0,0,7
-	.asciz "MonoTouch_UIKit_UIScrollViewDelegate"
-
-LDIFF_SYM651=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM651
-LTDIE_73_POINTER:
-
-	.byte 13
-LDIFF_SYM652=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM652
-LTDIE_73_REFERENCE:
-
-	.byte 14
-LDIFF_SYM653=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM653
-LTDIE_72:
-
-	.byte 5
-	.asciz "MonoTouch_UIKit_UITableViewSource"
-
-	.byte 20,16
-LDIFF_SYM654=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM654
-	.byte 2,35,0,0,7
-	.asciz "MonoTouch_UIKit_UITableViewSource"
-
-LDIFF_SYM655=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM655
-LTDIE_72_POINTER:
-
-	.byte 13
-LDIFF_SYM656=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM656
-LTDIE_72_REFERENCE:
-
-	.byte 14
-LDIFF_SYM657=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM657
-LTDIE_71:
-
-	.byte 5
-	.asciz "iNVEST_TableSource"
-
-	.byte 32,16
-LDIFF_SYM658=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM658
-	.byte 2,35,0,6
-	.asciz "tableItems"
-
-LDIFF_SYM659=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM659
-	.byte 2,35,20,6
-	.asciz "cellIdentifier"
-
-LDIFF_SYM660=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM660
-	.byte 2,35,24,6
-	.asciz "controler"
-
-LDIFF_SYM661=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM661
-	.byte 2,35,28,0,7
-	.asciz "iNVEST_TableSource"
-
-LDIFF_SYM662=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM662
-LTDIE_71_POINTER:
-
-	.byte 13
-LDIFF_SYM663=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM663
-LTDIE_71_REFERENCE:
-
-	.byte 14
-LDIFF_SYM664=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM664
 	.byte 2
-	.asciz "iNVEST.TableSource:.ctor"
-	.long _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
+	.asciz "iNVEST.iNVESTViewController:set_txtValidado"
+	.long _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
 	.long Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM665=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM665
-	.byte 1,85,3
-	.asciz "items"
-
-LDIFF_SYM666=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM656=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 2,125,0,3
-	.asciz "_controler"
+	.asciz "value"
 
-LDIFF_SYM667=LTDIE_12_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM657=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM657
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM668=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM668
+LDIFF_SYM658=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM658
 Lfde48_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
+	.long _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
 
-LDIFF_SYM669=Lme_30 - _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
-	.long LDIFF_SYM669
-	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
+LDIFF_SYM659=Lme_30 - _iNVEST_iNVESTViewController_set_txtValidado_MonoTouch_UIKit_UILabel
+	.long LDIFF_SYM659
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController:get_txtValor"
+	.long _iNVEST_iNVESTViewController_get_txtValor
+	.long Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM660=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM660
+	.byte 2,125,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM661=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM661
+Lfde49_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewController_get_txtValor
+
+LDIFF_SYM662=Lme_31 - _iNVEST_iNVESTViewController_get_txtValor
+	.long LDIFF_SYM662
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController:set_txtValor"
+	.long _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+	.long Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM663=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM663
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM664=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM664
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM665=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM665
+Lfde50_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+
+LDIFF_SYM666=Lme_32 - _iNVEST_iNVESTViewController_set_txtValor_MonoTouch_UIKit_UITextField
+	.long LDIFF_SYM666
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde50_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController:ReleaseDesignerOutlets"
+	.long _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
+	.long Lme_33
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM667=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM667
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM668=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM668
+Lfde51_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
+
+LDIFF_SYM669=Lme_33 - _iNVEST_iNVESTViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM669
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+	.align 2
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_74:
 
 	.byte 5
-	.asciz "MonoTouch_Foundation_NSIndexPath"
+	.asciz "MonoTouch_UIKit_UIScrollViewDelegate"
 
 	.byte 20,16
 LDIFF_SYM670=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM670
 	.byte 2,35,0,0,7
-	.asciz "MonoTouch_Foundation_NSIndexPath"
+	.asciz "MonoTouch_UIKit_UIScrollViewDelegate"
 
 LDIFF_SYM671=LTDIE_74 - Ldebug_info_start
 	.long LDIFF_SYM671
@@ -8368,125 +8507,116 @@ LTDIE_74_REFERENCE:
 	.byte 14
 LDIFF_SYM673=LTDIE_74 - Ldebug_info_start
 	.long LDIFF_SYM673
-	.byte 2
-	.asciz "iNVEST.TableSource:RowSelected"
-	.long _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_31
+LTDIE_73:
 
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 5
+	.asciz "MonoTouch_UIKit_UITableViewSource"
 
-LDIFF_SYM674=LTDIE_71_REFERENCE - Ldebug_info_start
+	.byte 20,16
+LDIFF_SYM674=LTDIE_74 - Ldebug_info_start
 	.long LDIFF_SYM674
-	.byte 1,85,3
-	.asciz "tableView"
+	.byte 2,35,0,0,7
+	.asciz "MonoTouch_UIKit_UITableViewSource"
 
-LDIFF_SYM675=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM675=LTDIE_73 - Ldebug_info_start
 	.long LDIFF_SYM675
-	.byte 2,123,60,3
-	.asciz "indexPath"
+LTDIE_73_POINTER:
 
-LDIFF_SYM676=LTDIE_74_REFERENCE - Ldebug_info_start
+	.byte 13
+LDIFF_SYM676=LTDIE_73 - Ldebug_info_start
 	.long LDIFF_SYM676
-	.byte 1,90,11
-	.asciz "V_0"
+LTDIE_73_REFERENCE:
 
-LDIFF_SYM677=LDIE_I4 - Ldebug_info_start
+	.byte 14
+LDIFF_SYM677=LTDIE_73 - Ldebug_info_start
 	.long LDIFF_SYM677
-	.byte 2,123,8,11
-	.asciz "V_1"
+LTDIE_72:
 
-LDIFF_SYM678=LDIE_R8 - Ldebug_info_start
+	.byte 5
+	.asciz "iNVEST_TableSource"
+
+	.byte 32,16
+LDIFF_SYM678=LTDIE_73 - Ldebug_info_start
 	.long LDIFF_SYM678
-	.byte 2,123,12,11
-	.asciz "V_2"
+	.byte 2,35,0,6
+	.asciz "tableItems"
 
-LDIFF_SYM679=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM679=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM679
-	.byte 2,123,20,11
-	.asciz "V_3"
+	.byte 2,35,20,6
+	.asciz "cellIdentifier"
 
-LDIFF_SYM680=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM680=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM680
-	.byte 2,123,28,0
+	.byte 2,35,24,6
+	.asciz "controler"
 
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM681=Lfde49_end - Lfde49_start
+LDIFF_SYM681=LTDIE_12_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM681
-Lfde49_start:
+	.byte 2,35,28,0,7
+	.asciz "iNVEST_TableSource"
 
-	.long 0
-	.align 2
-	.long _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM682=Lme_31 - _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+LDIFF_SYM682=LTDIE_72 - Ldebug_info_start
 	.long LDIFF_SYM682
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
-	.align 2
-Lfde49_end:
+LTDIE_72_POINTER:
 
-.section __DWARF, __debug_info,regular,debug
+	.byte 13
+LDIFF_SYM683=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM683
+LTDIE_72_REFERENCE:
 
+	.byte 14
+LDIFF_SYM684=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 2
-	.asciz "iNVEST.TableSource:RowsInSection"
-	.long _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
-	.long Lme_32
+	.asciz "iNVEST.TableSource:.ctor"
+	.long _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
+	.long Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM683=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM683
-	.byte 2,125,0,3
-	.asciz "tableview"
-
-LDIFF_SYM684=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM684
-	.byte 0,3
-	.asciz "section"
-
-LDIFF_SYM685=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM685=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM685
-	.byte 0,0
+	.byte 1,85,3
+	.asciz "items"
+
+LDIFF_SYM686=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM686
+	.byte 2,125,0,3
+	.asciz "_controler"
+
+LDIFF_SYM687=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM686=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM686
-Lfde50_start:
+LDIFF_SYM688=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM688
+Lfde52_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
+	.long _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
 
-LDIFF_SYM687=Lme_32 - _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
-	.long LDIFF_SYM687
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM689=Lme_34 - _iNVEST_TableSource__ctor_iNVEST_Stock___iNVEST_iNVESTViewController
+	.long LDIFF_SYM689
+	.byte 12,13,0,72,14,8,135,2,68,14,16,133,4,136,3,142,1,68,14,24
 	.align 2
-Lfde50_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_75:
 
 	.byte 5
-	.asciz "MonoTouch_UIKit_UITableViewCell"
+	.asciz "MonoTouch_Foundation_NSIndexPath"
 
-	.byte 40,16
-LDIFF_SYM688=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM688
-	.byte 2,35,0,6
-	.asciz "__mt_DetailTextLabel_var"
-
-LDIFF_SYM689=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM689
-	.byte 2,35,32,6
-	.asciz "__mt_TextLabel_var"
-
-LDIFF_SYM690=LDIE_OBJECT - Ldebug_info_start
+	.byte 20,16
+LDIFF_SYM690=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM690
-	.byte 2,35,36,0,7
-	.asciz "MonoTouch_UIKit_UITableViewCell"
+	.byte 2,35,0,0,7
+	.asciz "MonoTouch_Foundation_NSIndexPath"
 
 LDIFF_SYM691=LTDIE_75 - Ldebug_info_start
 	.long LDIFF_SYM691
@@ -8501,82 +8631,82 @@ LTDIE_75_REFERENCE:
 LDIFF_SYM693=LTDIE_75 - Ldebug_info_start
 	.long LDIFF_SYM693
 	.byte 2
-	.asciz "iNVEST.TableSource:GetCell"
-	.long _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_33
+	.asciz "iNVEST.TableSource:RowSelected"
+	.long _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM694=LTDIE_71_REFERENCE - Ldebug_info_start
+LDIFF_SYM694=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM694
 	.byte 1,85,3
 	.asciz "tableView"
 
-LDIFF_SYM695=LTDIE_17_REFERENCE - Ldebug_info_start
+LDIFF_SYM695=LTDIE_19_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM695
-	.byte 1,86,3
+	.byte 2,123,60,3
 	.asciz "indexPath"
 
-LDIFF_SYM696=LTDIE_74_REFERENCE - Ldebug_info_start
+LDIFF_SYM696=LTDIE_75_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM696
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM697=LTDIE_75_REFERENCE - Ldebug_info_start
+LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM697
-	.byte 1,86,11
+	.byte 2,123,8,11
 	.asciz "V_1"
 
 LDIFF_SYM698=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM698
-	.byte 2,125,0,11
+	.byte 2,123,12,11
 	.asciz "V_2"
 
 LDIFF_SYM699=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM699
-	.byte 2,125,8,11
+	.byte 2,123,20,11
 	.asciz "V_3"
 
 LDIFF_SYM700=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM700
-	.byte 2,125,16,0
+	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM701=Lfde51_end - Lfde51_start
+LDIFF_SYM701=Lfde53_end - Lfde53_start
 	.long LDIFF_SYM701
-Lfde51_start:
+Lfde53_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM702=Lme_33 - _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+LDIFF_SYM702=Lme_35 - _iNVEST_TableSource_RowSelected_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
 	.long LDIFF_SYM702
-	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,152,1
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
 	.align 2
-Lfde51_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.TableSource:CanEditRow"
-	.long _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_34
+	.asciz "iNVEST.TableSource:RowsInSection"
+	.long _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
+	.long Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM703=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM703=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM703
-	.byte 0,3
-	.asciz "tableView"
+	.byte 2,125,0,3
+	.asciz "tableview"
 
 LDIFF_SYM704=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM704
 	.byte 0,3
-	.asciz "indexPath"
+	.asciz "section"
 
 LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM705
@@ -8584,96 +8714,16 @@ LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM706=Lfde52_end - Lfde52_start
+LDIFF_SYM706=Lfde54_end - Lfde54_start
 	.long LDIFF_SYM706
-Lfde52_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM707=Lme_34 - _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM707
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde52_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.TableSource:CanMoveRow"
-	.long _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_35
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM708
-	.byte 0,3
-	.asciz "tableView"
-
-LDIFF_SYM709=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM709
-	.byte 0,3
-	.asciz "indexPath"
-
-LDIFF_SYM710=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM710
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM711=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM711
-Lfde53_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM712=Lme_35 - _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM712
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde53_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.TableSource:EditingStyleForRow"
-	.long _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long Lme_36
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM713=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM713
-	.byte 0,3
-	.asciz "tableView"
-
-LDIFF_SYM714=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM714
-	.byte 0,3
-	.asciz "indexPath"
-
-LDIFF_SYM715=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM715
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM716=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM716
 Lfde54_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
 
-LDIFF_SYM717=Lme_36 - _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM717
+LDIFF_SYM707=Lme_36 - _iNVEST_TableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
+	.long LDIFF_SYM707
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde54_end:
@@ -8681,12 +8731,224 @@ Lfde54_end:
 .section __DWARF, __debug_info,regular,debug
 LTDIE_76:
 
+	.byte 5
+	.asciz "MonoTouch_UIKit_UITableViewCell"
+
+	.byte 40,16
+LDIFF_SYM708=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM708
+	.byte 2,35,0,6
+	.asciz "__mt_DetailTextLabel_var"
+
+LDIFF_SYM709=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM709
+	.byte 2,35,32,6
+	.asciz "__mt_TextLabel_var"
+
+LDIFF_SYM710=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM710
+	.byte 2,35,36,0,7
+	.asciz "MonoTouch_UIKit_UITableViewCell"
+
+LDIFF_SYM711=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM711
+LTDIE_76_POINTER:
+
+	.byte 13
+LDIFF_SYM712=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM712
+LTDIE_76_REFERENCE:
+
+	.byte 14
+LDIFF_SYM713=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM713
+	.byte 2
+	.asciz "iNVEST.TableSource:GetCell"
+	.long _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_37
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM714=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM714
+	.byte 1,85,3
+	.asciz "tableView"
+
+LDIFF_SYM715=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM715
+	.byte 1,86,3
+	.asciz "indexPath"
+
+LDIFF_SYM716=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM716
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM717=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM717
+	.byte 1,86,11
+	.asciz "V_1"
+
+LDIFF_SYM718=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM718
+	.byte 2,125,0,11
+	.asciz "V_2"
+
+LDIFF_SYM719=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM719
+	.byte 2,125,8,11
+	.asciz "V_3"
+
+LDIFF_SYM720=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM720
+	.byte 2,125,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM721=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM721
+Lfde55_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+LDIFF_SYM722=Lme_37 - _iNVEST_TableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM722
+	.byte 12,13,0,72,14,8,135,2,68,14,24,133,6,134,5,136,4,138,3,142,1,68,14,152,1
+	.align 2
+Lfde55_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.TableSource:CanEditRow"
+	.long _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_38
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM723=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM723
+	.byte 0,3
+	.asciz "tableView"
+
+LDIFF_SYM724=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM724
+	.byte 0,3
+	.asciz "indexPath"
+
+LDIFF_SYM725=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM725
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM726=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM726
+Lfde56_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+LDIFF_SYM727=Lme_38 - _iNVEST_TableSource_CanEditRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM727
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde56_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.TableSource:CanMoveRow"
+	.long _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_39
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM728=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM728
+	.byte 0,3
+	.asciz "tableView"
+
+LDIFF_SYM729=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM729
+	.byte 0,3
+	.asciz "indexPath"
+
+LDIFF_SYM730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM730
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM731=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM731
+Lfde57_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+LDIFF_SYM732=Lme_39 - _iNVEST_TableSource_CanMoveRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM732
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde57_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.TableSource:EditingStyleForRow"
+	.long _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long Lme_3a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM733=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM733
+	.byte 0,3
+	.asciz "tableView"
+
+LDIFF_SYM734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM734
+	.byte 0,3
+	.asciz "indexPath"
+
+LDIFF_SYM735=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM735
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM736=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM736
+Lfde58_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+LDIFF_SYM737=Lme_3a - _iNVEST_TableSource_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM737
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_77:
+
 	.byte 8
 	.asciz "MonoTouch_UIKit_UITableViewCellEditingStyle"
 
 	.byte 4
-LDIFF_SYM718=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 9
 	.asciz "None"
 
@@ -8699,462 +8961,314 @@ LDIFF_SYM718=LDIE_I4 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "MonoTouch_UIKit_UITableViewCellEditingStyle"
 
-LDIFF_SYM719=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM719
-LTDIE_76_POINTER:
+LDIFF_SYM739=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM739
+LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM720=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM720
-LTDIE_76_REFERENCE:
+LDIFF_SYM740=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM740
+LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM721=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM741=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 2
 	.asciz "iNVEST.TableSource:CommitEditingStyle"
 	.long _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
-	.long Lme_37
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM722=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM722
-	.byte 2,123,36,3
-	.asciz "tableView"
-
-LDIFF_SYM723=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM723
-	.byte 2,123,40,3
-	.asciz "editingStyle"
-
-LDIFF_SYM724=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM724
-	.byte 2,123,44,3
-	.asciz "indexPath"
-
-LDIFF_SYM725=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM725
-	.byte 2,123,48,11
-	.asciz "V_0"
-
-LDIFF_SYM726=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM726
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM727=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM727
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM728=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM728
-	.byte 1,85,11
-	.asciz "V_3"
-
-LDIFF_SYM729=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM729
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM730=LDIE_I2 - Ldebug_info_start
-	.long LDIFF_SYM730
-	.byte 2,123,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM731=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM731
-Lfde55_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
-
-LDIFF_SYM732=Lme_37 - _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
-	.long LDIFF_SYM732
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11
-	.align 2
-Lfde55_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.LoadingOverlay:.ctor"
-	.long _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
-	.long Lme_38
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM733=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM733
-	.byte 1,90,3
-	.asciz "frame"
-
-LDIFF_SYM734=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM734
-	.byte 3,123,236,1,11
-	.asciz "V_0"
-
-LDIFF_SYM735=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM735
-	.byte 2,123,16,11
-	.asciz "V_1"
-
-LDIFF_SYM736=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM736
-	.byte 2,123,20,11
-	.asciz "V_2"
-
-LDIFF_SYM737=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM737
-	.byte 2,123,24,11
-	.asciz "V_3"
-
-LDIFF_SYM738=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM738
-	.byte 2,123,40,11
-	.asciz "V_4"
-
-LDIFF_SYM739=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM739
-	.byte 2,123,44,11
-	.asciz "V_5"
-
-LDIFF_SYM740=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM740
-	.byte 2,123,60,11
-	.asciz "V_6"
-
-LDIFF_SYM741=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM741
-	.byte 3,123,192,0,11
-	.asciz "V_7"
-
-LDIFF_SYM742=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM742
-	.byte 3,123,208,0,11
-	.asciz "V_8"
-
-LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM743
-	.byte 3,123,224,0,11
-	.asciz "V_9"
-
-LDIFF_SYM744=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM744
-	.byte 3,123,240,0,11
-	.asciz "V_10"
-
-LDIFF_SYM745=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM745
-	.byte 3,123,128,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM746=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM746
-Lfde56_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
-
-LDIFF_SYM747=Lme_38 - _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
-	.long LDIFF_SYM747
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,224,2,68,13,11
-	.align 2
-Lfde56_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.LoadingOverlay:Hide"
-	.long _iNVEST_LoadingOverlay_Hide
-	.long Lme_39
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM748=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM748
-	.byte 1,90,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM749=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM749
-Lfde57_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_LoadingOverlay_Hide
-
-LDIFF_SYM750=Lme_39 - _iNVEST_LoadingOverlay_Hide
-	.long LDIFF_SYM750
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,40
-	.align 2
-Lfde57_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.LoadingOverlay:<Hide>m__0"
-	.long _iNVEST_LoadingOverlay__Hidem__0
-	.long Lme_3a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM751=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM751
-	.byte 2,125,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM752=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM752
-Lfde58_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_LoadingOverlay__Hidem__0
-
-LDIFF_SYM753=Lme_3a - _iNVEST_LoadingOverlay__Hidem__0
-	.long LDIFF_SYM753
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde58_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.LoadingOverlay:<Hide>m__1"
-	.long _iNVEST_LoadingOverlay__Hidem__1
 	.long Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM754=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM754
-	.byte 2,125,0,0
+LDIFF_SYM742=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
+	.byte 2,123,36,3
+	.asciz "tableView"
+
+LDIFF_SYM743=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
+	.byte 2,123,40,3
+	.asciz "editingStyle"
+
+LDIFF_SYM744=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM744
+	.byte 2,123,44,3
+	.asciz "indexPath"
+
+LDIFF_SYM745=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM745
+	.byte 2,123,48,11
+	.asciz "V_0"
+
+LDIFF_SYM746=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM746
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM747=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM747
+	.byte 1,86,11
+	.asciz "V_2"
+
+LDIFF_SYM748=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM748
+	.byte 1,85,11
+	.asciz "V_3"
+
+LDIFF_SYM749=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM749
+	.byte 1,90,11
+	.asciz "V_4"
+
+LDIFF_SYM750=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM750
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM755=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM755
+LDIFF_SYM751=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM751
 Lfde59_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_LoadingOverlay__Hidem__1
+	.long _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
 
-LDIFF_SYM756=Lme_3b - _iNVEST_LoadingOverlay__Hidem__1
-	.long LDIFF_SYM756
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM752=Lme_3b - _iNVEST_TableSource_CommitEditingStyle_MonoTouch_UIKit_UITableView_MonoTouch_UIKit_UITableViewCellEditingStyle_MonoTouch_Foundation_NSIndexPath
+	.long LDIFF_SYM752
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11
 	.align 2
 Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:.ctor"
-	.long _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
+	.asciz "iNVEST.LoadingOverlay:.ctor"
+	.long _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
 	.long Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM757=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM753=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 1,90,3
-	.asciz "_id"
+	.asciz "frame"
 
-LDIFF_SYM758=LDIE_I2 - Ldebug_info_start
+LDIFF_SYM754=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM754
+	.byte 3,123,236,1,11
+	.asciz "V_0"
+
+LDIFF_SYM755=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM755
+	.byte 2,123,16,11
+	.asciz "V_1"
+
+LDIFF_SYM756=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM756
+	.byte 2,123,20,11
+	.asciz "V_2"
+
+LDIFF_SYM757=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM757
+	.byte 2,123,24,11
+	.asciz "V_3"
+
+LDIFF_SYM758=LDIE_R4 - Ldebug_info_start
 	.long LDIFF_SYM758
-	.byte 2,123,0,3
-	.asciz "_code"
+	.byte 2,123,40,11
+	.asciz "V_4"
 
-LDIFF_SYM759=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM759=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM759
-	.byte 2,123,4,3
-	.asciz "_original_value"
+	.byte 2,123,44,11
+	.asciz "V_5"
 
-LDIFF_SYM760=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM760=LDIE_R4 - Ldebug_info_start
 	.long LDIFF_SYM760
-	.byte 2,123,8,3
-	.asciz "_quantity"
+	.byte 2,123,60,11
+	.asciz "V_6"
 
 LDIFF_SYM761=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM761
-	.byte 2,123,16,3
-	.asciz "_tax"
+	.byte 3,123,192,0,11
+	.asciz "V_7"
 
-LDIFF_SYM762=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM762=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM762
-	.byte 2,123,20,3
-	.asciz "_nome"
+	.byte 3,123,208,0,11
+	.asciz "V_8"
 
-LDIFF_SYM763=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM763=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM763
-	.byte 2,123,28,3
-	.asciz "_oscilacao"
+	.byte 3,123,224,0,11
+	.asciz "V_9"
 
-LDIFF_SYM764=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM764=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM764
-	.byte 2,123,32,3
-	.asciz "_ultimo"
+	.byte 3,123,240,0,11
+	.asciz "V_10"
 
-LDIFF_SYM765=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM765=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM765
-	.byte 2,123,40,3
-	.asciz "_data"
-
-LDIFF_SYM766=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM766
-	.byte 2,123,48,0
+	.byte 3,123,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM767=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM767
+LDIFF_SYM766=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM766
 Lfde60_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
+	.long _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
 
-LDIFF_SYM768=Lme_3c - _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
-	.long LDIFF_SYM768
-	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,80,68,13,11
+LDIFF_SYM767=Lme_3c - _iNVEST_LoadingOverlay__ctor_System_Drawing_RectangleF
+	.long LDIFF_SYM767
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,224,2,68,13,11
 	.align 2
 Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_Id"
-	.long _iNVEST_Stock_get_Id
+	.asciz "iNVEST.LoadingOverlay:Hide"
+	.long _iNVEST_LoadingOverlay_Hide
 	.long Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM769=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
-	.byte 2,125,0,0
+LDIFF_SYM768=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM768
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM770=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM770
+LDIFF_SYM769=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM769
 Lfde61_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_Id
+	.long _iNVEST_LoadingOverlay_Hide
 
-LDIFF_SYM771=Lme_3d - _iNVEST_Stock_get_Id
-	.long LDIFF_SYM771
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM770=Lme_3d - _iNVEST_LoadingOverlay_Hide
+	.long LDIFF_SYM770
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,40
 	.align 2
 Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_Code"
-	.long _iNVEST_Stock_get_Code
+	.asciz "iNVEST.LoadingOverlay:<Hide>m__0"
+	.long _iNVEST_LoadingOverlay__Hidem__0
 	.long Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM772=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM772
-	.byte 2,125,0,0
+LDIFF_SYM771=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM771
+	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM773=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM773
+LDIFF_SYM772=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM772
 Lfde62_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_Code
+	.long _iNVEST_LoadingOverlay__Hidem__0
 
-LDIFF_SYM774=Lme_3e - _iNVEST_Stock_get_Code
-	.long LDIFF_SYM774
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM773=Lme_3e - _iNVEST_LoadingOverlay__Hidem__0
+	.long LDIFF_SYM773
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_Name"
-	.long _iNVEST_Stock_get_Name
+	.asciz "iNVEST.LoadingOverlay:<Hide>m__1"
+	.long _iNVEST_LoadingOverlay__Hidem__1
 	.long Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM775=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM774=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM774
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM776=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM776
+LDIFF_SYM775=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM775
 Lfde63_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_Name
+	.long _iNVEST_LoadingOverlay__Hidem__1
 
-LDIFF_SYM777=Lme_3f - _iNVEST_Stock_get_Name
-	.long LDIFF_SYM777
+LDIFF_SYM776=Lme_3f - _iNVEST_LoadingOverlay__Hidem__1
+	.long LDIFF_SYM776
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_78:
 
+	.byte 5
+	.asciz "iNVEST_Common"
+
+	.byte 8,16
+LDIFF_SYM777=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM777
+	.byte 2,35,0,0,7
+	.asciz "iNVEST_Common"
+
+LDIFF_SYM778=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM778
+LTDIE_78_POINTER:
+
+	.byte 13
+LDIFF_SYM779=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM779
+LTDIE_78_REFERENCE:
+
+	.byte 14
+LDIFF_SYM780=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2
-	.asciz "iNVEST.Stock:set_Name"
-	.long _iNVEST_Stock_set_Name_string
+	.asciz "iNVEST.Common:.ctor"
+	.long _iNVEST_Common__ctor
 	.long Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM778=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM778
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM779=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM779
-	.byte 2,125,4,0
+LDIFF_SYM781=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM781
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM780=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM780
+LDIFF_SYM782=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM782
 Lfde64_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_set_Name_string
+	.long _iNVEST_Common__ctor
 
-LDIFF_SYM781=Lme_40 - _iNVEST_Stock_set_Name_string
-	.long LDIFF_SYM781
+LDIFF_SYM783=Lme_40 - _iNVEST_Common__ctor
+	.long LDIFF_SYM783
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde64_end:
@@ -9162,64 +9276,69 @@ Lfde64_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_LastUpdatedDate"
-	.long _iNVEST_Stock_get_LastUpdatedDate
+	.asciz "iNVEST.Common:getDouble"
+	.long _iNVEST_Common_getDouble_string
 	.long Lme_41
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "vle"
 
-LDIFF_SYM782=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM784=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM784
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM785=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM783=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM783
+LDIFF_SYM786=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM786
 Lfde65_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_LastUpdatedDate
+	.long _iNVEST_Common_getDouble_string
 
-LDIFF_SYM784=Lme_41 - _iNVEST_Stock_get_LastUpdatedDate
-	.long LDIFF_SYM784
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM787=Lme_41 - _iNVEST_Common_getDouble_string
+	.long LDIFF_SYM787
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:set_LastUpdatedDate"
-	.long _iNVEST_Stock_set_LastUpdatedDate_string
+	.asciz "iNVEST.Common:getInt"
+	.long _iNVEST_Common_getInt_string
 	.long Lme_42
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "vle"
 
-LDIFF_SYM785=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM785
-	.byte 2,125,0,3
-	.asciz "value"
+LDIFF_SYM788=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM788
+	.byte 2,125,4,11
+	.asciz "V_0"
 
-LDIFF_SYM786=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM786
-	.byte 2,125,4,0
+LDIFF_SYM789=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM789
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM787=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM787
+LDIFF_SYM790=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM790
 Lfde66_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_set_LastUpdatedDate_string
+	.long _iNVEST_Common_getInt_string
 
-LDIFF_SYM788=Lme_42 - _iNVEST_Stock_set_LastUpdatedDate_string
-	.long LDIFF_SYM788
+LDIFF_SYM791=Lme_42 - _iNVEST_Common_getInt_string
+	.long LDIFF_SYM791
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde66_end:
@@ -9227,284 +9346,534 @@ Lfde66_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_OriginalValue"
-	.long _iNVEST_Stock_get_OriginalValue
+	.asciz "iNVEST.Common:getDBValue"
+	.long _iNVEST_Common_getDBValue_object
 	.long Lme_43
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "cell"
 
-LDIFF_SYM789=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM789
-	.byte 2,125,0,0
+LDIFF_SYM792=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM792
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM790=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM790
+LDIFF_SYM793=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM793
 Lfde67_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_OriginalValue
+	.long _iNVEST_Common_getDBValue_object
 
-LDIFF_SYM791=Lme_43 - _iNVEST_Stock_get_OriginalValue
-	.long LDIFF_SYM791
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM794=Lme_43 - _iNVEST_Common_getDBValue_object
+	.long LDIFF_SYM794
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_LastValue"
-	.long _iNVEST_Stock_get_LastValue
+	.asciz "iNVEST.Common:getDateFromString"
+	.long _iNVEST_Common_getDateFromString_string
 	.long Lme_44
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "datetime"
 
-LDIFF_SYM792=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM792
-	.byte 2,125,0,0
+LDIFF_SYM795=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM795
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM796=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM796
+	.byte 2,123,20,11
+	.asciz "V_1"
+
+LDIFF_SYM797=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM797
+	.byte 2,123,28,11
+	.asciz "V_2"
+
+LDIFF_SYM798=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM798
+	.byte 2,123,32,11
+	.asciz "V_3"
+
+LDIFF_SYM799=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM799
+	.byte 2,123,36,11
+	.asciz "V_4"
+
+LDIFF_SYM800=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM800
+	.byte 1,86,11
+	.asciz "V_5"
+
+LDIFF_SYM801=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM801
+	.byte 2,123,40,11
+	.asciz "V_6"
+
+LDIFF_SYM802=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM802
+	.byte 2,123,44,11
+	.asciz "V_7"
+
+LDIFF_SYM803=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM803
+	.byte 2,123,48,11
+	.asciz "V_8"
+
+LDIFF_SYM804=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM804
+	.byte 2,123,52,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM793=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM793
+LDIFF_SYM805=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM805
 Lfde68_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_LastValue
+	.long _iNVEST_Common_getDateFromString_string
 
-LDIFF_SYM794=Lme_44 - _iNVEST_Stock_get_LastValue
-	.long LDIFF_SYM794
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM806=Lme_44 - _iNVEST_Common_getDateFromString_string
+	.long LDIFF_SYM806
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11
 	.align 2
 Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_79:
 
+	.byte 5
+	.asciz "iNVEST_DataAccess"
+
+	.byte 20,16
+LDIFF_SYM807=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM807
+	.byte 2,35,0,6
+	.asciz "sql"
+
+LDIFF_SYM808=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM808
+	.byte 2,35,8,6
+	.asciz "dbPath"
+
+LDIFF_SYM809=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM809
+	.byte 2,35,12,6
+	.asciz "dbFile"
+
+LDIFF_SYM810=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM810
+	.byte 2,35,16,0,7
+	.asciz "iNVEST_DataAccess"
+
+LDIFF_SYM811=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM811
+LTDIE_79_POINTER:
+
+	.byte 13
+LDIFF_SYM812=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM812
+LTDIE_79_REFERENCE:
+
+	.byte 14
+LDIFF_SYM813=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 2
-	.asciz "iNVEST.Stock:set_LastValue"
-	.long _iNVEST_Stock_set_LastValue_double
+	.asciz "iNVEST.DataAccess:.ctor"
+	.long _iNVEST_DataAccess__ctor_string
 	.long Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM795=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM795
-	.byte 2,125,0,3
-	.asciz "value"
+LDIFF_SYM814=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM814
+	.byte 1,86,3
+	.asciz "_sql"
 
-LDIFF_SYM796=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM796
-	.byte 2,125,4,0
+LDIFF_SYM815=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM815
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM797=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM797
+LDIFF_SYM816=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM816
 Lfde69_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_set_LastValue_double
+	.long _iNVEST_DataAccess__ctor_string
 
-LDIFF_SYM798=Lme_45 - _iNVEST_Stock_set_LastValue_double
-	.long LDIFF_SYM798
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM817=Lme_45 - _iNVEST_DataAccess__ctor_string
+	.long LDIFF_SYM817
+	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
 	.align 2
 Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_80:
 
+	.byte 17
+	.asciz "System_Data_IDbConnection"
+
+	.byte 8,7
+	.asciz "System_Data_IDbConnection"
+
+LDIFF_SYM818=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM818
+LTDIE_80_POINTER:
+
+	.byte 13
+LDIFF_SYM819=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM819
+LTDIE_80_REFERENCE:
+
+	.byte 14
+LDIFF_SYM820=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM820
+LTDIE_81:
+
+	.byte 17
+	.asciz "System_Data_IDbCommand"
+
+	.byte 8,7
+	.asciz "System_Data_IDbCommand"
+
+LDIFF_SYM821=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM821
+LTDIE_81_POINTER:
+
+	.byte 13
+LDIFF_SYM822=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM822
+LTDIE_81_REFERENCE:
+
+	.byte 14
+LDIFF_SYM823=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 2
-	.asciz "iNVEST.Stock:get_VariationPercent"
-	.long _iNVEST_Stock_get_VariationPercent
+	.asciz "iNVEST.DataAccess:executeQuery"
+	.long _iNVEST_DataAccess_executeQuery
 	.long Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM799=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM799
-	.byte 2,125,0,0
+LDIFF_SYM824=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM824
+	.byte 2,125,0,11
+	.asciz "V_0"
+
+LDIFF_SYM825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM825
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM826=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM826
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM827=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM827
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM800=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM800
+LDIFF_SYM828=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM828
 Lfde70_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_VariationPercent
+	.long _iNVEST_DataAccess_executeQuery
 
-LDIFF_SYM801=Lme_46 - _iNVEST_Stock_get_VariationPercent
-	.long LDIFF_SYM801
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM829=Lme_46 - _iNVEST_DataAccess_executeQuery
+	.long LDIFF_SYM829
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56
 	.align 2
 Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_82:
 
+	.byte 17
+	.asciz "System_Data_IDataReader"
+
+	.byte 8,7
+	.asciz "System_Data_IDataReader"
+
+LDIFF_SYM830=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM830
+LTDIE_82_POINTER:
+
+	.byte 13
+LDIFF_SYM831=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM831
+LTDIE_82_REFERENCE:
+
+	.byte 14
+LDIFF_SYM832=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 2
-	.asciz "iNVEST.Stock:set_VariationPercent"
-	.long _iNVEST_Stock_set_VariationPercent_double
+	.asciz "iNVEST.DataAccess:getData"
+	.long _iNVEST_DataAccess_getData
 	.long Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM802=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
-	.byte 2,125,0,3
-	.asciz "value"
+LDIFF_SYM833=LTDIE_79_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM833
+	.byte 1,90,11
+	.asciz "V_0"
 
-LDIFF_SYM803=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM803
-	.byte 2,125,4,0
+LDIFF_SYM834=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM834
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM835=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM835
+	.byte 2,123,48,11
+	.asciz "V_2"
+
+LDIFF_SYM836=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM836
+	.byte 1,84,11
+	.asciz "V_3"
+
+LDIFF_SYM837=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM837
+	.byte 1,90,11
+	.asciz "V_4"
+
+LDIFF_SYM838=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM838
+	.byte 1,85,11
+	.asciz "V_5"
+
+LDIFF_SYM839=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM839
+	.byte 2,123,52,11
+	.asciz "V_6"
+
+LDIFF_SYM840=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM840
+	.byte 2,123,56,11
+	.asciz "V_7"
+
+LDIFF_SYM841=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM841
+	.byte 3,123,192,0,11
+	.asciz "V_8"
+
+LDIFF_SYM842=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM842
+	.byte 3,123,196,0,11
+	.asciz "V_9"
+
+LDIFF_SYM843=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM843
+	.byte 3,123,204,0,11
+	.asciz "V_10"
+
+LDIFF_SYM844=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM844
+	.byte 3,123,212,0,11
+	.asciz "V_11"
+
+LDIFF_SYM845=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
+	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM804=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM804
+LDIFF_SYM846=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM846
 Lfde71_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_set_VariationPercent_double
+	.long _iNVEST_DataAccess_getData
 
-LDIFF_SYM805=Lme_47 - _iNVEST_Stock_set_VariationPercent_double
-	.long LDIFF_SYM805
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM847=Lme_47 - _iNVEST_DataAccess_getData
+	.long LDIFF_SYM847
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11
 	.align 2
 Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_Tax"
-	.long _iNVEST_Stock_get_Tax
+	.asciz "iNVEST.Stock:.ctor"
+	.long _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
 	.long Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM806=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
-	.byte 2,125,0,0
+LDIFF_SYM848=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM848
+	.byte 1,90,3
+	.asciz "_id"
+
+LDIFF_SYM849=LDIE_I2 - Ldebug_info_start
+	.long LDIFF_SYM849
+	.byte 2,123,0,3
+	.asciz "_code"
+
+LDIFF_SYM850=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM850
+	.byte 2,123,4,3
+	.asciz "_original_value"
+
+LDIFF_SYM851=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM851
+	.byte 2,123,8,3
+	.asciz "_quantity"
+
+LDIFF_SYM852=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM852
+	.byte 2,123,16,3
+	.asciz "_tax"
+
+LDIFF_SYM853=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM853
+	.byte 2,123,20,3
+	.asciz "_nome"
+
+LDIFF_SYM854=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM854
+	.byte 2,123,28,3
+	.asciz "_oscilacao"
+
+LDIFF_SYM855=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM855
+	.byte 2,123,32,3
+	.asciz "_ultimo"
+
+LDIFF_SYM856=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM856
+	.byte 2,123,40,3
+	.asciz "_data"
+
+LDIFF_SYM857=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM857
+	.byte 2,123,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM807
+LDIFF_SYM858=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM858
 Lfde72_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_Tax
+	.long _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
 
-LDIFF_SYM808=Lme_48 - _iNVEST_Stock_get_Tax
-	.long LDIFF_SYM808
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM859=Lme_48 - _iNVEST_Stock__ctor_int16_string_double_int_double_string_double_double_string
+	.long LDIFF_SYM859
+	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
 Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:set_Tax"
-	.long _iNVEST_Stock_set_Tax_double
+	.asciz "iNVEST.Stock:get_Id"
+	.long _iNVEST_Stock_get_Id
 	.long Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM809=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
-	.byte 2,125,0,3
-	.asciz "value"
-
-LDIFF_SYM810=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM810
-	.byte 2,125,4,0
+LDIFF_SYM860=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM811=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM811
+LDIFF_SYM861=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM861
 Lfde73_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_set_Tax_double
+	.long _iNVEST_Stock_get_Id
 
-LDIFF_SYM812=Lme_49 - _iNVEST_Stock_set_Tax_double
-	.long LDIFF_SYM812
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+LDIFF_SYM862=Lme_49 - _iNVEST_Stock_get_Id
+	.long LDIFF_SYM862
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_MoneyDifferenceLessTax"
-	.long _iNVEST_Stock_get_MoneyDifferenceLessTax
+	.asciz "iNVEST.Stock:get_Code"
+	.long _iNVEST_Stock_get_Code
 	.long Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM813=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
-	.byte 1,90,0
+LDIFF_SYM863=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM863
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM814=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM814
+LDIFF_SYM864=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM864
 Lfde74_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_MoneyDifferenceLessTax
+	.long _iNVEST_Stock_get_Code
 
-LDIFF_SYM815=Lme_4a - _iNVEST_Stock_get_MoneyDifferenceLessTax
-	.long LDIFF_SYM815
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM865=Lme_4a - _iNVEST_Stock_get_Code
+	.long LDIFF_SYM865
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_Quantity"
-	.long _iNVEST_Stock_get_Quantity
+	.asciz "iNVEST.Stock:get_Name"
+	.long _iNVEST_Stock_get_Name
 	.long Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM816=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM866=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM817=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM817
+LDIFF_SYM867=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM867
 Lfde75_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_Quantity
+	.long _iNVEST_Stock_get_Name
 
-LDIFF_SYM818=Lme_4b - _iNVEST_Stock_get_Quantity
-	.long LDIFF_SYM818
+LDIFF_SYM868=Lme_4b - _iNVEST_Stock_get_Name
+	.long LDIFF_SYM868
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde75_end:
@@ -9512,29 +9881,34 @@ Lfde75_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_MoneyInvested"
-	.long _iNVEST_Stock_get_MoneyInvested
+	.asciz "iNVEST.Stock:set_Name"
+	.long _iNVEST_Stock_set_Name_string
 	.long Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM819=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM819
-	.byte 2,125,0,0
+LDIFF_SYM869=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM870=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM870
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM820=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM820
+LDIFF_SYM871=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM871
 Lfde76_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_MoneyInvested
+	.long _iNVEST_Stock_set_Name_string
 
-LDIFF_SYM821=Lme_4c - _iNVEST_Stock_get_MoneyInvested
-	.long LDIFF_SYM821
+LDIFF_SYM872=Lme_4c - _iNVEST_Stock_set_Name_string
+	.long LDIFF_SYM872
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde76_end:
@@ -9542,29 +9916,29 @@ Lfde76_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_MoneyNow"
-	.long _iNVEST_Stock_get_MoneyNow
+	.asciz "iNVEST.Stock:get_LastUpdatedDate"
+	.long _iNVEST_Stock_get_LastUpdatedDate
 	.long Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM822=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM873=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM823=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM823
+LDIFF_SYM874=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM874
 Lfde77_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_MoneyNow
+	.long _iNVEST_Stock_get_LastUpdatedDate
 
-LDIFF_SYM824=Lme_4d - _iNVEST_Stock_get_MoneyNow
-	.long LDIFF_SYM824
+LDIFF_SYM875=Lme_4d - _iNVEST_Stock_get_LastUpdatedDate
+	.long LDIFF_SYM875
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde77_end:
@@ -9572,616 +9946,349 @@ Lfde77_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:get_MoneyDifference"
-	.long _iNVEST_Stock_get_MoneyDifference
+	.asciz "iNVEST.Stock:set_LastUpdatedDate"
+	.long _iNVEST_Stock_set_LastUpdatedDate_string
 	.long Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM825=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
-	.byte 1,90,0
+LDIFF_SYM876=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM876
+	.byte 2,125,0,3
+	.asciz "value"
+
+LDIFF_SYM877=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM877
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM826=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM826
+LDIFF_SYM878=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM878
 Lfde78_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_get_MoneyDifference
+	.long _iNVEST_Stock_set_LastUpdatedDate_string
 
-LDIFF_SYM827=Lme_4e - _iNVEST_Stock_get_MoneyDifference
-	.long LDIFF_SYM827
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM879=Lme_4e - _iNVEST_Stock_set_LastUpdatedDate_string
+	.long LDIFF_SYM879
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:getTotalInvested"
-	.long _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
+	.asciz "iNVEST.Stock:get_OriginalValue"
+	.long _iNVEST_Stock_get_OriginalValue
 	.long Lme_4f
 
 	.byte 2,118,16,3
-	.asciz "stkList"
+	.asciz "this"
 
-LDIFF_SYM828=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM828
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM829=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM829
-	.byte 2,123,0,11
-	.asciz "V_1"
-
-LDIFF_SYM830=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM831=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM831
-	.byte 2,123,8,0
+LDIFF_SYM880=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM880
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM832=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM832
+LDIFF_SYM881=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM881
 Lfde79_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
+	.long _iNVEST_Stock_get_OriginalValue
 
-LDIFF_SYM833=Lme_4f - _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
-	.long LDIFF_SYM833
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM882=Lme_4f - _iNVEST_Stock_get_OriginalValue
+	.long LDIFF_SYM882
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:getTotalNow"
-	.long _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
+	.asciz "iNVEST.Stock:get_LastValue"
+	.long _iNVEST_Stock_get_LastValue
 	.long Lme_50
 
 	.byte 2,118,16,3
-	.asciz "stkList"
+	.asciz "this"
 
-LDIFF_SYM834=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM834
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM835=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM835
-	.byte 2,123,0,11
-	.asciz "V_1"
-
-LDIFF_SYM836=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM837=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM837
-	.byte 2,123,8,0
+LDIFF_SYM883=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM883
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM838=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM838
+LDIFF_SYM884=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM884
 Lfde80_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
+	.long _iNVEST_Stock_get_LastValue
 
-LDIFF_SYM839=Lme_50 - _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
-	.long LDIFF_SYM839
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM885=Lme_50 - _iNVEST_Stock_get_LastValue
+	.long LDIFF_SYM885
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:getGainLoss"
-	.long _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
+	.asciz "iNVEST.Stock:set_LastValue"
+	.long _iNVEST_Stock_set_LastValue_double
 	.long Lme_51
 
 	.byte 2,118,16,3
-	.asciz "stkList"
+	.asciz "this"
 
-LDIFF_SYM840=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM840
-	.byte 1,90,11
-	.asciz "V_0"
+LDIFF_SYM886=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM886
+	.byte 2,125,0,3
+	.asciz "value"
 
-LDIFF_SYM841=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM841
-	.byte 2,123,0,11
-	.asciz "V_1"
-
-LDIFF_SYM842=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM842
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM843=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM843
-	.byte 2,123,8,0
+LDIFF_SYM887=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM887
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM844
+LDIFF_SYM888=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM888
 Lfde81_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
+	.long _iNVEST_Stock_set_LastValue_double
 
-LDIFF_SYM845=Lme_51 - _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
-	.long LDIFF_SYM845
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM889=Lme_51 - _iNVEST_Stock_set_LastValue_double
+	.long LDIFF_SYM889
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:getTax"
-	.long _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
+	.asciz "iNVEST.Stock:get_VariationPercent"
+	.long _iNVEST_Stock_get_VariationPercent
 	.long Lme_52
 
 	.byte 2,118,16,3
-	.asciz "stkList"
+	.asciz "this"
 
-LDIFF_SYM846=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM846
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM847=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM847
-	.byte 2,123,0,11
-	.asciz "V_1"
-
-LDIFF_SYM848=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM848
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM849=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM849
-	.byte 2,123,8,0
+LDIFF_SYM890=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM890
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM850=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM850
+LDIFF_SYM891=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM891
 Lfde82_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
+	.long _iNVEST_Stock_get_VariationPercent
 
-LDIFF_SYM851=Lme_52 - _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
-	.long LDIFF_SYM851
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
+LDIFF_SYM892=Lme_52 - _iNVEST_Stock_get_VariationPercent
+	.long LDIFF_SYM892
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:getAllCodes"
-	.long _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
+	.asciz "iNVEST.Stock:set_VariationPercent"
+	.long _iNVEST_Stock_set_VariationPercent_double
 	.long Lme_53
 
 	.byte 2,118,16,3
-	.asciz "stkList"
+	.asciz "this"
 
-LDIFF_SYM852=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM852
-	.byte 1,90,11
-	.asciz "V_0"
+LDIFF_SYM893=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM893
+	.byte 2,125,0,3
+	.asciz "value"
 
-LDIFF_SYM853=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM853
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM854=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM854
-	.byte 1,86,11
-	.asciz "V_2"
-
-LDIFF_SYM855=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM855
-	.byte 2,123,0,0
+LDIFF_SYM894=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM894
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM856=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM856
+LDIFF_SYM895=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM895
 Lfde83_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
+	.long _iNVEST_Stock_set_VariationPercent_double
 
-LDIFF_SYM857=Lme_53 - _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
-	.long LDIFF_SYM857
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+LDIFF_SYM896=Lme_53 - _iNVEST_Stock_set_VariationPercent_double
+	.long LDIFF_SYM896
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Stock:SaveQuotation"
-	.long _iNVEST_Stock_SaveQuotation
+	.asciz "iNVEST.Stock:get_Tax"
+	.long _iNVEST_Stock_get_Tax
 	.long Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM858=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM858
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM859
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM860=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM860
-	.byte 2,125,0,11
-	.asciz "V_2"
-
-LDIFF_SYM861=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM861
-	.byte 2,125,8,0
+LDIFF_SYM897=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM897
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM862=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM862
+LDIFF_SYM898=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM898
 Lfde84_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Stock_SaveQuotation
+	.long _iNVEST_Stock_get_Tax
 
-LDIFF_SYM863=Lme_54 - _iNVEST_Stock_SaveQuotation
-	.long LDIFF_SYM863
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,72
+LDIFF_SYM899=Lme_54 - _iNVEST_Stock_get_Tax
+	.long LDIFF_SYM899
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_77:
 
-	.byte 5
-	.asciz "iNVEST_DataAccess"
-
-	.byte 20,16
-LDIFF_SYM864=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM864
-	.byte 2,35,0,6
-	.asciz "sql"
-
-LDIFF_SYM865=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM865
-	.byte 2,35,8,6
-	.asciz "dbPath"
-
-LDIFF_SYM866=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM866
-	.byte 2,35,12,6
-	.asciz "dbFile"
-
-LDIFF_SYM867=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM867
-	.byte 2,35,16,0,7
-	.asciz "iNVEST_DataAccess"
-
-LDIFF_SYM868=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM868
-LTDIE_77_POINTER:
-
-	.byte 13
-LDIFF_SYM869=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM869
-LTDIE_77_REFERENCE:
-
-	.byte 14
-LDIFF_SYM870=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM870
 	.byte 2
-	.asciz "iNVEST.DataAccess:.ctor"
-	.long _iNVEST_DataAccess__ctor_string
+	.asciz "iNVEST.Stock:set_Tax"
+	.long _iNVEST_Stock_set_Tax_double
 	.long Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM871=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM871
-	.byte 1,86,3
-	.asciz "_sql"
+LDIFF_SYM900=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM900
+	.byte 2,125,0,3
+	.asciz "value"
 
-LDIFF_SYM872=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM872
-	.byte 2,125,0,0
+LDIFF_SYM901=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM901
+	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM873=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM873
+LDIFF_SYM902=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM902
 Lfde85_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_DataAccess__ctor_string
+	.long _iNVEST_Stock_set_Tax_double
 
-LDIFF_SYM874=Lme_55 - _iNVEST_DataAccess__ctor_string
-	.long LDIFF_SYM874
-	.byte 12,13,0,72,14,8,135,2,68,14,16,134,4,136,3,142,1,68,14,24
+LDIFF_SYM903=Lme_55 - _iNVEST_Stock_set_Tax_double
+	.long LDIFF_SYM903
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_78:
 
-	.byte 17
-	.asciz "System_Data_IDbConnection"
-
-	.byte 8,7
-	.asciz "System_Data_IDbConnection"
-
-LDIFF_SYM875=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM875
-LTDIE_78_POINTER:
-
-	.byte 13
-LDIFF_SYM876=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM876
-LTDIE_78_REFERENCE:
-
-	.byte 14
-LDIFF_SYM877=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM877
-LTDIE_79:
-
-	.byte 17
-	.asciz "System_Data_IDbCommand"
-
-	.byte 8,7
-	.asciz "System_Data_IDbCommand"
-
-LDIFF_SYM878=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM878
-LTDIE_79_POINTER:
-
-	.byte 13
-LDIFF_SYM879=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM879
-LTDIE_79_REFERENCE:
-
-	.byte 14
-LDIFF_SYM880=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM880
 	.byte 2
-	.asciz "iNVEST.DataAccess:executeQuery"
-	.long _iNVEST_DataAccess_executeQuery
+	.asciz "iNVEST.Stock:get_MoneyDifferenceLessTax"
+	.long _iNVEST_Stock_get_MoneyDifferenceLessTax
 	.long Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM881=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM881
-	.byte 2,125,0,11
-	.asciz "V_0"
-
-LDIFF_SYM882=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM882
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM883=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM883
-	.byte 0,11
-	.asciz "V_2"
-
-LDIFF_SYM884=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM884
-	.byte 0,0
+LDIFF_SYM904=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM904
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM885=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM885
+LDIFF_SYM905=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM905
 Lfde86_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_DataAccess_executeQuery
+	.long _iNVEST_Stock_get_MoneyDifferenceLessTax
 
-LDIFF_SYM886=Lme_56 - _iNVEST_DataAccess_executeQuery
-	.long LDIFF_SYM886
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,56
+LDIFF_SYM906=Lme_56 - _iNVEST_Stock_get_MoneyDifferenceLessTax
+	.long LDIFF_SYM906
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_80:
 
-	.byte 17
-	.asciz "System_Data_IDataReader"
-
-	.byte 8,7
-	.asciz "System_Data_IDataReader"
-
-LDIFF_SYM887=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM887
-LTDIE_80_POINTER:
-
-	.byte 13
-LDIFF_SYM888=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM888
-LTDIE_80_REFERENCE:
-
-	.byte 14
-LDIFF_SYM889=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM889
 	.byte 2
-	.asciz "iNVEST.DataAccess:getData"
-	.long _iNVEST_DataAccess_getData
+	.asciz "iNVEST.Stock:get_Quantity"
+	.long _iNVEST_Stock_get_Quantity
 	.long Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM890=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM890
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM891=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM891
-	.byte 0,11
-	.asciz "V_1"
-
-LDIFF_SYM892=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
-	.byte 2,123,48,11
-	.asciz "V_2"
-
-LDIFF_SYM893=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM893
-	.byte 1,84,11
-	.asciz "V_3"
-
-LDIFF_SYM894=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM894
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM895=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM895
-	.byte 1,85,11
-	.asciz "V_5"
-
-LDIFF_SYM896=LDIE_I2 - Ldebug_info_start
-	.long LDIFF_SYM896
-	.byte 2,123,52,11
-	.asciz "V_6"
-
-LDIFF_SYM897=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM897
-	.byte 2,123,56,11
-	.asciz "V_7"
-
-LDIFF_SYM898=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM898
-	.byte 3,123,192,0,11
-	.asciz "V_8"
-
-LDIFF_SYM899=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM899
-	.byte 3,123,196,0,11
-	.asciz "V_9"
-
-LDIFF_SYM900=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM900
-	.byte 3,123,204,0,11
-	.asciz "V_10"
-
-LDIFF_SYM901=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM901
-	.byte 3,123,212,0,11
-	.asciz "V_11"
-
-LDIFF_SYM902=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM902
-	.byte 1,86,0
+LDIFF_SYM907=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM907
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM903=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM903
+LDIFF_SYM908=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM908
 Lfde87_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_DataAccess_getData
+	.long _iNVEST_Stock_get_Quantity
 
-LDIFF_SYM904=Lme_57 - _iNVEST_DataAccess_getData
-	.long LDIFF_SYM904
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11
+LDIFF_SYM909=Lme_57 - _iNVEST_Stock_get_Quantity
+	.long LDIFF_SYM909
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_81:
 
-	.byte 5
-	.asciz "iNVEST_Common"
-
-	.byte 8,16
-LDIFF_SYM905=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM905
-	.byte 2,35,0,0,7
-	.asciz "iNVEST_Common"
-
-LDIFF_SYM906=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM906
-LTDIE_81_POINTER:
-
-	.byte 13
-LDIFF_SYM907=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM907
-LTDIE_81_REFERENCE:
-
-	.byte 14
-LDIFF_SYM908=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM908
 	.byte 2
-	.asciz "iNVEST.Common:.ctor"
-	.long _iNVEST_Common__ctor
+	.asciz "iNVEST.Stock:get_MoneyInvested"
+	.long _iNVEST_Stock_get_MoneyInvested
 	.long Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM909=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM909
-	.byte 0,0
+LDIFF_SYM910=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM910
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM910=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM910
+LDIFF_SYM911=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM911
 Lfde88_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Common__ctor
+	.long _iNVEST_Stock_get_MoneyInvested
 
-LDIFF_SYM911=Lme_58 - _iNVEST_Common__ctor
-	.long LDIFF_SYM911
+LDIFF_SYM912=Lme_58 - _iNVEST_Stock_get_MoneyInvested
+	.long LDIFF_SYM912
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde88_end:
@@ -10189,19 +10296,14 @@ Lfde88_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Common:getDouble"
-	.long _iNVEST_Common_getDouble_string
+	.asciz "iNVEST.Stock:get_MoneyNow"
+	.long _iNVEST_Stock_get_MoneyNow
 	.long Lme_59
 
 	.byte 2,118,16,3
-	.asciz "vle"
+	.asciz "this"
 
-LDIFF_SYM912=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM912
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM913=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM913=LTDIE_69_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM913
 	.byte 2,125,0,0
 
@@ -10213,563 +10315,810 @@ Lfde89_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Common_getDouble_string
+	.long _iNVEST_Stock_get_MoneyNow
 
-LDIFF_SYM915=Lme_59 - _iNVEST_Common_getDouble_string
+LDIFF_SYM915=Lme_59 - _iNVEST_Stock_get_MoneyNow
 	.long LDIFF_SYM915
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Common:getInt"
-	.long _iNVEST_Common_getInt_string
+	.asciz "iNVEST.Stock:get_MoneyDifference"
+	.long _iNVEST_Stock_get_MoneyDifference
 	.long Lme_5a
 
 	.byte 2,118,16,3
-	.asciz "vle"
+	.asciz "this"
 
-LDIFF_SYM916=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM916=LTDIE_69_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM916
-	.byte 2,125,4,11
-	.asciz "V_0"
-
-LDIFF_SYM917=LDIE_I2 - Ldebug_info_start
-	.long LDIFF_SYM917
-	.byte 2,125,0,0
+	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM918=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM918
+LDIFF_SYM917=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM917
 Lfde90_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Common_getInt_string
+	.long _iNVEST_Stock_get_MoneyDifference
 
-LDIFF_SYM919=Lme_5a - _iNVEST_Common_getInt_string
-	.long LDIFF_SYM919
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM918=Lme_5a - _iNVEST_Stock_get_MoneyDifference
+	.long LDIFF_SYM918
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
 	.align 2
 Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Common:getDBValue"
-	.long _iNVEST_Common_getDBValue_object
+	.asciz "iNVEST.Stock:getTotalInvested"
+	.long _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
 	.long Lme_5b
 
 	.byte 2,118,16,3
-	.asciz "cell"
+	.asciz "stkList"
 
-LDIFF_SYM920=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM919=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM919
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM920=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM920
-	.byte 1,90,0
+	.byte 2,123,0,11
+	.asciz "V_1"
+
+LDIFF_SYM921=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM921
+	.byte 1,86,11
+	.asciz "V_2"
+
+LDIFF_SYM922=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM922
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM921=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM921
+LDIFF_SYM923=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM923
 Lfde91_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Common_getDBValue_object
+	.long _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
 
-LDIFF_SYM922=Lme_5b - _iNVEST_Common_getDBValue_object
-	.long LDIFF_SYM922
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1
+LDIFF_SYM924=Lme_5b - _iNVEST_Stock_getTotalInvested_System_Collections_Generic_List_1_iNVEST_Stock
+	.long LDIFF_SYM924
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
 Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.Common:getDateFromString"
-	.long _iNVEST_Common_getDateFromString_string
+	.asciz "iNVEST.Stock:getTotalNow"
+	.long _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
 	.long Lme_5c
 
 	.byte 2,118,16,3
-	.asciz "datetime"
+	.asciz "stkList"
 
-LDIFF_SYM923=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM925=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM924=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM924
-	.byte 2,123,20,11
+LDIFF_SYM926=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM926
+	.byte 2,123,0,11
 	.asciz "V_1"
 
-LDIFF_SYM925=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM925
-	.byte 2,123,28,11
+LDIFF_SYM927=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM927
+	.byte 1,86,11
 	.asciz "V_2"
 
-LDIFF_SYM926=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM926
-	.byte 2,123,32,11
-	.asciz "V_3"
-
-LDIFF_SYM927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM927
-	.byte 2,123,36,11
-	.asciz "V_4"
-
-LDIFF_SYM928=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM928=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM928
-	.byte 1,86,11
-	.asciz "V_5"
-
-LDIFF_SYM929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM929
-	.byte 2,123,40,11
-	.asciz "V_6"
-
-LDIFF_SYM930=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM930
-	.byte 2,123,44,11
-	.asciz "V_7"
-
-LDIFF_SYM931=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM931
-	.byte 2,123,48,11
-	.asciz "V_8"
-
-LDIFF_SYM932=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM932
-	.byte 2,123,52,0
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM933=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM933
+LDIFF_SYM929=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM929
 Lfde92_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_Common_getDateFromString_string
+	.long _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
 
-LDIFF_SYM934=Lme_5c - _iNVEST_Common_getDateFromString_string
-	.long LDIFF_SYM934
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11
+LDIFF_SYM930=Lme_5c - _iNVEST_Stock_getTotalNow_System_Collections_Generic_List_1_iNVEST_Stock
+	.long LDIFF_SYM930
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
 Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey1:.ctor"
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
+	.asciz "iNVEST.Stock:getGainLoss"
+	.long _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
 	.long Lme_5d
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "stkList"
 
-LDIFF_SYM935=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM935
-	.byte 0,0
+LDIFF_SYM931=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM931
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM932=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM932
+	.byte 2,123,0,11
+	.asciz "V_1"
+
+LDIFF_SYM933=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM933
+	.byte 1,86,11
+	.asciz "V_2"
+
+LDIFF_SYM934=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM934
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM936=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM936
+LDIFF_SYM935=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM935
 Lfde93_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
+	.long _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
 
-LDIFF_SYM937=Lme_5d - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
-	.long LDIFF_SYM937
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM936=Lme_5d - _iNVEST_Stock_getGainLoss_System_Collections_Generic_List_1_iNVEST_Stock
+	.long LDIFF_SYM936
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
 Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:.ctor"
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
+	.asciz "iNVEST.Stock:getTax"
+	.long _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
 	.long Lme_5e
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "stkList"
 
-LDIFF_SYM938=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM937=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM938=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM938
-	.byte 0,0
+	.byte 2,123,0,11
+	.asciz "V_1"
+
+LDIFF_SYM939=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM939
+	.byte 1,86,11
+	.asciz "V_2"
+
+LDIFF_SYM940=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM940
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM939=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM939
+LDIFF_SYM941=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM941
 Lfde94_start:
 
 	.long 0
 	.align 2
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
+	.long _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
 
-LDIFF_SYM940=Lme_5e - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
-	.long LDIFF_SYM940
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM942=Lme_5e - _iNVEST_Stock_getTax_System_Collections_Generic_List_1_iNVEST_Stock
+	.long LDIFF_SYM942
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.align 2
 Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:<>m__0"
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
+	.asciz "iNVEST.Stock:getAllCodes"
+	.long _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
 	.long Lme_5f
+
+	.byte 2,118,16,3
+	.asciz "stkList"
+
+LDIFF_SYM943=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM943
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM944=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM944
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM945=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM945
+	.byte 1,86,11
+	.asciz "V_2"
+
+LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM946
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM947=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM947
+Lfde95_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
+
+LDIFF_SYM948=Lme_5f - _iNVEST_Stock_getAllCodes_System_Collections_Generic_List_1_iNVEST_Stock
+	.long LDIFF_SYM948
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,68,13,11
+	.align 2
+Lfde95_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.Stock:SaveQuotation"
+	.long _iNVEST_Stock_SaveQuotation
+	.long Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM941=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM949=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM942=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM950=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM950
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM951=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM951
+	.byte 2,125,0,11
+	.asciz "V_2"
+
+LDIFF_SYM952=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM952
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM953=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM953
+Lfde96_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_Stock_SaveQuotation
+
+LDIFF_SYM954=Lme_60 - _iNVEST_Stock_SaveQuotation
+	.long LDIFF_SYM954
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,72
+	.align 2
+Lfde96_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_83:
+
+	.byte 5
+	.asciz "iNVEST_iNVESTViewStock"
+
+	.byte 24,16
+LDIFF_SYM955=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM955
+	.byte 2,35,0,0,7
+	.asciz "iNVEST_iNVESTViewStock"
+
+LDIFF_SYM956=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM956
+LTDIE_83_POINTER:
+
+	.byte 13
+LDIFF_SYM957=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM957
+LTDIE_83_REFERENCE:
+
+	.byte 14
+LDIFF_SYM958=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM958
+	.byte 2
+	.asciz "iNVEST.iNVESTViewStock:.ctor"
+	.long _iNVEST_iNVESTViewStock__ctor_intptr
+	.long Lme_61
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM959=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM959
+	.byte 2,125,0,3
+	.asciz "handle"
+
+LDIFF_SYM960=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM960
+	.byte 2,125,4,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM961=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM961
+Lfde97_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewStock__ctor_intptr
+
+LDIFF_SYM962=Lme_61 - _iNVEST_iNVESTViewStock__ctor_intptr
+	.long LDIFF_SYM962
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde97_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewStock:ReleaseDesignerOutlets"
+	.long _iNVEST_iNVESTViewStock_ReleaseDesignerOutlets
+	.long Lme_62
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM963=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM963
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM964=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM964
+Lfde98_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewStock_ReleaseDesignerOutlets
+
+LDIFF_SYM965=Lme_62 - _iNVEST_iNVESTViewStock_ReleaseDesignerOutlets
+	.long LDIFF_SYM965
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde98_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey1:.ctor"
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
+	.long Lme_63
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM966
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM967=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM967
+Lfde99_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
+
+LDIFF_SYM968=Lme_63 - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey1__ctor
+	.long LDIFF_SYM968
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde99_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:.ctor"
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
+	.long Lme_64
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM969=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM969
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM970=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM970
+Lfde100_start:
+
+	.long 0
+	.align 2
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
+
+LDIFF_SYM971=Lme_64 - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__ctor
+	.long LDIFF_SYM971
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde100_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:<>m__0"
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
+	.long Lme_65
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM972=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM972
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM973=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM943=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM943
-Lfde95_start:
+LDIFF_SYM974=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM974
+Lfde101_start:
 
 	.long 0
 	.align 2
 	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
 
-LDIFF_SYM944=Lme_5f - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
-	.long LDIFF_SYM944
+LDIFF_SYM975=Lme_65 - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__0
+	.long LDIFF_SYM975
 	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11
 	.align 2
-Lfde95_end:
+Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_88:
+LTDIE_90:
 
 	.byte 5
 	.asciz "System_MarshalByRefObject"
 
 	.byte 12,16
-LDIFF_SYM945=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM976=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 2,35,0,6
 	.asciz "_identity"
 
-LDIFF_SYM946=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM977=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 2,35,8,0,7
 	.asciz "System_MarshalByRefObject"
 
-LDIFF_SYM947=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM947
-LTDIE_88_POINTER:
+LDIFF_SYM978=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM978
+LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM948=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM948
-LTDIE_88_REFERENCE:
+LDIFF_SYM979=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM979
+LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM949=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM949
-LTDIE_92:
+LDIFF_SYM980=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM980
+LTDIE_94:
 
 	.byte 5
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
 	.byte 8,16
-LDIFF_SYM950=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM950
+LDIFF_SYM981=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
-LDIFF_SYM951=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM951
-LTDIE_92_POINTER:
+LDIFF_SYM982=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM982
+LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM952=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM952
-LTDIE_92_REFERENCE:
+LDIFF_SYM983=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM983
+LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM953=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM953
-LTDIE_91:
+LDIFF_SYM984=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM984
+LTDIE_93:
 
 	.byte 5
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
 	.byte 24,16
-LDIFF_SYM954=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM985=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 2,35,0,6
 	.asciz "handle"
 
-LDIFF_SYM955=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM986=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,35,8,6
 	.asciz "invalid_handle_value"
 
-LDIFF_SYM956=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM987=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM987
 	.byte 2,35,12,6
 	.asciz "refcount"
 
-LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM988=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 2,35,16,6
 	.asciz "owns_handle"
 
-LDIFF_SYM958=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM958
+LDIFF_SYM989=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 2,35,20,0,7
 	.asciz "System_Runtime_InteropServices_SafeHandle"
 
-LDIFF_SYM959=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM990=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM990
+LTDIE_93_POINTER:
+
+	.byte 13
+LDIFF_SYM991=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM991
+LTDIE_93_REFERENCE:
+
+	.byte 14
+LDIFF_SYM992=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM992
+LTDIE_92:
+
+	.byte 5
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
+
+	.byte 24,16
+LDIFF_SYM993=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM993
+	.byte 2,35,0,0,7
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
+
+LDIFF_SYM994=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM994
+LTDIE_92_POINTER:
+
+	.byte 13
+LDIFF_SYM995=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM995
+LTDIE_92_REFERENCE:
+
+	.byte 14
+LDIFF_SYM996=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM996
+LTDIE_91:
+
+	.byte 5
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+	.byte 24,16
+LDIFF_SYM997=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM997
+	.byte 2,35,0,0,7
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+LDIFF_SYM998=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM998
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM960=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM960
+LDIFF_SYM999=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM999
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM961=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM961
-LTDIE_90:
-
-	.byte 5
-	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
-
-	.byte 24,16
-LDIFF_SYM962=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM962
-	.byte 2,35,0,0,7
-	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
-
-LDIFF_SYM963=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM963
-LTDIE_90_POINTER:
-
-	.byte 13
-LDIFF_SYM964=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM964
-LTDIE_90_REFERENCE:
-
-	.byte 14
-LDIFF_SYM965=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM965
+LDIFF_SYM1000=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM1000
 LTDIE_89:
 
 	.byte 5
-	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
-
-	.byte 24,16
-LDIFF_SYM966=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM966
-	.byte 2,35,0,0,7
-	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
-
-LDIFF_SYM967=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM967
-LTDIE_89_POINTER:
-
-	.byte 13
-LDIFF_SYM968=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM968
-LTDIE_89_REFERENCE:
-
-	.byte 14
-LDIFF_SYM969=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM969
-LTDIE_87:
-
-	.byte 5
 	.asciz "System_Threading_WaitHandle"
 
 	.byte 20,16
-LDIFF_SYM970=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM1001=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 2,35,0,6
 	.asciz "safe_wait_handle"
 
-LDIFF_SYM971=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM1002=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1002
 	.byte 2,35,12,6
 	.asciz "disposed"
 
-LDIFF_SYM972=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM972
+LDIFF_SYM1003=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_WaitHandle"
 
-LDIFF_SYM973=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM973
+LDIFF_SYM1004=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1004
+LTDIE_89_POINTER:
+
+	.byte 13
+LDIFF_SYM1005=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1005
+LTDIE_89_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1006=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1006
+LTDIE_88:
+
+	.byte 5
+	.asciz "System_Threading_EventWaitHandle"
+
+	.byte 20,16
+LDIFF_SYM1007=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM1007
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_EventWaitHandle"
+
+LDIFF_SYM1008=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1008
+LTDIE_88_POINTER:
+
+	.byte 13
+LDIFF_SYM1009=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1009
+LTDIE_88_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1010=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1010
+LTDIE_87:
+
+	.byte 5
+	.asciz "System_Threading_ManualResetEvent"
+
+	.byte 20,16
+LDIFF_SYM1011=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM1011
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_ManualResetEvent"
+
+LDIFF_SYM1012=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1012
 LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM974=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM974
+LDIFF_SYM1013=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1013
 LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM975=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM975
+LDIFF_SYM1014=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM1014
 LTDIE_86:
-
-	.byte 5
-	.asciz "System_Threading_EventWaitHandle"
-
-	.byte 20,16
-LDIFF_SYM976=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM976
-	.byte 2,35,0,0,7
-	.asciz "System_Threading_EventWaitHandle"
-
-LDIFF_SYM977=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM977
-LTDIE_86_POINTER:
-
-	.byte 13
-LDIFF_SYM978=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM978
-LTDIE_86_REFERENCE:
-
-	.byte 14
-LDIFF_SYM979=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM979
-LTDIE_85:
-
-	.byte 5
-	.asciz "System_Threading_ManualResetEvent"
-
-	.byte 20,16
-LDIFF_SYM980=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM980
-	.byte 2,35,0,0,7
-	.asciz "System_Threading_ManualResetEvent"
-
-LDIFF_SYM981=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM981
-LTDIE_85_POINTER:
-
-	.byte 13
-LDIFF_SYM982=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM982
-LTDIE_85_REFERENCE:
-
-	.byte 14
-LDIFF_SYM983=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM983
-LTDIE_84:
 
 	.byte 5
 	.asciz "System_Threading_ManualResetEventSlim"
 
 	.byte 28,16
-LDIFF_SYM984=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM1015=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1015
 	.byte 2,35,0,6
 	.asciz "spinCount"
 
-LDIFF_SYM985=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 2,35,12,6
 	.asciz "handle"
 
-LDIFF_SYM986=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM1017=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1017
 	.byte 2,35,8,6
 	.asciz "disposed"
 
-LDIFF_SYM987=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM987
+LDIFF_SYM1018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 2,35,16,6
 	.asciz "used"
 
-LDIFF_SYM988=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM988
+LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 2,35,20,6
 	.asciz "state"
 
-LDIFF_SYM989=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM989
+LDIFF_SYM1020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 2,35,24,0,7
 	.asciz "System_Threading_ManualResetEventSlim"
 
-LDIFF_SYM990=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM990
-LTDIE_84_POINTER:
+LDIFF_SYM1021=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1021
+LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM991=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM991
-LTDIE_84_REFERENCE:
+LDIFF_SYM1022=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1022
+LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM992=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM992
-LTDIE_83:
+LDIFF_SYM1023=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM1023
+LTDIE_85:
 
 	.byte 5
 	.asciz "System_Threading_CountdownEvent"
 
 	.byte 20,16
-LDIFF_SYM993=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM1024=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 2,35,0,6
 	.asciz "initialCount"
 
-LDIFF_SYM994=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 2,35,12,6
 	.asciz "initial"
 
-LDIFF_SYM995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM995
+LDIFF_SYM1026=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1026
 	.byte 2,35,16,6
 	.asciz "evt"
 
-LDIFF_SYM996=LTDIE_84_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM1027=LTDIE_86_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1027
 	.byte 2,35,8,0,7
 	.asciz "System_Threading_CountdownEvent"
 
-LDIFF_SYM997=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM997
-LTDIE_83_POINTER:
+LDIFF_SYM1028=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1028
+LTDIE_85_POINTER:
 
 	.byte 13
-LDIFF_SYM998=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM998
-LTDIE_83_REFERENCE:
+LDIFF_SYM1029=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1029
+LTDIE_85_REFERENCE:
 
 	.byte 14
-LDIFF_SYM999=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM999
-LTDIE_93:
+LDIFF_SYM1030=LTDIE_85 - Ldebug_info_start
+	.long LDIFF_SYM1030
+LTDIE_95:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4
-LDIFF_SYM1000=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 9
 	.asciz "None"
 
@@ -10791,239 +11140,239 @@ LDIFF_SYM1000=LDIE_I4 - Ldebug_info_start
 	.byte 16,0,7
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
-LDIFF_SYM1001=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1001
-LTDIE_93_POINTER:
+LDIFF_SYM1032=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1032
+LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM1002=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1002
-LTDIE_93_REFERENCE:
+LDIFF_SYM1033=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1033
+LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1003=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1003
-LTDIE_94:
+LDIFF_SYM1034=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1034
+LTDIE_96:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
 	.byte 12,16
-LDIFF_SYM1004=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1035=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 2,35,0,6
 	.asciz "id"
 
-LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 2,35,8,0,7
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
-LDIFF_SYM1006=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1006
-LTDIE_94_POINTER:
+LDIFF_SYM1037=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1037
+LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM1007=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1007
-LTDIE_94_REFERENCE:
+LDIFF_SYM1038=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1038
+LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1008=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM1008
-LTDIE_97:
+LDIFF_SYM1039=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1039
+LTDIE_99:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 20,16
-LDIFF_SYM1009=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1009
+LDIFF_SYM1040=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1010=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1041=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM1011=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1011
+LDIFF_SYM1042=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1013=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1013
-LTDIE_97_POINTER:
+LDIFF_SYM1044=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1044
+LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM1014=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1014
-LTDIE_97_REFERENCE:
+LDIFF_SYM1045=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1045
+LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1015=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM1015
-LTDIE_96:
+LDIFF_SYM1046=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1046
+LTDIE_98:
 
 	.byte 5
 	.asciz "System_AggregateException"
 
 	.byte 64,16
-LDIFF_SYM1016=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1016
+LDIFF_SYM1047=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1047
 	.byte 2,35,0,6
 	.asciz "innerExceptions"
 
-LDIFF_SYM1017=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1048=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1048
 	.byte 2,35,60,0,7
 	.asciz "System_AggregateException"
 
-LDIFF_SYM1018=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1018
-LTDIE_96_POINTER:
+LDIFF_SYM1049=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1049
+LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM1019=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1019
-LTDIE_96_REFERENCE:
+LDIFF_SYM1050=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1050
+LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1020=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM1020
-LTDIE_99:
+LDIFF_SYM1051=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM1051
+LTDIE_101:
 
 	.byte 5
 	.asciz "_Node"
 
 	.byte 16,16
-LDIFF_SYM1021=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1052=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1052
 	.byte 2,35,0,6
 	.asciz "Value"
 
-LDIFF_SYM1022=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1022
+LDIFF_SYM1053=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 2,35,8,6
 	.asciz "Next"
 
-LDIFF_SYM1023=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1023
+LDIFF_SYM1054=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 2,35,12,0,7
 	.asciz "_Node"
 
-LDIFF_SYM1024=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1024
-LTDIE_99_POINTER:
+LDIFF_SYM1055=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1055
+LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM1025=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1025
-LTDIE_99_REFERENCE:
+LDIFF_SYM1056=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1056
+LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1026=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM1026
-LTDIE_98:
+LDIFF_SYM1057=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1057
+LTDIE_100:
 
 	.byte 5
 	.asciz "System_Collections_Concurrent_ConcurrentQueue`1"
 
 	.byte 24,16
-LDIFF_SYM1027=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1058=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 2,35,0,6
 	.asciz "head"
 
-LDIFF_SYM1028=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1059=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 2,35,8,6
 	.asciz "tail"
 
-LDIFF_SYM1029=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1060=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 2,35,12,6
 	.asciz "count"
 
-LDIFF_SYM1030=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1061=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1061
 	.byte 2,35,20,6
 	.asciz "syncRoot"
 
-LDIFF_SYM1031=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1031
+LDIFF_SYM1062=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Concurrent_ConcurrentQueue`1"
 
-LDIFF_SYM1032=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1032
-LTDIE_98_POINTER:
+LDIFF_SYM1063=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1063
+LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM1033=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1033
-LTDIE_98_REFERENCE:
+LDIFF_SYM1064=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1064
+LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1034=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM1034
-LTDIE_95:
+LDIFF_SYM1065=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM1065
+LTDIE_97:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskExceptionSlot"
 
 	.byte 24,16
-LDIFF_SYM1035=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1066=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 2,35,0,6
 	.asciz "Exception"
 
-LDIFF_SYM1036=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1067=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2,35,8,6
 	.asciz "Observed"
 
-LDIFF_SYM1037=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1068=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2,35,20,6
 	.asciz "ChildExceptions"
 
-LDIFF_SYM1038=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1038
+LDIFF_SYM1069=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 2,35,12,6
 	.asciz "parent"
 
-LDIFF_SYM1039=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1070=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskExceptionSlot"
 
-LDIFF_SYM1040=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1040
-LTDIE_95_POINTER:
+LDIFF_SYM1071=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1071
+LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM1041=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1041
-LTDIE_95_REFERENCE:
+LDIFF_SYM1072=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1072
+LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1042=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1042
-LTDIE_100:
+LDIFF_SYM1073=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1073
+LTDIE_102:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskStatus"
 
 	.byte 4
-LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1074=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 9
 	.asciz "Created"
 
@@ -11051,747 +11400,488 @@ LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
 	.byte 7,0,7
 	.asciz "System_Threading_Tasks_TaskStatus"
 
-LDIFF_SYM1044=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1044
-LTDIE_100_POINTER:
+LDIFF_SYM1075=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1075
+LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM1045=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1045
-LTDIE_100_REFERENCE:
+LDIFF_SYM1076=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1076
+LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1046=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1046
-LTDIE_101:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskActionInvoker"
-
-	.byte 8,16
-LDIFF_SYM1047=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1047
-	.byte 2,35,0,0,7
-	.asciz "System_Threading_Tasks_TaskActionInvoker"
-
-LDIFF_SYM1048=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1048
-LTDIE_101_POINTER:
-
-	.byte 13
-LDIFF_SYM1049=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1049
-LTDIE_101_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1050=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1077=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1077
 LTDIE_103:
 
 	.byte 5
-	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+	.asciz "System_Threading_Tasks_TaskActionInvoker"
 
 	.byte 8,16
-LDIFF_SYM1051=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1078=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1078
 	.byte 2,35,0,0,7
-	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+	.asciz "System_Threading_Tasks_TaskActionInvoker"
 
-LDIFF_SYM1052=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1079=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1079
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM1053=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1080=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1080
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1054=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1054
-LTDIE_102:
+LDIFF_SYM1081=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1081
+LTDIE_105:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+
+	.byte 8,16
+LDIFF_SYM1082=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1082
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+
+LDIFF_SYM1083=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_105_POINTER:
+
+	.byte 13
+LDIFF_SYM1084=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1084
+LTDIE_105_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1085=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1085
+LTDIE_104:
 
 	.byte 5
 	.asciz "System_Threading_ExecutionContext"
 
 	.byte 16,16
-LDIFF_SYM1055=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1086=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 2,35,0,6
 	.asciz "_lcc"
 
-LDIFF_SYM1056=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1087=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 2,35,8,6
 	.asciz "_suppressFlow"
 
-LDIFF_SYM1057=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1088=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 2,35,12,6
 	.asciz "_capture"
 
-LDIFF_SYM1058=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1089=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 2,35,13,0,7
 	.asciz "System_Threading_ExecutionContext"
 
-LDIFF_SYM1059=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1059
-LTDIE_102_POINTER:
+LDIFF_SYM1090=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1090
+LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM1060=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1060
-LTDIE_102_REFERENCE:
+LDIFF_SYM1091=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1091
+LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1061=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1061
-LTDIE_82:
+LDIFF_SYM1092=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1092
+LTDIE_84:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task"
 
 	.byte 84,16
-LDIFF_SYM1062=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1093=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 2,35,0,6
 	.asciz "parent"
 
-LDIFF_SYM1063=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1094=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 2,35,8,6
 	.asciz "contAncestor"
 
-LDIFF_SYM1064=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1095=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 2,35,12,6
 	.asciz "childTasks"
 
-LDIFF_SYM1065=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1096=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 2,35,16,6
 	.asciz "taskId"
 
-LDIFF_SYM1066=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1097=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 2,35,68,6
 	.asciz "creationOptions"
 
-LDIFF_SYM1067=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1098=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 2,35,72,6
 	.asciz "scheduler"
 
-LDIFF_SYM1068=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1099=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
 	.byte 2,35,20,6
 	.asciz "exSlot"
 
-LDIFF_SYM1069=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1100=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 2,35,24,6
 	.asciz "wait_handle"
 
-LDIFF_SYM1070=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1101=LTDIE_87_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1101
 	.byte 2,35,28,6
 	.asciz "status"
 
-LDIFF_SYM1071=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1102=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1102
 	.byte 2,35,76,6
 	.asciz "invoker"
 
-LDIFF_SYM1072=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1103=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 2,35,32,6
 	.asciz "state"
 
-LDIFF_SYM1073=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1104=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 2,35,36,6
 	.asciz "executing"
 
-LDIFF_SYM1074=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1105
 	.byte 2,35,80,6
 	.asciz "continuations"
 
-LDIFF_SYM1075=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1106=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1106
 	.byte 2,35,40,6
 	.asciz "token"
 
-LDIFF_SYM1076=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1107=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1107
 	.byte 2,35,48,6
 	.asciz "cancellationRegistration"
 
-LDIFF_SYM1077=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 2,35,52,6
 	.asciz "ec"
 
-LDIFF_SYM1078=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1109=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 2,35,64,0,7
 	.asciz "System_Threading_Tasks_Task"
 
-LDIFF_SYM1079=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1079
-LTDIE_82_POINTER:
+LDIFF_SYM1110=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1110
+LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM1080=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1080
-LTDIE_82_REFERENCE:
+LDIFF_SYM1111=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1111
+LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1081=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM1081
-LTDIE_106:
+LDIFF_SYM1112=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM1112
+LTDIE_108:
 
 	.byte 5
 	.asciz "System_Xml_XmlNamedNodeMap"
 
 	.byte 20,16
-LDIFF_SYM1082=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1113=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 2,35,0,6
 	.asciz "parent"
 
-LDIFF_SYM1083=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1114=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 2,35,8,6
 	.asciz "nodeList"
 
-LDIFF_SYM1084=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1115=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,35,12,6
 	.asciz "readOnly"
 
-LDIFF_SYM1085=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1116=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 2,35,16,0,7
 	.asciz "System_Xml_XmlNamedNodeMap"
 
-LDIFF_SYM1086=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1086
-LTDIE_106_POINTER:
+LDIFF_SYM1117=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1117
+LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM1087=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1087
-LTDIE_106_REFERENCE:
+LDIFF_SYM1118=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1118
+LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1088=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1088
-LTDIE_105:
+LDIFF_SYM1119=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1119
+LTDIE_107:
 
 	.byte 5
 	.asciz "System_Xml_XmlAttributeCollection"
 
 	.byte 28,16
-LDIFF_SYM1089=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1120=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 2,35,0,6
 	.asciz "ownerElement"
 
-LDIFF_SYM1090=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1121=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
 	.byte 2,35,20,6
 	.asciz "ownerDocument"
 
-LDIFF_SYM1091=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1122=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 2,35,24,0,7
 	.asciz "System_Xml_XmlAttributeCollection"
 
-LDIFF_SYM1092=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1092
-LTDIE_105_POINTER:
+LDIFF_SYM1123=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1123
+LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM1093=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1093
-LTDIE_105_REFERENCE:
+LDIFF_SYM1124=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1124
+LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1094=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1094
-LTDIE_104:
+LDIFF_SYM1125=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1125
+LTDIE_106:
 
 	.byte 5
 	.asciz "System_Xml_XmlElement"
 
 	.byte 44,16
-LDIFF_SYM1095=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1126=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM1126
 	.byte 2,35,0,6
 	.asciz "attributes"
 
-LDIFF_SYM1096=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1127=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 2,35,24,6
 	.asciz "name"
 
-LDIFF_SYM1097=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1128=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 2,35,28,6
 	.asciz "lastLinkedChild"
 
-LDIFF_SYM1098=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1129=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1129
 	.byte 2,35,32,6
 	.asciz "isNotEmpty"
 
-LDIFF_SYM1099=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1130=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1130
 	.byte 2,35,40,6
 	.asciz "schemaInfo"
 
-LDIFF_SYM1100=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1131=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 2,35,36,0,7
 	.asciz "System_Xml_XmlElement"
 
-LDIFF_SYM1101=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1101
-LTDIE_104_POINTER:
-
-	.byte 13
-LDIFF_SYM1102=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1102
-LTDIE_104_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1103=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1103
-LTDIE_107:
-
-	.byte 17
-	.asciz "System_Collections_IEnumerator"
-
-	.byte 8,7
-	.asciz "System_Collections_IEnumerator"
-
-LDIFF_SYM1104=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1104
-LTDIE_107_POINTER:
-
-	.byte 13
-LDIFF_SYM1105=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1105
-LTDIE_107_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1106=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1106
-LTDIE_108:
-
-	.byte 17
-	.asciz "System_IDisposable"
-
-	.byte 8,7
-	.asciz "System_IDisposable"
-
-LDIFF_SYM1107=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1107
-LTDIE_108_POINTER:
-
-	.byte 13
-LDIFF_SYM1108=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1108
-LTDIE_108_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1109=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1109
-	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:<>m__1"
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
-	.long Lme_60
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1110=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1110
-	.byte 3,123,248,1,3
-	.asciz "t"
-
-LDIFF_SYM1111=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1111
-	.byte 0,11
-	.asciz "V_0"
-
-LDIFF_SYM1112=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1112
-	.byte 1,90,11
-	.asciz "V_1"
-
-LDIFF_SYM1113=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1113
-	.byte 2,123,8,11
-	.asciz "V_2"
-
-LDIFF_SYM1114=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1114
-	.byte 1,86,11
-	.asciz "V_3"
-
-LDIFF_SYM1115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1115
-	.byte 2,123,12,11
-	.asciz "V_4"
-
-LDIFF_SYM1116=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1116
-	.byte 2,123,28,11
-	.asciz "V_5"
-
-LDIFF_SYM1117=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1117
-	.byte 2,123,36,11
-	.asciz "V_6"
-
-LDIFF_SYM1118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1118
-	.byte 2,123,44,11
-	.asciz "V_7"
-
-LDIFF_SYM1119=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1119
-	.byte 2,123,52,11
-	.asciz "V_8"
-
-LDIFF_SYM1120=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1120
-	.byte 2,123,60,11
-	.asciz "V_9"
-
-LDIFF_SYM1121=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1121
-	.byte 3,123,196,0,11
-	.asciz "V_10"
-
-LDIFF_SYM1122=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1122
-	.byte 3,123,200,0,11
-	.asciz "V_11"
-
-LDIFF_SYM1123=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1123
-	.byte 3,123,204,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1124=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1124
-Lfde96_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
-
-LDIFF_SYM1125=Lme_60 - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1125
-	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,2,68,13,11
-	.align 2
-Lfde96_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:.ctor"
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
-	.long Lme_61
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1126=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1126
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1127=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM1127
-Lfde97_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
-
-LDIFF_SYM1128=Lme_61 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
-	.long LDIFF_SYM1128
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
-	.align 2
-Lfde97_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:<>m__0"
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
-	.long Lme_62
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1129=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1129
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1130=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM1130
-Lfde98_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
-
-LDIFF_SYM1131=Lme_62 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
-	.long LDIFF_SYM1131
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
-	.align 2
-Lfde98_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:<>m__1"
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
-	.long Lme_63
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1132=LTDIE_70_REFERENCE - Ldebug_info_start
+LDIFF_SYM1132=LTDIE_106 - Ldebug_info_start
 	.long LDIFF_SYM1132
-	.byte 3,123,208,0,3
-	.asciz "t"
+LTDIE_106_POINTER:
 
-LDIFF_SYM1133=LDIE_I4 - Ldebug_info_start
+	.byte 13
+LDIFF_SYM1133=LTDIE_106 - Ldebug_info_start
 	.long LDIFF_SYM1133
-	.byte 0,11
-	.asciz "V_0"
+LTDIE_106_REFERENCE:
 
-LDIFF_SYM1134=LTDIE_104_REFERENCE - Ldebug_info_start
+	.byte 14
+LDIFF_SYM1134=LTDIE_106 - Ldebug_info_start
 	.long LDIFF_SYM1134
-	.byte 1,90,11
-	.asciz "V_1"
-
-LDIFF_SYM1135=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1135
-	.byte 2,123,0,11
-	.asciz "V_2"
-
-LDIFF_SYM1136=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
-	.byte 2,123,4,11
-	.asciz "V_3"
-
-LDIFF_SYM1137=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1137
-	.byte 2,123,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1138=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM1138
-Lfde99_start:
-
-	.long 0
-	.align 2
-	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
-
-LDIFF_SYM1139=Lme_63 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1139
-	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11
-	.align 2
-Lfde99_end:
-
-.section __DWARF, __debug_info,regular,debug
 LTDIE_109:
 
-	.byte 5
-	.asciz "System_Action`1"
+	.byte 17
+	.asciz "System_Collections_IEnumerator"
 
-	.byte 52,16
-LDIFF_SYM1140=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1140
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.byte 8,7
+	.asciz "System_Collections_IEnumerator"
 
-LDIFF_SYM1141=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1135=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1135
 LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM1142=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1136=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1136
 LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1143=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1143
-	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Action`1<System.Threading.Tasks.Task>:invoke_void_T"
-	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
-	.long Lme_65
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1144=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM1145=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1145
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1146=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1146
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM1147=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1147
-	.byte 1,84,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1148=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1148
-Lfde100_start:
-
-	.long 0
-	.align 2
-	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
-
-LDIFF_SYM1149=Lme_65 - _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
-	.long LDIFF_SYM1149
-	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
-	.align 2
-Lfde100_end:
-
-.section __DWARF, __debug_info,regular,debug
+LDIFF_SYM1137=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1137
 LTDIE_110:
 
-	.byte 5
-	.asciz "System_Array"
+	.byte 17
+	.asciz "System_IDisposable"
 
-	.byte 8,16
-LDIFF_SYM1150=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1150
-	.byte 2,35,0,0,7
-	.asciz "System_Array"
+	.byte 8,7
+	.asciz "System_IDisposable"
 
-LDIFF_SYM1151=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1138=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1138
 LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1152=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1139=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1139
 LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1153=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1140=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 2
-	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T>"
-	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
+	.asciz "iNVEST.iNVESTViewController/<loadInfoWhait>c__AnonStorey0:<>m__1"
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
 	.long Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1154=LTDIE_110_REFERENCE - Ldebug_info_start
+LDIFF_SYM1141=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 3,123,128,2,3
+	.asciz "t"
+
+LDIFF_SYM1142=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 0,11
+	.asciz "V_0"
+
+LDIFF_SYM1143=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 1,90,11
+	.asciz "V_1"
+
+LDIFF_SYM1144=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1144
+	.byte 2,123,8,11
+	.asciz "V_2"
+
+LDIFF_SYM1145=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1145
+	.byte 1,86,11
+	.asciz "V_3"
+
+LDIFF_SYM1146=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2,123,12,11
+	.asciz "V_4"
+
+LDIFF_SYM1147=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,123,28,11
+	.asciz "V_5"
+
+LDIFF_SYM1148=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 2,123,36,11
+	.asciz "V_6"
+
+LDIFF_SYM1149=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1149
+	.byte 2,123,44,11
+	.asciz "V_7"
+
+LDIFF_SYM1150=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 2,123,52,11
+	.asciz "V_8"
+
+LDIFF_SYM1151=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1151
+	.byte 2,123,60,11
+	.asciz "V_9"
+
+LDIFF_SYM1152=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 3,123,196,0,11
+	.asciz "V_10"
+
+LDIFF_SYM1153=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1153
+	.byte 3,123,204,0,11
+	.asciz "V_11"
+
+LDIFF_SYM1154=LTDIE_66_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1154
-	.byte 2,123,28,0
+	.byte 3,123,208,0,11
+	.asciz "V_12"
 
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1155=Lfde101_end - Lfde101_start
+LDIFF_SYM1155=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1155
-Lfde101_start:
-
-	.long 0
-	.align 2
-	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
-
-LDIFF_SYM1156=Lme_66 - _System_Array_InternalArray__IEnumerable_GetEnumerator_T
-	.long LDIFF_SYM1156
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
-	.align 2
-Lfde101_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_Count"
-	.long _System_Array_InternalArray__ICollection_get_Count
-	.long Lme_67
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1157=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1157
-	.byte 2,125,0,0
+	.byte 3,123,212,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1158=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1156=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1156
 Lfde102_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_get_Count
+	.long _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
 
-LDIFF_SYM1159=Lme_67 - _System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1159
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1157=Lme_66 - _iNVEST_iNVESTViewController__loadInfoWhaitc__AnonStorey0__m__1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1157
+	.byte 12,13,0,72,14,8,135,2,68,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,184,2,68,13,11
 	.align 2
 Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
-	.long _System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long Lme_68
+	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:.ctor"
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
+	.long Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1158=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1158
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1159=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM1159
 Lfde103_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
 
-LDIFF_SYM1162=Lme_68 - _System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1162
+LDIFF_SYM1160=Lme_67 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__ctor
+	.long LDIFF_SYM1160
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde103_end:
@@ -11799,319 +11889,583 @@ Lfde103_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Clear"
-	.long _System_Array_InternalArray__ICollection_Clear
-	.long Lme_69
+	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:<>m__0"
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
+	.long Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1163
-	.byte 0,0
+LDIFF_SYM1161=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1161
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1164=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1162=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1162
 Lfde104_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_Clear
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
 
-LDIFF_SYM1165=Lme_69 - _System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1165
-	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+LDIFF_SYM1163=Lme_68 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__0
+	.long LDIFF_SYM1163
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
 	.align 2
 Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T>"
-	.long _System_Array_InternalArray__ICollection_Add_T_T
-	.long Lme_6a
+	.asciz "iNVEST.iNVESTViewController/<getCode>c__AnonStorey2:<>m__1"
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
+	.long Lme_69
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1166=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1166
-	.byte 2,123,12,3
-	.asciz "item"
+LDIFF_SYM1164=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1164
+	.byte 3,123,208,0,3
+	.asciz "t"
 
-LDIFF_SYM1167=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1165
+	.byte 0,11
+	.asciz "V_0"
+
+LDIFF_SYM1166=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1166
+	.byte 1,90,11
+	.asciz "V_1"
+
+LDIFF_SYM1167=LTDIE_109_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1167
-	.byte 0,0
+	.byte 2,123,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1168=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
+	.byte 2,123,4,11
+	.asciz "V_3"
+
+LDIFF_SYM1169=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
+	.byte 2,123,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1168=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1170=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM1170
 Lfde105_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_Add_T_T
+	.long _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
 
-LDIFF_SYM1169=Lme_6a - _System_Array_InternalArray__ICollection_Add_T_T
-	.long LDIFF_SYM1169
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+LDIFF_SYM1171=Lme_69 - _iNVEST_iNVESTViewController__getCodec__AnonStorey2__m__1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1171
+	.byte 12,13,0,72,14,8,135,2,68,14,24,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11
 	.align 2
 Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_111:
 
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 52,16
+LDIFF_SYM1172=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1172
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1173=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1173
+LTDIE_111_POINTER:
+
+	.byte 13
+LDIFF_SYM1174=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1174
+LTDIE_111_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1175=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Remove<T>"
-	.long _System_Array_InternalArray__ICollection_Remove_T_T
+	.asciz "(wrapper delegate-invoke) System.Action`1<System.Threading.Tasks.Task>:invoke_void_T"
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
 	.long Lme_6b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1170=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1170
-	.byte 2,123,12,3
-	.asciz "item"
+LDIFF_SYM1176=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1176
+	.byte 1,86,3
+	.asciz "param0"
 
-LDIFF_SYM1171=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1171
-	.byte 0,0
+LDIFF_SYM1177=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1178
+	.byte 1,85,11
+	.asciz "V_1"
+
+LDIFF_SYM1179=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1179
+	.byte 1,84,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1172=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1180=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM1180
 Lfde106_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_Remove_T_T
+	.long _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
 
-LDIFF_SYM1173=Lme_6b - _System_Array_InternalArray__ICollection_Remove_T_T
-	.long LDIFF_SYM1173
-	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+LDIFF_SYM1181=Lme_6b - _wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task
+	.long LDIFF_SYM1181
+	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32
 	.align 2
 Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_112:
 
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 8,16
+LDIFF_SYM1182=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1182
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM1183=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_112_POINTER:
+
+	.byte 13
+LDIFF_SYM1184=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1184
+LTDIE_112_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1185=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Contains<T>"
-	.long _System_Array_InternalArray__ICollection_Contains_T_T
+	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T>"
+	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
 	.long Lme_6c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1174=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1174
-	.byte 1,86,3
-	.asciz "item"
-
-LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1175
-	.byte 1,90,11
-	.asciz "length"
-
-LDIFF_SYM1176=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1176
-	.byte 1,85,11
-	.asciz "i"
-
-LDIFF_SYM1177=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1177
-	.byte 1,84,11
-	.asciz "value"
-
-LDIFF_SYM1178=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 2,123,0,0
+LDIFF_SYM1186=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1186
+	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1179=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1187=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM1187
 Lfde107_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_Contains_T_T
+	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
 
-LDIFF_SYM1180=Lme_6c - _System_Array_InternalArray__ICollection_Contains_T_T
-	.long LDIFF_SYM1180
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+LDIFF_SYM1188=Lme_6c - _System_Array_InternalArray__IEnumerable_GetEnumerator_T
+	.long LDIFF_SYM1188
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,56,68,13,11
 	.align 2
 Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_CopyTo<T>"
-	.long _System_Array_InternalArray__ICollection_CopyTo_T_T___int
+	.asciz "System.Array:InternalArray__ICollection_get_Count"
+	.long _System_Array_InternalArray__ICollection_get_Count
 	.long Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1181=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1181
-	.byte 1,85,3
-	.asciz "array"
-
-LDIFF_SYM1182=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1182
-	.byte 1,86,3
-	.asciz "index"
-
-LDIFF_SYM1183=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1183
-	.byte 1,90,0
+LDIFF_SYM1189=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1184=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1190=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM1190
 Lfde108_start:
 
 	.long 0
 	.align 2
-	.long _System_Array_InternalArray__ICollection_CopyTo_T_T___int
+	.long _System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1185=Lme_6d - _System_Array_InternalArray__ICollection_CopyTo_T_T___int
-	.long LDIFF_SYM1185
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
+LDIFF_SYM1191=Lme_6d - _System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1191
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_111:
 
-	.byte 5
-	.asciz "System_Comparison`1"
-
-	.byte 52,16
-LDIFF_SYM1186=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1186
-	.byte 2,35,0,0,7
-	.asciz "System_Comparison`1"
-
-LDIFF_SYM1187=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1187
-LTDIE_111_POINTER:
-
-	.byte 13
-LDIFF_SYM1188=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1188
-LTDIE_111_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1189=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1189
 	.byte 2
-	.asciz "(wrapper delegate-invoke) System.Comparison`1<iNVEST.Stock>:invoke_int_T_T"
-	.long _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
+	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
+	.long _System_Array_InternalArray__ICollection_get_IsReadOnly
 	.long Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1190=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
-	.byte 1,85,3
-	.asciz "param0"
-
-LDIFF_SYM1191=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
-	.byte 1,86,3
-	.asciz "param1"
-
-LDIFF_SYM1192=LTDIE_68_REFERENCE - Ldebug_info_start
+LDIFF_SYM1192=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1192
-	.byte 1,90,11
-	.asciz "V_0"
-
-LDIFF_SYM1193=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1193
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM1194=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1194
-	.byte 1,91,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1195=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1193=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM1193
 Lfde109_start:
 
 	.long 0
 	.align 2
-	.long _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
+	.long _System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1196=Lme_6e - _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
-	.long LDIFF_SYM1196
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+LDIFF_SYM1194=Lme_6e - _System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1194
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "(wrapper runtime-invoke) <Module>:runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object"
-	.long _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
+	.asciz "System.Array:InternalArray__ICollection_Clear"
+	.long _System_Array_InternalArray__ICollection_Clear
 	.long Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1197=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1195
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1196=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM1196
+Lfde110_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__ICollection_Clear
+
+LDIFF_SYM1197=Lme_6f - _System_Array_InternalArray__ICollection_Clear
 	.long LDIFF_SYM1197
+	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
+	.align 2
+Lfde110_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Add<T>"
+	.long _System_Array_InternalArray__ICollection_Add_T_T
+	.long Lme_70
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1198=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
+	.byte 2,123,12,3
+	.asciz "item"
+
+LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1199
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1200=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM1200
+Lfde111_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__ICollection_Add_T_T
+
+LDIFF_SYM1201=Lme_70 - _System_Array_InternalArray__ICollection_Add_T_T
+	.long LDIFF_SYM1201
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde111_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Remove<T>"
+	.long _System_Array_InternalArray__ICollection_Remove_T_T
+	.long Lme_71
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1202=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1202
+	.byte 2,123,12,3
+	.asciz "item"
+
+LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1203
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1204=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM1204
+Lfde112_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__ICollection_Remove_T_T
+
+LDIFF_SYM1205=Lme_71 - _System_Array_InternalArray__ICollection_Remove_T_T
+	.long LDIFF_SYM1205
+	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,139,3,142,1,68,14,40,68,13,11
+	.align 2
+Lfde112_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Contains<T>"
+	.long _System_Array_InternalArray__ICollection_Contains_T_T
+	.long Lme_72
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1206=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1206
+	.byte 1,86,3
+	.asciz "item"
+
+LDIFF_SYM1207=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1207
+	.byte 1,90,11
+	.asciz "length"
+
+LDIFF_SYM1208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1208
+	.byte 1,85,11
+	.asciz "i"
+
+LDIFF_SYM1209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1209
+	.byte 1,84,11
+	.asciz "value"
+
+LDIFF_SYM1210=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1210
+	.byte 2,123,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1211=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM1211
+Lfde113_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__ICollection_Contains_T_T
+
+LDIFF_SYM1212=Lme_72 - _System_Array_InternalArray__ICollection_Contains_T_T
+	.long LDIFF_SYM1212
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+	.align 2
+Lfde113_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_CopyTo<T>"
+	.long _System_Array_InternalArray__ICollection_CopyTo_T_T___int
+	.long Lme_73
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1213=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1213
+	.byte 1,85,3
+	.asciz "array"
+
+LDIFF_SYM1214=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1214
+	.byte 1,86,3
+	.asciz "index"
+
+LDIFF_SYM1215=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1215
+	.byte 1,90,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1216=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM1216
+Lfde114_start:
+
+	.long 0
+	.align 2
+	.long _System_Array_InternalArray__ICollection_CopyTo_T_T___int
+
+LDIFF_SYM1217=Lme_73 - _System_Array_InternalArray__ICollection_CopyTo_T_T___int
+	.long LDIFF_SYM1217
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11
+	.align 2
+Lfde114_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_113:
+
+	.byte 5
+	.asciz "System_Comparison`1"
+
+	.byte 52,16
+LDIFF_SYM1218=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1218
+	.byte 2,35,0,0,7
+	.asciz "System_Comparison`1"
+
+LDIFF_SYM1219=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1219
+LTDIE_113_POINTER:
+
+	.byte 13
+LDIFF_SYM1220=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1220
+LTDIE_113_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1221=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1221
+	.byte 2
+	.asciz "(wrapper delegate-invoke) System.Comparison`1<iNVEST.Stock>:invoke_int_T_T"
+	.long _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
+	.long Lme_74
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1222=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
+	.byte 1,85,3
+	.asciz "param0"
+
+LDIFF_SYM1223=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
+	.byte 1,86,3
+	.asciz "param1"
+
+LDIFF_SYM1224=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
+	.byte 1,90,11
+	.asciz "V_0"
+
+LDIFF_SYM1225=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1225
+	.byte 1,84,11
+	.asciz "V_1"
+
+LDIFF_SYM1226=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1226
+	.byte 1,91,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1227=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM1227
+Lfde115_start:
+
+	.long 0
+	.align 2
+	.long _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
+
+LDIFF_SYM1228=Lme_74 - _wrapper_delegate_invoke_System_Comparison_1_iNVEST_Stock_invoke_int_T_T_iNVEST_Stock_iNVEST_Stock
+	.long LDIFF_SYM1228
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
+	.align 2
+Lfde115_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper runtime-invoke) <Module>:runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object"
+	.long _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
+	.long Lme_75
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1229=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 3,123,200,0,3
 	.asciz "params"
 
-LDIFF_SYM1198=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1230=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 1,86,3
 	.asciz "exc"
 
-LDIFF_SYM1199=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1231=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 3,123,204,0,3
 	.asciz "method"
 
-LDIFF_SYM1200=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1232=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 3,123,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1201=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1233=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,123,48,11
 	.asciz "V_1"
 
-LDIFF_SYM1202=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1234=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 2,123,52,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1203=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM1203
-Lfde110_start:
+LDIFF_SYM1235=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM1235
+Lfde116_start:
 
 	.long 0
 	.align 2
 	.long _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
 
-LDIFF_SYM1204=Lme_6f - _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
-	.long LDIFF_SYM1204
+LDIFF_SYM1236=Lme_75 - _wrapper_runtime_invoke__Module_runtime_invoke_void__this___int16_object_double_int_double_object_double_double_object_object_intptr_intptr_intptr
+	.long LDIFF_SYM1236
 	.byte 12,13,0,72,14,8,135,2,68,14,20,134,5,136,4,139,3,142,1,68,14,128,1,68,13,11
 	.align 2
-Lfde110_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 

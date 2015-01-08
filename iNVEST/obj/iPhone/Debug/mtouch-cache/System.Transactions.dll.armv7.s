@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Sun Nov 16 20:56:34 EST 2014)"
+	.asciz "Mono AOT Compiler 3.10.0 (monotouch-8.4.0-branch/0637e03 Thu Dec 11 14:45:09 EST 2014)"
 	.asciz "System.Transactions.dll"
 	.asciz ""
 
@@ -2459,14 +2459,14 @@ image_table:
 
 	.long 2
 	.asciz "System.Transactions"
-	.asciz "69FB5A08-4849-416B-AAEF-0B29989A5165"
+	.asciz "C38D10C1-A9FD-4E97-9A2E-66B502EAFD7C"
 	.asciz ""
 	.asciz "b77a5c561934e089"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "BDF460AF-EC2F-407F-8469-0C7BD2E7AEED"
+	.asciz "DCCF1D6F-36EB-4422-8665-F7F05141CE74"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
@@ -2480,7 +2480,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "69FB5A08-4849-416B-AAEF-0B29989A5165"
+	.asciz "C38D10C1-A9FD-4E97-9A2E-66B502EAFD7C"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -7418,7 +7418,7 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.43/src/mono/mcs/class/System.Transactions/System.Transactions"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.47/src/mono/mcs/class/System.Transactions/System.Transactions"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
 
 	.byte 0

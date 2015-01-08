@@ -10,18 +10,32 @@
 
 
 @interface iNVESTViewController : UIViewController {
+	UIDatePicker *_dtOrder;
 	UITableView *_tblView;
 	UILabel *_txtGanhoPerda;
+	UILabel *_txtHomeTax;
+	UILabel *_txtIbov;
+	UILabel *_txtIbovPt;
 	UILabel *_txtInicial;
 	UITextField *_txtPapel;
 	UITextField *_txtQuantidade;
+	UITextField *_txtTaxas;
 	UILabel *_txtTotal;
+	UILabel *_txtValidado;
 	UITextField *_txtValor;
 }
+
+@property (nonatomic, retain) IBOutlet UIDatePicker *dtOrder;
 
 @property (nonatomic, retain) IBOutlet UITableView *tblView;
 
 @property (nonatomic, retain) IBOutlet UILabel *txtGanhoPerda;
+
+@property (nonatomic, retain) IBOutlet UILabel *txtHomeTax;
+
+@property (nonatomic, retain) IBOutlet UILabel *txtIbov;
+
+@property (nonatomic, retain) IBOutlet UILabel *txtIbovPt;
 
 @property (nonatomic, retain) IBOutlet UILabel *txtInicial;
 
@@ -29,14 +43,20 @@
 
 @property (nonatomic, retain) IBOutlet UITextField *txtQuantidade;
 
+@property (nonatomic, retain) IBOutlet UITextField *txtTaxas;
+
 @property (nonatomic, retain) IBOutlet UILabel *txtTotal;
+
+@property (nonatomic, retain) IBOutlet UILabel *txtValidado;
 
 @property (nonatomic, retain) IBOutlet UITextField *txtValor;
 
 - (IBAction)btnLoad:(id)sender;
 
-- (IBAction)btnSave:(id)sender;
+- (IBAction)btnNew:(id)sender;
 
 - (IBAction)btnEdit:(id)sender;
+
+- (IBAction)txtCodigo_Changed:(id)sender;
 
 @end
